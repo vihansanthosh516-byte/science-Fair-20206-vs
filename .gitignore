@@ -1,0 +1,10 @@
+# Ignore python virtual environments
+bio_env/
+__pycache__/
+*.pyc
+
+# Ignore heavy dataset files and models
+output/*.h5ad
+output/*.npy
+output/*.pt
+output/*.joblib
