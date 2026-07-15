@@ -1,0 +1,14 @@
+{
+  "best_test_accuracy": 0.789,
+  "final_test_accuracy": 0.7686666666666667,
+  "final_train_loss": 0.1309535653591156,
+  "final_test_loss": 0.8865437930425009,
+  "n_params": 488899,
+  "epochs": 25,
+  "batch_size": 128,
+  "embedding_dim": 64,
+  "hidden_dim": 128,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "device": "cpu"
+}

@@ -1,0 +1,63 @@
+{
+  "method": "GeneTransformer",
+  "accuracy": 0.5066666666666667,
+  "macro_f1": 0.48461635327297653,
+  "weighted_f1": 0.48461635327297653,
+  "macro_precision": 0.48528734505336896,
+  "macro_recall": 0.5066666666666667,
+  "macro_auc_ovr": 0.6884736666666665,
+  "confusion_matrix": [
+    [
+      627,
+      154,
+      219
+    ],
+    [
+      338,
+      212,
+      450
+    ],
+    [
+      104,
+      215,
+      681
+    ]
+  ],
+  "per_class": {
+    "Core": {
+      "precision": 0.5865294667913938,
+      "recall": 0.627,
+      "f1-score": 0.6060898985016916,
+      "support": 1000.0
+    },
+    "Periphery": {
+      "precision": 0.3648881239242685,
+      "recall": 0.212,
+      "f1-score": 0.26818469323213157,
+      "support": 1000.0
+    },
+    "Healthy": {
+      "precision": 0.5044444444444445,
+      "recall": 0.681,
+      "f1-score": 0.5795744680851064,
+      "support": 1000.0
+    },
+    "accuracy": 0.5066666666666667,
+    "macro avg": {
+      "precision": 0.48528734505336896,
+      "recall": 0.5066666666666667,
+      "f1-score": 0.48461635327297653,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.4852873450533689,
+      "recall": 0.5066666666666667,
+      "f1-score": 0.48461635327297653,
+      "support": 3000.0
+    }
+  },
+  "n_params": 80323,
+  "epochs": 5,
+  "best_test_acc": 0.5093333333333333,
+  "final_test_acc": 0.5066666666666667
+}

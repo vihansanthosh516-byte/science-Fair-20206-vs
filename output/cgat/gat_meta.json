@@ -1,0 +1,25 @@
+{
+  "n_cells": 15000,
+  "n_edges": 225000,
+  "k": 15,
+  "latent_dim": 32,
+  "edge_attr_names": [
+    "distance",
+    "same_patient",
+    "same_region",
+    "transition_type",
+    "region_diff"
+  ],
+  "region_order": {
+    "NormalBrain": 0,
+    "peri:GBM": 1,
+    "core:GBM": 2
+  },
+  "transition_types": {
+    "0": "same_region",
+    "1": "core_periphery",
+    "2": "periphery_healthy",
+    "3": "core_healthy",
+    "4": "other"
+  }
+}

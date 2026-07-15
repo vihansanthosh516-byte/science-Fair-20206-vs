@@ -1,0 +1,22 @@
+[18:00:33] Loading filtered AnnData...  RSS=261 MB
+[18:00:49] loaded (140355, 29661)  RSS=2126 MB
+[18:00:49] keeping 28907 / 29661 genes (drop 754 all-zero)  RSS=2126 MB
+[18:00:55] after gene-trim: (140355, 28907)  RSS=5599 MB
+[18:00:56] avg expression across cells: 0.469 (log1p-scale, raw)  RSS=5599 MB
+[18:00:56] Subsampling 5000 cells per class for UMAP/clustering...  RSS=5599 MB
+[18:00:56] subsampled shape=(15000, 28907), per-class={'Core': np.int64(5000), 'Healthy': np.int64(5000), 'Periphery': np.int64(5000)}  RSS=5599 MB
+[18:01:01] saved subsample -> /mnt/c/Users/vihan/20206 science fair/output/02_adata_subsampled.h5ad  RSS=5599 MB
+[18:01:01] HVG selection on subsample (5000 per class, batch by class)...  RSS=5599 MB
+[18:01:04] selected 2500 HVG  RSS=5599 MB
+[18:01:05] Scaling HVG (clip=10) + PCA on subsample...  RSS=5599 MB
+/usr/lib/python3.12/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+[18:01:12] PCA done  RSS=5599 MB
+[18:01:12] Building neighbor graph + UMAP...  RSS=5599 MB
+[18:01:55] UMAP done  RSS=5599 MB
+[18:01:55] wrote UMAP coordinates -> /mnt/c/Users/vihan/20206 science fair/output/02_umap_coordinates.tsv  RSS=5599 MB
+[18:01:55] UMAP plot by class...  RSS=5599 MB
+[18:01:55] UMAP plot by patient (ID1)...  RSS=5599 MB
+[18:01:56] Leiden clustering on subsample (igraph backend)...  RSS=5599 MB
+[18:01:56] got 20 clusters  RSS=5599 MB
+[18:01:56] Rank genes per cluster (Wilcoxon, vs rest) on RAW counts of subsample...  RSS=5599 MB
