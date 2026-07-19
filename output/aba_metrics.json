@@ -13,1289 +13,1289 @@
   {
     "step": 1,
     "cell_counts": {
-      "empty": 3219,
-      "healthy": 234238,
-      "periphery": 16644,
-      "core": 8015,
-      "necrotic": 28
+      "empty": 0,
+      "healthy": 150832,
+      "periphery": 21717,
+      "core": 87685,
+      "necrotic": 1910
     },
     "changes": {
-      "proliferation": 103131,
-      "transition": 16644,
-      "necrosis": 28,
-      "secretion": 0,
-      "replenish": 999
+      "proliferation": 125609,
+      "transition": 184851,
+      "necrosis": 1910,
+      "secretion": 95205,
+      "replenish": 1065
     },
-    "front_velocity": 0.19329058478982916,
-    "front_cells": 45276
+    "front_velocity": 0.3058236978890421,
+    "front_cells": 46128
   },
   {
     "step": 2,
     "cell_counts": {
-      "empty": 19,
-      "healthy": 234527,
-      "periphery": 7944,
-      "core": 19582,
-      "necrotic": 72
+      "empty": 0,
+      "healthy": 15625,
+      "periphery": 10650,
+      "core": 225988,
+      "necrotic": 9881
     },
     "changes": {
-      "proliferation": 13282,
-      "transition": 14498,
-      "necrosis": 44,
-      "secretion": 13406,
-      "replenish": 35
+      "proliferation": 10540,
+      "transition": 281481,
+      "necrosis": 7971,
+      "secretion": 171239,
+      "replenish": 0
     },
-    "front_velocity": 0.19677904889415718,
-    "front_cells": 46150
+    "front_velocity": 0.49248,
+    "front_cells": 7695
   },
   {
     "step": 3,
     "cell_counts": {
       "empty": 0,
-      "healthy": 226938,
-      "periphery": 10119,
-      "core": 24908,
-      "necrotic": 179
+      "healthy": 317,
+      "periphery": 270,
+      "core": 239723,
+      "necrotic": 21834
     },
     "changes": {
-      "proliferation": 1243,
-      "transition": 13041,
-      "necrosis": 107,
-      "secretion": 6351,
+      "proliferation": 6922,
+      "transition": 40996,
+      "necrosis": 11953,
+      "secretion": 29976,
       "replenish": 0
     },
-    "front_velocity": 0.21178031004062783,
-    "front_cells": 48061
+    "front_velocity": 0.5993690851735016,
+    "front_cells": 190
   },
   {
     "step": 4,
     "cell_counts": {
       "empty": 0,
-      "healthy": 220229,
-      "periphery": 9890,
-      "core": 31722,
-      "necrotic": 303
+      "healthy": 9,
+      "periphery": 4,
+      "core": 228559,
+      "necrotic": 33572
     },
     "changes": {
-      "proliferation": 1171,
-      "transition": 13647,
-      "necrosis": 124,
-      "secretion": 8039,
+      "proliferation": 4092,
+      "transition": 882,
+      "necrosis": 11738,
+      "secretion": 647,
       "replenish": 0
     },
-    "front_velocity": 0.22381248609402032,
-    "front_cells": 49290
+    "front_velocity": 0.7777777777777778,
+    "front_cells": 7
   },
   {
     "step": 5,
     "cell_counts": {
       "empty": 0,
-      "healthy": 212021,
-      "periphery": 11327,
-      "core": 38329,
-      "necrotic": 467
+      "healthy": 2,
+      "periphery": 1,
+      "core": 217227,
+      "necrotic": 44914
     },
     "changes": {
-      "proliferation": 1135,
-      "transition": 14979,
-      "necrosis": 164,
-      "secretion": 7944,
+      "proliferation": 3672,
+      "transition": 17,
+      "necrosis": 11342,
+      "secretion": 15,
       "replenish": 0
     },
-    "front_velocity": 0.23506162125449837,
-    "front_cells": 49838
+    "front_velocity": 1.0,
+    "front_cells": 2
   },
   {
     "step": 6,
     "cell_counts": {
       "empty": 0,
-      "healthy": 203303,
-      "periphery": 12323,
-      "core": 45870,
-      "necrotic": 648
+      "healthy": 2,
+      "periphery": 0,
+      "core": 206485,
+      "necrotic": 55657
     },
     "changes": {
-      "proliferation": 1150,
-      "transition": 16440,
-      "necrosis": 181,
-      "secretion": 9116,
+      "proliferation": 3376,
+      "transition": 1,
+      "necrosis": 10743,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.24374455861448183,
-    "front_cells": 49554
+    "front_velocity": 1.0,
+    "front_cells": 2
   },
   {
     "step": 7,
     "cell_counts": {
       "empty": 0,
-      "healthy": 192769,
-      "periphery": 14468,
-      "core": 54053,
-      "necrotic": 854
+      "healthy": 1,
+      "periphery": 0,
+      "core": 196504,
+      "necrotic": 65639
     },
     "changes": {
-      "proliferation": 1133,
-      "transition": 18923,
-      "necrosis": 206,
-      "secretion": 9841,
+      "proliferation": 3319,
+      "transition": 2,
+      "necrosis": 9982,
+      "secretion": 1,
       "replenish": 0
     },
-    "front_velocity": 0.2561459570781609,
-    "front_cells": 49377
+    "front_velocity": 1.0,
+    "front_cells": 1
   },
   {
     "step": 8,
     "cell_counts": {
       "empty": 0,
-      "healthy": 180806,
-      "periphery": 16557,
-      "core": 63646,
-      "necrotic": 1135
+      "healthy": 1,
+      "periphery": 0,
+      "core": 186886,
+      "necrotic": 75257
     },
     "changes": {
-      "proliferation": 1155,
-      "transition": 21837,
-      "necrosis": 281,
-      "secretion": 11651,
+      "proliferation": 3197,
+      "transition": 0,
+      "necrosis": 9618,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.27160049998340763,
-    "front_cells": 49107
+    "front_velocity": 1.0,
+    "front_cells": 1
   },
   {
     "step": 9,
     "cell_counts": {
       "empty": 0,
-      "healthy": 167405,
-      "periphery": 18590,
-      "core": 74680,
-      "necrotic": 1469
+      "healthy": 1,
+      "periphery": 0,
+      "core": 177751,
+      "necrotic": 84392
     },
     "changes": {
-      "proliferation": 1105,
-      "transition": 24769,
-      "necrosis": 334,
-      "secretion": 13171,
+      "proliferation": 2921,
+      "transition": 0,
+      "necrosis": 9135,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.28675368119231803,
-    "front_cells": 48004
+    "front_velocity": 1.0,
+    "front_cells": 1
   },
   {
     "step": 10,
     "cell_counts": {
       "empty": 0,
-      "healthy": 151953,
-      "periphery": 21347,
-      "core": 87018,
-      "necrotic": 1826
+      "healthy": 0,
+      "periphery": 0,
+      "core": 169033,
+      "necrotic": 93111
     },
     "changes": {
-      "proliferation": 1170,
-      "transition": 28147,
-      "necrosis": 357,
-      "secretion": 14899,
+      "proliferation": 2866,
+      "transition": 2,
+      "necrosis": 8719,
+      "secretion": 2,
       "replenish": 0
     },
-    "front_velocity": 0.3065948023401973,
-    "front_cells": 46588
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 11,
     "cell_counts": {
       "empty": 0,
-      "healthy": 135552,
-      "periphery": 23114,
-      "core": 101222,
-      "necrotic": 2256
+      "healthy": 0,
+      "periphery": 0,
+      "core": 160790,
+      "necrotic": 101354
     },
     "changes": {
-      "proliferation": 1092,
-      "transition": 31035,
-      "necrosis": 430,
-      "secretion": 17071,
+      "proliferation": 2750,
+      "transition": 0,
+      "necrosis": 8243,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.3270774315391879,
-    "front_cells": 44336
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 12,
     "cell_counts": {
       "empty": 0,
-      "healthy": 118201,
-      "periphery": 24714,
-      "core": 116473,
-      "necrotic": 2756
+      "healthy": 0,
+      "periphery": 0,
+      "core": 152791,
+      "necrotic": 109353
     },
     "changes": {
-      "proliferation": 1149,
-      "transition": 33102,
-      "necrosis": 500,
-      "secretion": 18474,
+      "proliferation": 2600,
+      "transition": 0,
+      "necrosis": 7999,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.3480004399285962,
-    "front_cells": 41134
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 13,
     "cell_counts": {
       "empty": 0,
-      "healthy": 100651,
-      "periphery": 25286,
-      "core": 132853,
-      "necrotic": 3354
+      "healthy": 0,
+      "periphery": 0,
+      "core": 145277,
+      "necrotic": 116867
     },
     "changes": {
-      "proliferation": 1093,
-      "transition": 34528,
-      "necrosis": 598,
-      "secretion": 19808,
+      "proliferation": 2404,
+      "transition": 0,
+      "necrosis": 7514,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.3700609035180972,
-    "front_cells": 37247
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 14,
     "cell_counts": {
       "empty": 0,
-      "healthy": 83494,
-      "periphery": 25231,
-      "core": 149362,
-      "necrotic": 4057
+      "healthy": 0,
+      "periphery": 0,
+      "core": 138056,
+      "necrotic": 124088
     },
     "changes": {
-      "proliferation": 1075,
-      "transition": 34369,
-      "necrosis": 703,
-      "secretion": 20277,
+      "proliferation": 2393,
+      "transition": 0,
+      "necrosis": 7221,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.39595659568352215,
-    "front_cells": 33060
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 15,
     "cell_counts": {
       "empty": 0,
-      "healthy": 67439,
-      "periphery": 24128,
-      "core": 165788,
-      "necrotic": 4789
+      "healthy": 0,
+      "periphery": 0,
+      "core": 131356,
+      "necrotic": 130788
     },
     "changes": {
-      "proliferation": 1049,
-      "transition": 33213,
-      "necrosis": 732,
-      "secretion": 20256,
+      "proliferation": 2191,
+      "transition": 0,
+      "necrosis": 6700,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.4186005130562434,
-    "front_cells": 28230
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 16,
     "cell_counts": {
       "empty": 0,
-      "healthy": 52840,
-      "periphery": 22290,
-      "core": 181422,
-      "necrotic": 5592
+      "healthy": 0,
+      "periphery": 0,
+      "core": 124965,
+      "necrotic": 137179
     },
     "changes": {
-      "proliferation": 1064,
-      "transition": 31036,
-      "necrosis": 803,
-      "secretion": 19241,
+      "proliferation": 2104,
+      "transition": 0,
+      "necrosis": 6391,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.4429220287660863,
-    "front_cells": 23404
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 17,
     "cell_counts": {
       "empty": 0,
-      "healthy": 40176,
-      "periphery": 19820,
-      "core": 195644,
-      "necrotic": 6504
+      "healthy": 0,
+      "periphery": 0,
+      "core": 118889,
+      "necrotic": 143255
     },
     "changes": {
-      "proliferation": 971,
-      "transition": 27798,
-      "necrosis": 912,
-      "secretion": 17778,
+      "proliferation": 1941,
+      "transition": 0,
+      "necrosis": 6076,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.46560135404221425,
-    "front_cells": 18706
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 18,
     "cell_counts": {
       "empty": 0,
-      "healthy": 29655,
-      "periphery": 16793,
-      "core": 208204,
-      "necrotic": 7492
+      "healthy": 0,
+      "periphery": 0,
+      "core": 113170,
+      "necrotic": 148974
     },
     "changes": {
-      "proliferation": 1007,
-      "transition": 24069,
-      "necrosis": 988,
-      "secretion": 15893,
+      "proliferation": 1941,
+      "transition": 0,
+      "necrosis": 5719,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.48302141291519135,
-    "front_cells": 14324
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 19,
     "cell_counts": {
       "empty": 0,
-      "healthy": 21259,
-      "periphery": 13704,
-      "core": 218626,
-      "necrotic": 8555
+      "healthy": 0,
+      "periphery": 0,
+      "core": 107702,
+      "necrotic": 154442
     },
     "changes": {
-      "proliferation": 948,
-      "transition": 19881,
-      "necrosis": 1063,
-      "secretion": 13412,
+      "proliferation": 1826,
+      "transition": 0,
+      "necrosis": 5468,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.49922385813067405,
-    "front_cells": 10613
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 20,
     "cell_counts": {
       "empty": 0,
-      "healthy": 14950,
-      "periphery": 10612,
-      "core": 226932,
-      "necrotic": 9650
+      "healthy": 0,
+      "periphery": 0,
+      "core": 102579,
+      "necrotic": 159565
     },
     "changes": {
-      "proliferation": 914,
-      "transition": 15710,
-      "necrosis": 1095,
-      "secretion": 10969,
+      "proliferation": 1656,
+      "transition": 0,
+      "necrosis": 5123,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5168561872909699,
-    "front_cells": 7727
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 21,
     "cell_counts": {
       "empty": 0,
-      "healthy": 9985,
-      "periphery": 8416,
-      "core": 232888,
-      "necrotic": 10855
+      "healthy": 0,
+      "periphery": 0,
+      "core": 97589,
+      "necrotic": 164555
     },
     "changes": {
-      "proliferation": 860,
-      "transition": 12126,
-      "necrosis": 1205,
-      "secretion": 8484,
+      "proliferation": 1592,
+      "transition": 0,
+      "necrosis": 4990,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5331997996995493,
-    "front_cells": 5324
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 22,
     "cell_counts": {
       "empty": 0,
-      "healthy": 6669,
-      "periphery": 5972,
-      "core": 237503,
-      "necrotic": 12000
+      "healthy": 0,
+      "periphery": 0,
+      "core": 92832,
+      "necrotic": 169312
     },
     "changes": {
-      "proliferation": 830,
-      "transition": 9076,
-      "necrosis": 1145,
-      "secretion": 6641,
+      "proliferation": 1537,
+      "transition": 0,
+      "necrosis": 4757,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5378617483880642,
-    "front_cells": 3587
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 23,
     "cell_counts": {
       "empty": 0,
-      "healthy": 4346,
-      "periphery": 4252,
-      "core": 240378,
-      "necrotic": 13168
+      "healthy": 0,
+      "periphery": 0,
+      "core": 88164,
+      "necrotic": 173980
     },
     "changes": {
-      "proliferation": 797,
-      "transition": 6366,
-      "necrosis": 1168,
-      "secretion": 4781,
+      "proliferation": 1353,
+      "transition": 0,
+      "necrosis": 4668,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5444086516336861,
-    "front_cells": 2366
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 24,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2767,
-      "periphery": 2966,
-      "core": 242004,
-      "necrotic": 14407
+      "healthy": 0,
+      "periphery": 0,
+      "core": 83879,
+      "necrotic": 178265
     },
     "changes": {
-      "proliferation": 712,
-      "transition": 4444,
-      "necrosis": 1239,
-      "secretion": 3440,
+      "proliferation": 1301,
+      "transition": 0,
+      "necrosis": 4285,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5381279363932057,
-    "front_cells": 1489
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 25,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1783,
-      "periphery": 1895,
-      "core": 242836,
-      "necrotic": 15630
+      "healthy": 0,
+      "periphery": 0,
+      "core": 79763,
+      "necrotic": 182381
     },
     "changes": {
-      "proliferation": 680,
-      "transition": 3039,
-      "necrosis": 1223,
-      "secretion": 2394,
+      "proliferation": 1252,
+      "transition": 0,
+      "necrosis": 4116,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.535614133482894,
-    "front_cells": 955
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 26,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1168,
-      "periphery": 1252,
-      "core": 242837,
-      "necrotic": 16887
+      "healthy": 0,
+      "periphery": 0,
+      "core": 75752,
+      "necrotic": 186392
     },
     "changes": {
-      "proliferation": 618,
-      "transition": 1873,
-      "necrosis": 1257,
-      "secretion": 1497,
+      "proliferation": 1158,
+      "transition": 0,
+      "necrosis": 4011,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5368150684931506,
-    "front_cells": 627
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 27,
     "cell_counts": {
       "empty": 0,
-      "healthy": 778,
-      "periphery": 820,
-      "core": 242503,
-      "necrotic": 18043
+      "healthy": 0,
+      "periphery": 0,
+      "core": 72110,
+      "necrotic": 190034
     },
     "changes": {
-      "proliferation": 573,
-      "transition": 1212,
-      "necrosis": 1156,
-      "secretion": 1002,
+      "proliferation": 1131,
+      "transition": 0,
+      "necrosis": 3642,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5565552699228792,
-    "front_cells": 433
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 28,
     "cell_counts": {
       "empty": 0,
-      "healthy": 518,
-      "periphery": 542,
-      "core": 241812,
-      "necrotic": 19272
+      "healthy": 0,
+      "periphery": 0,
+      "core": 68517,
+      "necrotic": 193627
     },
     "changes": {
-      "proliferation": 563,
-      "transition": 798,
-      "necrosis": 1229,
-      "secretion": 653,
+      "proliferation": 1158,
+      "transition": 0,
+      "necrosis": 3593,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.583011583011583,
-    "front_cells": 302
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 29,
     "cell_counts": {
       "empty": 0,
-      "healthy": 348,
-      "periphery": 368,
-      "core": 240910,
-      "necrotic": 20518
+      "healthy": 0,
+      "periphery": 0,
+      "core": 65160,
+      "necrotic": 196984
     },
     "changes": {
-      "proliferation": 500,
-      "transition": 514,
-      "necrosis": 1246,
-      "secretion": 443,
+      "proliferation": 1023,
+      "transition": 0,
+      "necrosis": 3357,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.5747126436781609,
-    "front_cells": 200
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 30,
     "cell_counts": {
       "empty": 0,
-      "healthy": 225,
-      "periphery": 254,
-      "core": 239904,
-      "necrotic": 21761
+      "healthy": 0,
+      "periphery": 0,
+      "core": 61991,
+      "necrotic": 200153
     },
     "changes": {
-      "proliferation": 481,
-      "transition": 360,
-      "necrosis": 1243,
-      "secretion": 304,
+      "proliferation": 987,
+      "transition": 0,
+      "necrosis": 3169,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.6355555555555555,
-    "front_cells": 143
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 31,
     "cell_counts": {
       "empty": 0,
-      "healthy": 159,
-      "periphery": 139,
-      "core": 238791,
-      "necrotic": 23055
+      "healthy": 0,
+      "periphery": 0,
+      "core": 58922,
+      "necrotic": 203222
     },
     "changes": {
-      "proliferation": 494,
-      "transition": 247,
-      "necrosis": 1294,
-      "secretion": 207,
+      "proliferation": 924,
+      "transition": 0,
+      "necrosis": 3069,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.660377358490566,
-    "front_cells": 105
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 32,
     "cell_counts": {
       "empty": 0,
-      "healthy": 101,
-      "periphery": 108,
-      "core": 237626,
-      "necrotic": 24309
+      "healthy": 0,
+      "periphery": 0,
+      "core": 55977,
+      "necrotic": 206167
     },
     "changes": {
-      "proliferation": 429,
-      "transition": 147,
-      "necrosis": 1254,
-      "secretion": 101,
+      "proliferation": 885,
+      "transition": 0,
+      "necrosis": 2945,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.6633663366336634,
-    "front_cells": 67
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 33,
     "cell_counts": {
       "empty": 0,
-      "healthy": 72,
-      "periphery": 65,
-      "core": 236472,
-      "necrotic": 25535
+      "healthy": 0,
+      "periphery": 0,
+      "core": 53227,
+      "necrotic": 208917
     },
     "changes": {
-      "proliferation": 429,
-      "transition": 101,
-      "necrosis": 1226,
-      "secretion": 88,
+      "proliferation": 908,
+      "transition": 0,
+      "necrosis": 2750,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.6666666666666666,
-    "front_cells": 48
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 34,
     "cell_counts": {
       "empty": 0,
-      "healthy": 43,
-      "periphery": 52,
-      "core": 235314,
-      "necrotic": 26735
+      "healthy": 0,
+      "periphery": 0,
+      "core": 50618,
+      "necrotic": 211526
     },
     "changes": {
-      "proliferation": 412,
-      "transition": 71,
-      "necrosis": 1200,
-      "secretion": 49,
+      "proliferation": 789,
+      "transition": 0,
+      "necrosis": 2609,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.6976744186046512,
-    "front_cells": 30
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 35,
     "cell_counts": {
       "empty": 0,
-      "healthy": 29,
-      "periphery": 29,
-      "core": 234189,
-      "necrotic": 27897
+      "healthy": 0,
+      "periphery": 0,
+      "core": 48218,
+      "necrotic": 213926
     },
     "changes": {
-      "proliferation": 398,
-      "transition": 51,
-      "necrosis": 1162,
-      "secretion": 41,
+      "proliferation": 794,
+      "transition": 0,
+      "necrosis": 2400,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.7586206896551724,
-    "front_cells": 22
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 36,
     "cell_counts": {
       "empty": 0,
-      "healthy": 15,
-      "periphery": 25,
-      "core": 233092,
-      "necrotic": 29012
+      "healthy": 0,
+      "periphery": 0,
+      "core": 45930,
+      "necrotic": 216214
     },
     "changes": {
-      "proliferation": 401,
-      "transition": 32,
-      "necrosis": 1115,
-      "secretion": 24,
+      "proliferation": 727,
+      "transition": 0,
+      "necrosis": 2288,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 0.8,
-    "front_cells": 12
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 37,
     "cell_counts": {
       "empty": 0,
-      "healthy": 9,
-      "periphery": 17,
-      "core": 231848,
-      "necrotic": 30270
+      "healthy": 0,
+      "periphery": 0,
+      "core": 43645,
+      "necrotic": 218499
     },
     "changes": {
-      "proliferation": 423,
-      "transition": 20,
-      "necrosis": 1258,
-      "secretion": 19,
+      "proliferation": 683,
+      "transition": 0,
+      "necrosis": 2285,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 9
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 38,
     "cell_counts": {
       "empty": 0,
-      "healthy": 8,
-      "periphery": 8,
-      "core": 230723,
-      "necrotic": 31405
+      "healthy": 0,
+      "periphery": 0,
+      "core": 41623,
+      "necrotic": 220521
     },
     "changes": {
-      "proliferation": 384,
-      "transition": 11,
-      "necrosis": 1135,
-      "secretion": 15,
+      "proliferation": 617,
+      "transition": 0,
+      "necrosis": 2022,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 8
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 39,
     "cell_counts": {
       "empty": 0,
-      "healthy": 5,
-      "periphery": 3,
-      "core": 229653,
-      "necrotic": 32483
+      "healthy": 0,
+      "periphery": 0,
+      "core": 39558,
+      "necrotic": 222586
     },
     "changes": {
-      "proliferation": 379,
-      "transition": 11,
-      "necrosis": 1078,
-      "secretion": 5,
+      "proliferation": 630,
+      "transition": 0,
+      "necrosis": 2065,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 5
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 40,
     "cell_counts": {
       "empty": 0,
-      "healthy": 3,
-      "periphery": 2,
-      "core": 228484,
-      "necrotic": 33655
+      "healthy": 0,
+      "periphery": 0,
+      "core": 37583,
+      "necrotic": 224561
     },
     "changes": {
-      "proliferation": 373,
-      "transition": 5,
-      "necrosis": 1172,
-      "secretion": 2,
+      "proliferation": 631,
+      "transition": 0,
+      "necrosis": 1975,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 3
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 41,
     "cell_counts": {
       "empty": 0,
-      "healthy": 3,
-      "periphery": 1,
-      "core": 227337,
-      "necrotic": 34803
+      "healthy": 0,
+      "periphery": 0,
+      "core": 35733,
+      "necrotic": 226411
     },
     "changes": {
-      "proliferation": 361,
-      "transition": 1,
-      "necrosis": 1148,
-      "secretion": 1,
+      "proliferation": 562,
+      "transition": 0,
+      "necrosis": 1850,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 3
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 42,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2,
-      "periphery": 1,
-      "core": 226207,
-      "necrotic": 35934
+      "healthy": 0,
+      "periphery": 0,
+      "core": 33983,
+      "necrotic": 228161
     },
     "changes": {
-      "proliferation": 351,
-      "transition": 2,
-      "necrosis": 1131,
+      "proliferation": 507,
+      "transition": 0,
+      "necrosis": 1750,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 2
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 43,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2,
+      "healthy": 0,
       "periphery": 0,
-      "core": 225064,
-      "necrotic": 37078
+      "core": 32285,
+      "necrotic": 229859
     },
     "changes": {
-      "proliferation": 369,
-      "transition": 1,
-      "necrosis": 1144,
-      "secretion": 1,
+      "proliferation": 474,
+      "transition": 0,
+      "necrosis": 1698,
+      "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 2
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 44,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2,
+      "healthy": 0,
       "periphery": 0,
-      "core": 223896,
-      "necrotic": 38246
+      "core": 30700,
+      "necrotic": 231444
     },
     "changes": {
-      "proliferation": 370,
+      "proliferation": 461,
       "transition": 0,
-      "necrosis": 1168,
+      "necrosis": 1585,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 2
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 45,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2,
+      "healthy": 0,
       "periphery": 0,
-      "core": 222810,
-      "necrotic": 39332
+      "core": 29285,
+      "necrotic": 232859
     },
     "changes": {
-      "proliferation": 364,
+      "proliferation": 462,
       "transition": 0,
-      "necrosis": 1086,
+      "necrosis": 1415,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 2
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 46,
     "cell_counts": {
       "empty": 0,
-      "healthy": 2,
+      "healthy": 0,
       "periphery": 0,
-      "core": 221756,
-      "necrotic": 40386
+      "core": 27887,
+      "necrotic": 234257
     },
     "changes": {
-      "proliferation": 347,
+      "proliferation": 434,
       "transition": 0,
-      "necrosis": 1054,
+      "necrosis": 1398,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 2
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 47,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
-      "periphery": 1,
-      "core": 220615,
-      "necrotic": 41527
+      "healthy": 0,
+      "periphery": 0,
+      "core": 26558,
+      "necrotic": 235586
     },
     "changes": {
-      "proliferation": 368,
-      "transition": 1,
-      "necrosis": 1141,
+      "proliferation": 376,
+      "transition": 0,
+      "necrosis": 1329,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 48,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 219512,
-      "necrotic": 42631
+      "core": 25264,
+      "necrotic": 236880
     },
     "changes": {
-      "proliferation": 323,
-      "transition": 1,
-      "necrosis": 1104,
+      "proliferation": 415,
+      "transition": 0,
+      "necrosis": 1294,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 49,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 218380,
-      "necrotic": 43763
+      "core": 24001,
+      "necrotic": 238143
     },
     "changes": {
-      "proliferation": 343,
+      "proliferation": 402,
       "transition": 0,
-      "necrosis": 1132,
+      "necrosis": 1263,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 50,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 217316,
-      "necrotic": 44827
+      "core": 22843,
+      "necrotic": 239301
     },
     "changes": {
-      "proliferation": 369,
+      "proliferation": 365,
       "transition": 0,
-      "necrosis": 1064,
+      "necrosis": 1158,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 51,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 216208,
-      "necrotic": 45935
+      "core": 21725,
+      "necrotic": 240419
     },
     "changes": {
-      "proliferation": 323,
+      "proliferation": 335,
       "transition": 0,
-      "necrosis": 1108,
+      "necrosis": 1118,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 52,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 215082,
-      "necrotic": 47061
+      "core": 20660,
+      "necrotic": 241484
     },
     "changes": {
-      "proliferation": 346,
+      "proliferation": 330,
       "transition": 0,
-      "necrosis": 1126,
+      "necrosis": 1065,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 53,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 213995,
-      "necrotic": 48148
+      "core": 19655,
+      "necrotic": 242489
     },
     "changes": {
-      "proliferation": 372,
+      "proliferation": 371,
       "transition": 0,
-      "necrosis": 1087,
+      "necrosis": 1005,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 54,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 212926,
-      "necrotic": 49217
+      "core": 18713,
+      "necrotic": 243431
     },
     "changes": {
-      "proliferation": 349,
+      "proliferation": 286,
       "transition": 0,
-      "necrosis": 1069,
+      "necrosis": 942,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 55,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 211890,
-      "necrotic": 50253
+      "core": 17793,
+      "necrotic": 244351
     },
     "changes": {
-      "proliferation": 335,
+      "proliferation": 270,
       "transition": 0,
-      "necrosis": 1036,
+      "necrosis": 920,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 56,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 210857,
-      "necrotic": 51286
+      "core": 16860,
+      "necrotic": 245284
     },
     "changes": {
-      "proliferation": 358,
+      "proliferation": 293,
       "transition": 0,
-      "necrosis": 1033,
+      "necrosis": 933,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 57,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 209766,
-      "necrotic": 52377
+      "core": 16050,
+      "necrotic": 246094
     },
     "changes": {
-      "proliferation": 355,
+      "proliferation": 268,
       "transition": 0,
-      "necrosis": 1091,
+      "necrosis": 810,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 58,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 208749,
-      "necrotic": 53394
+      "core": 15286,
+      "necrotic": 246858
     },
     "changes": {
-      "proliferation": 346,
+      "proliferation": 226,
       "transition": 0,
-      "necrosis": 1017,
+      "necrosis": 764,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 59,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 207700,
-      "necrotic": 54443
+      "core": 14545,
+      "necrotic": 247599
     },
     "changes": {
-      "proliferation": 352,
+      "proliferation": 257,
       "transition": 0,
-      "necrosis": 1049,
+      "necrosis": 741,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 60,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 206688,
-      "necrotic": 55455
+      "core": 13783,
+      "necrotic": 248361
     },
     "changes": {
-      "proliferation": 348,
+      "proliferation": 201,
       "transition": 0,
-      "necrosis": 1012,
+      "necrosis": 762,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 61,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 205650,
-      "necrotic": 56493
+      "core": 13138,
+      "necrotic": 249006
     },
     "changes": {
-      "proliferation": 350,
+      "proliferation": 206,
       "transition": 0,
-      "necrosis": 1038,
+      "necrosis": 645,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 62,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 204599,
-      "necrotic": 57544
+      "core": 12488,
+      "necrotic": 249656
     },
     "changes": {
-      "proliferation": 326,
+      "proliferation": 201,
       "transition": 0,
-      "necrosis": 1051,
+      "necrosis": 650,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 63,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 203569,
-      "necrotic": 58574
+      "core": 11859,
+      "necrotic": 250285
     },
     "changes": {
-      "proliferation": 310,
+      "proliferation": 177,
       "transition": 0,
-      "necrosis": 1030,
+      "necrosis": 629,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 64,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 202509,
-      "necrotic": 59634
+      "core": 11293,
+      "necrotic": 250851
     },
     "changes": {
-      "proliferation": 343,
+      "proliferation": 175,
       "transition": 0,
-      "necrosis": 1060,
+      "necrosis": 566,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 65,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 201457,
-      "necrotic": 60686
+      "core": 10728,
+      "necrotic": 251416
     },
     "changes": {
-      "proliferation": 331,
+      "proliferation": 144,
       "transition": 0,
-      "necrosis": 1052,
+      "necrosis": 565,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 66,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 200429,
-      "necrotic": 61714
+      "core": 10228,
+      "necrotic": 251916
     },
     "changes": {
-      "proliferation": 344,
+      "proliferation": 154,
       "transition": 0,
-      "necrosis": 1028,
+      "necrosis": 500,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 67,
     "cell_counts": {
       "empty": 0,
-      "healthy": 1,
+      "healthy": 0,
       "periphery": 0,
-      "core": 199430,
-      "necrotic": 62713
+      "core": 9726,
+      "necrotic": 252418
     },
     "changes": {
-      "proliferation": 308,
+      "proliferation": 154,
       "transition": 0,
-      "necrosis": 999,
+      "necrosis": 502,
       "secretion": 0,
       "replenish": 0
     },
-    "front_velocity": 1.0,
-    "front_cells": 1
+    "front_velocity": 0.0,
+    "front_cells": 0
   },
   {
     "step": 68,
     "cell_counts": {
       "empty": 0,
       "healthy": 0,
-      "periphery": 1,
-      "core": 198462,
-      "necrotic": 63681
+      "periphery": 0,
+      "core": 9278,
+      "necrotic": 252866
     },
     "changes": {
-      "proliferation": 312,
-      "transition": 1,
-      "necrosis": 968,
+      "proliferation": 132,
+      "transition": 0,
+      "necrosis": 448,
       "secretion": 0,
       "replenish": 0
     },
@@ -1308,14 +1308,14 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 197470,
-      "necrotic": 64674
+      "core": 8831,
+      "necrotic": 253313
     },
     "changes": {
-      "proliferation": 303,
-      "transition": 1,
-      "necrosis": 993,
-      "secretion": 1,
+      "proliferation": 109,
+      "transition": 0,
+      "necrosis": 447,
+      "secretion": 0,
       "replenish": 0
     },
     "front_velocity": 0.0,
@@ -1327,13 +1327,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 196498,
-      "necrotic": 65646
+      "core": 8401,
+      "necrotic": 253743
     },
     "changes": {
-      "proliferation": 300,
+      "proliferation": 126,
       "transition": 0,
-      "necrosis": 972,
+      "necrosis": 430,
       "secretion": 0,
       "replenish": 0
     },
@@ -1346,13 +1346,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 195473,
-      "necrotic": 66671
+      "core": 8010,
+      "necrotic": 254134
     },
     "changes": {
-      "proliferation": 314,
+      "proliferation": 105,
       "transition": 0,
-      "necrosis": 1025,
+      "necrosis": 391,
       "secretion": 0,
       "replenish": 0
     },
@@ -1365,13 +1365,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 194442,
-      "necrotic": 67702
+      "core": 7616,
+      "necrotic": 254528
     },
     "changes": {
-      "proliferation": 300,
+      "proliferation": 108,
       "transition": 0,
-      "necrosis": 1031,
+      "necrosis": 394,
       "secretion": 0,
       "replenish": 0
     },
@@ -1384,13 +1384,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 193464,
-      "necrotic": 68680
+      "core": 7259,
+      "necrotic": 254885
     },
     "changes": {
-      "proliferation": 301,
+      "proliferation": 91,
       "transition": 0,
-      "necrosis": 978,
+      "necrosis": 357,
       "secretion": 0,
       "replenish": 0
     },
@@ -1403,13 +1403,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 192457,
-      "necrotic": 69687
+      "core": 6902,
+      "necrotic": 255242
     },
     "changes": {
-      "proliferation": 332,
+      "proliferation": 96,
       "transition": 0,
-      "necrosis": 1007,
+      "necrosis": 357,
       "secretion": 0,
       "replenish": 0
     },
@@ -1422,13 +1422,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 191488,
-      "necrotic": 70656
+      "core": 6568,
+      "necrotic": 255576
     },
     "changes": {
-      "proliferation": 311,
+      "proliferation": 69,
       "transition": 0,
-      "necrosis": 969,
+      "necrosis": 334,
       "secretion": 0,
       "replenish": 0
     },
@@ -1441,13 +1441,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 190522,
-      "necrotic": 71622
+      "core": 6257,
+      "necrotic": 255887
     },
     "changes": {
-      "proliferation": 322,
+      "proliferation": 80,
       "transition": 0,
-      "necrosis": 966,
+      "necrosis": 311,
       "secretion": 0,
       "replenish": 0
     },
@@ -1460,13 +1460,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 189546,
-      "necrotic": 72598
+      "core": 5975,
+      "necrotic": 256169
     },
     "changes": {
-      "proliferation": 302,
+      "proliferation": 63,
       "transition": 0,
-      "necrosis": 976,
+      "necrosis": 282,
       "secretion": 0,
       "replenish": 0
     },
@@ -1479,13 +1479,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 188582,
-      "necrotic": 73562
+      "core": 5679,
+      "necrotic": 256465
     },
     "changes": {
-      "proliferation": 304,
+      "proliferation": 89,
       "transition": 0,
-      "necrosis": 964,
+      "necrosis": 296,
       "secretion": 0,
       "replenish": 0
     },
@@ -1498,13 +1498,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 187646,
-      "necrotic": 74498
+      "core": 5385,
+      "necrotic": 256759
     },
     "changes": {
-      "proliferation": 314,
+      "proliferation": 77,
       "transition": 0,
-      "necrosis": 936,
+      "necrosis": 294,
       "secretion": 0,
       "replenish": 0
     },
@@ -1517,13 +1517,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 186686,
-      "necrotic": 75458
+      "core": 5139,
+      "necrotic": 257005
     },
     "changes": {
-      "proliferation": 306,
+      "proliferation": 56,
       "transition": 0,
-      "necrosis": 960,
+      "necrosis": 246,
       "secretion": 0,
       "replenish": 0
     },
@@ -1536,13 +1536,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 185763,
-      "necrotic": 76381
+      "core": 4892,
+      "necrotic": 257252
     },
     "changes": {
-      "proliferation": 330,
+      "proliferation": 78,
       "transition": 0,
-      "necrosis": 923,
+      "necrosis": 247,
       "secretion": 0,
       "replenish": 0
     },
@@ -1555,13 +1555,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 184897,
-      "necrotic": 77247
+      "core": 4655,
+      "necrotic": 257489
     },
     "changes": {
-      "proliferation": 296,
+      "proliferation": 61,
       "transition": 0,
-      "necrosis": 866,
+      "necrosis": 237,
       "secretion": 0,
       "replenish": 0
     },
@@ -1574,13 +1574,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 183943,
-      "necrotic": 78201
+      "core": 4419,
+      "necrotic": 257725
     },
     "changes": {
-      "proliferation": 294,
+      "proliferation": 60,
       "transition": 0,
-      "necrosis": 954,
+      "necrosis": 236,
       "secretion": 0,
       "replenish": 0
     },
@@ -1593,13 +1593,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 183083,
-      "necrotic": 79061
+      "core": 4213,
+      "necrotic": 257931
     },
     "changes": {
-      "proliferation": 300,
+      "proliferation": 57,
       "transition": 0,
-      "necrosis": 860,
+      "necrosis": 206,
       "secretion": 0,
       "replenish": 0
     },
@@ -1612,13 +1612,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 182187,
-      "necrotic": 79957
+      "core": 4019,
+      "necrotic": 258125
     },
     "changes": {
-      "proliferation": 305,
+      "proliferation": 47,
       "transition": 0,
-      "necrosis": 896,
+      "necrosis": 194,
       "secretion": 0,
       "replenish": 0
     },
@@ -1631,13 +1631,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 181251,
-      "necrotic": 80893
+      "core": 3823,
+      "necrotic": 258321
     },
     "changes": {
-      "proliferation": 326,
+      "proliferation": 53,
       "transition": 0,
-      "necrosis": 936,
+      "necrosis": 196,
       "secretion": 0,
       "replenish": 0
     },
@@ -1650,13 +1650,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 180352,
-      "necrotic": 81792
+      "core": 3640,
+      "necrotic": 258504
     },
     "changes": {
-      "proliferation": 292,
+      "proliferation": 52,
       "transition": 0,
-      "necrosis": 899,
+      "necrosis": 183,
       "secretion": 0,
       "replenish": 0
     },
@@ -1669,13 +1669,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 179452,
-      "necrotic": 82692
+      "core": 3466,
+      "necrotic": 258678
     },
     "changes": {
-      "proliferation": 258,
+      "proliferation": 48,
       "transition": 0,
-      "necrosis": 900,
+      "necrosis": 174,
       "secretion": 0,
       "replenish": 0
     },
@@ -1688,13 +1688,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 178596,
-      "necrotic": 83548
+      "core": 3279,
+      "necrotic": 258865
     },
     "changes": {
-      "proliferation": 277,
+      "proliferation": 50,
       "transition": 0,
-      "necrosis": 856,
+      "necrosis": 187,
       "secretion": 0,
       "replenish": 0
     },
@@ -1707,13 +1707,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 177712,
-      "necrotic": 84432
+      "core": 3129,
+      "necrotic": 259015
     },
     "changes": {
-      "proliferation": 279,
+      "proliferation": 43,
       "transition": 0,
-      "necrosis": 884,
+      "necrosis": 150,
       "secretion": 0,
       "replenish": 0
     },
@@ -1726,13 +1726,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 176874,
-      "necrotic": 85270
+      "core": 2958,
+      "necrotic": 259186
     },
     "changes": {
-      "proliferation": 273,
+      "proliferation": 39,
       "transition": 0,
-      "necrosis": 838,
+      "necrosis": 171,
       "secretion": 0,
       "replenish": 0
     },
@@ -1745,13 +1745,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 176040,
-      "necrotic": 86104
+      "core": 2807,
+      "necrotic": 259337
     },
     "changes": {
-      "proliferation": 277,
+      "proliferation": 36,
       "transition": 0,
-      "necrosis": 834,
+      "necrosis": 151,
       "secretion": 0,
       "replenish": 0
     },
@@ -1764,13 +1764,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 175154,
-      "necrotic": 86990
+      "core": 2682,
+      "necrotic": 259462
     },
     "changes": {
-      "proliferation": 278,
+      "proliferation": 38,
       "transition": 0,
-      "necrosis": 886,
+      "necrosis": 125,
       "secretion": 0,
       "replenish": 0
     },
@@ -1783,13 +1783,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 174276,
-      "necrotic": 87868
+      "core": 2532,
+      "necrotic": 259612
     },
     "changes": {
-      "proliferation": 278,
+      "proliferation": 41,
       "transition": 0,
-      "necrosis": 878,
+      "necrosis": 150,
       "secretion": 0,
       "replenish": 0
     },
@@ -1802,13 +1802,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 173427,
-      "necrotic": 88717
+      "core": 2405,
+      "necrotic": 259739
     },
     "changes": {
-      "proliferation": 301,
+      "proliferation": 36,
       "transition": 0,
-      "necrosis": 849,
+      "necrosis": 127,
       "secretion": 0,
       "replenish": 0
     },
@@ -1821,13 +1821,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 172569,
-      "necrotic": 89575
+      "core": 2262,
+      "necrotic": 259882
     },
     "changes": {
-      "proliferation": 279,
+      "proliferation": 40,
       "transition": 0,
-      "necrosis": 858,
+      "necrosis": 143,
       "secretion": 0,
       "replenish": 0
     },
@@ -1840,13 +1840,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 171697,
-      "necrotic": 90447
+      "core": 2152,
+      "necrotic": 259992
     },
     "changes": {
-      "proliferation": 264,
+      "proliferation": 32,
       "transition": 0,
-      "necrosis": 872,
+      "necrosis": 110,
       "secretion": 0,
       "replenish": 0
     },
@@ -1859,13 +1859,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 170824,
-      "necrotic": 91320
+      "core": 2050,
+      "necrotic": 260094
     },
     "changes": {
-      "proliferation": 274,
+      "proliferation": 18,
       "transition": 0,
-      "necrosis": 873,
+      "necrosis": 102,
       "secretion": 0,
       "replenish": 0
     },
@@ -1878,13 +1878,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 169987,
-      "necrotic": 92157
+      "core": 1952,
+      "necrotic": 260192
     },
     "changes": {
-      "proliferation": 298,
+      "proliferation": 33,
       "transition": 0,
-      "necrosis": 837,
+      "necrosis": 98,
       "secretion": 0,
       "replenish": 0
     },
@@ -1897,13 +1897,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 169149,
-      "necrotic": 92995
+      "core": 1846,
+      "necrotic": 260298
     },
     "changes": {
-      "proliferation": 266,
+      "proliferation": 28,
       "transition": 0,
-      "necrosis": 838,
+      "necrosis": 106,
       "secretion": 0,
       "replenish": 0
     },
@@ -1916,13 +1916,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 168312,
-      "necrotic": 93832
+      "core": 1750,
+      "necrotic": 260394
     },
     "changes": {
-      "proliferation": 273,
+      "proliferation": 21,
       "transition": 0,
-      "necrosis": 837,
+      "necrosis": 96,
       "secretion": 0,
       "replenish": 0
     },
@@ -1935,13 +1935,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 167473,
-      "necrotic": 94671
+      "core": 1659,
+      "necrotic": 260485
     },
     "changes": {
-      "proliferation": 250,
+      "proliferation": 18,
       "transition": 0,
-      "necrosis": 839,
+      "necrosis": 91,
       "secretion": 0,
       "replenish": 0
     },
@@ -1954,13 +1954,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 166629,
-      "necrotic": 95515
+      "core": 1572,
+      "necrotic": 260572
     },
     "changes": {
-      "proliferation": 252,
+      "proliferation": 16,
       "transition": 0,
-      "necrosis": 844,
+      "necrosis": 87,
       "secretion": 0,
       "replenish": 0
     },
@@ -1973,13 +1973,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 165853,
-      "necrotic": 96291
+      "core": 1491,
+      "necrotic": 260653
     },
     "changes": {
-      "proliferation": 246,
+      "proliferation": 22,
       "transition": 0,
-      "necrosis": 776,
+      "necrosis": 81,
       "secretion": 0,
       "replenish": 0
     },
@@ -1992,13 +1992,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 165035,
-      "necrotic": 97109
+      "core": 1403,
+      "necrotic": 260741
     },
     "changes": {
-      "proliferation": 277,
+      "proliferation": 18,
       "transition": 0,
-      "necrosis": 818,
+      "necrosis": 88,
       "secretion": 0,
       "replenish": 0
     },
@@ -2011,13 +2011,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 164205,
-      "necrotic": 97939
+      "core": 1337,
+      "necrotic": 260807
     },
     "changes": {
-      "proliferation": 241,
+      "proliferation": 19,
       "transition": 0,
-      "necrosis": 830,
+      "necrosis": 66,
       "secretion": 0,
       "replenish": 0
     },
@@ -2030,13 +2030,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 163418,
-      "necrotic": 98726
+      "core": 1272,
+      "necrotic": 260872
     },
     "changes": {
-      "proliferation": 247,
+      "proliferation": 17,
       "transition": 0,
-      "necrosis": 787,
+      "necrosis": 65,
       "secretion": 0,
       "replenish": 0
     },
@@ -2049,13 +2049,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 162586,
-      "necrotic": 99558
+      "core": 1206,
+      "necrotic": 260938
     },
     "changes": {
-      "proliferation": 256,
+      "proliferation": 10,
       "transition": 0,
-      "necrosis": 832,
+      "necrosis": 66,
       "secretion": 0,
       "replenish": 0
     },
@@ -2068,13 +2068,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 161759,
-      "necrotic": 100385
+      "core": 1151,
+      "necrotic": 260993
     },
     "changes": {
-      "proliferation": 257,
+      "proliferation": 12,
       "transition": 0,
-      "necrosis": 827,
+      "necrosis": 55,
       "secretion": 0,
       "replenish": 0
     },
@@ -2087,13 +2087,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 160941,
-      "necrotic": 101203
+      "core": 1097,
+      "necrotic": 261047
     },
     "changes": {
-      "proliferation": 257,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 818,
+      "necrosis": 54,
       "secretion": 0,
       "replenish": 0
     },
@@ -2106,13 +2106,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 160163,
-      "necrotic": 101981
+      "core": 1037,
+      "necrotic": 261107
     },
     "changes": {
-      "proliferation": 272,
+      "proliferation": 18,
       "transition": 0,
-      "necrosis": 778,
+      "necrosis": 60,
       "secretion": 0,
       "replenish": 0
     },
@@ -2125,13 +2125,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 159360,
-      "necrotic": 102784
+      "core": 986,
+      "necrotic": 261158
     },
     "changes": {
-      "proliferation": 251,
+      "proliferation": 12,
       "transition": 0,
-      "necrosis": 803,
+      "necrosis": 51,
       "secretion": 0,
       "replenish": 0
     },
@@ -2144,13 +2144,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 158589,
-      "necrotic": 103555
+      "core": 946,
+      "necrotic": 261198
     },
     "changes": {
-      "proliferation": 241,
+      "proliferation": 12,
       "transition": 0,
-      "necrosis": 771,
+      "necrosis": 40,
       "secretion": 0,
       "replenish": 0
     },
@@ -2163,13 +2163,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 157748,
-      "necrotic": 104396
+      "core": 893,
+      "necrotic": 261251
     },
     "changes": {
-      "proliferation": 261,
+      "proliferation": 14,
       "transition": 0,
-      "necrosis": 841,
+      "necrosis": 53,
       "secretion": 0,
       "replenish": 0
     },
@@ -2182,13 +2182,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 156909,
-      "necrotic": 105235
+      "core": 848,
+      "necrotic": 261296
     },
     "changes": {
-      "proliferation": 220,
+      "proliferation": 14,
       "transition": 0,
-      "necrosis": 839,
+      "necrosis": 45,
       "secretion": 0,
       "replenish": 0
     },
@@ -2201,13 +2201,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 156047,
-      "necrotic": 106097
+      "core": 800,
+      "necrotic": 261344
     },
     "changes": {
-      "proliferation": 248,
+      "proliferation": 10,
       "transition": 0,
-      "necrosis": 862,
+      "necrosis": 48,
       "secretion": 0,
       "replenish": 0
     },
@@ -2220,13 +2220,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 155259,
-      "necrotic": 106885
+      "core": 751,
+      "necrotic": 261393
     },
     "changes": {
-      "proliferation": 264,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 788,
+      "necrosis": 49,
       "secretion": 0,
       "replenish": 0
     },
@@ -2239,13 +2239,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 154426,
-      "necrotic": 107718
+      "core": 716,
+      "necrotic": 261428
     },
     "changes": {
-      "proliferation": 243,
+      "proliferation": 14,
       "transition": 0,
-      "necrosis": 833,
+      "necrosis": 35,
       "secretion": 0,
       "replenish": 0
     },
@@ -2258,13 +2258,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 153656,
-      "necrotic": 108488
+      "core": 683,
+      "necrotic": 261461
     },
     "changes": {
-      "proliferation": 234,
+      "proliferation": 16,
       "transition": 0,
-      "necrosis": 770,
+      "necrosis": 33,
       "secretion": 0,
       "replenish": 0
     },
@@ -2277,13 +2277,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 152887,
-      "necrotic": 109257
+      "core": 652,
+      "necrotic": 261492
     },
     "changes": {
-      "proliferation": 258,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 769,
+      "necrosis": 31,
       "secretion": 0,
       "replenish": 0
     },
@@ -2296,13 +2296,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 152134,
-      "necrotic": 110010
+      "core": 615,
+      "necrotic": 261529
     },
     "changes": {
-      "proliferation": 241,
+      "proliferation": 9,
       "transition": 0,
-      "necrosis": 753,
+      "necrosis": 37,
       "secretion": 0,
       "replenish": 0
     },
@@ -2315,13 +2315,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 151346,
-      "necrotic": 110798
+      "core": 583,
+      "necrotic": 261561
     },
     "changes": {
-      "proliferation": 232,
+      "proliferation": 11,
       "transition": 0,
-      "necrosis": 788,
+      "necrosis": 32,
       "secretion": 0,
       "replenish": 0
     },
@@ -2334,13 +2334,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 150572,
-      "necrotic": 111572
+      "core": 561,
+      "necrotic": 261583
     },
     "changes": {
-      "proliferation": 227,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 774,
+      "necrosis": 22,
       "secretion": 0,
       "replenish": 0
     },
@@ -2353,13 +2353,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 149865,
-      "necrotic": 112279
+      "core": 545,
+      "necrotic": 261599
     },
     "changes": {
-      "proliferation": 232,
+      "proliferation": 7,
       "transition": 0,
-      "necrosis": 707,
+      "necrosis": 16,
       "secretion": 0,
       "replenish": 0
     },
@@ -2372,13 +2372,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 149130,
-      "necrotic": 113014
+      "core": 524,
+      "necrotic": 261620
     },
     "changes": {
-      "proliferation": 226,
+      "proliferation": 6,
       "transition": 0,
-      "necrosis": 735,
+      "necrosis": 21,
       "secretion": 0,
       "replenish": 0
     },
@@ -2391,13 +2391,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 148341,
-      "necrotic": 113803
+      "core": 504,
+      "necrotic": 261640
     },
     "changes": {
-      "proliferation": 224,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 789,
+      "necrosis": 20,
       "secretion": 0,
       "replenish": 0
     },
@@ -2410,13 +2410,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 147595,
-      "necrotic": 114549
+      "core": 473,
+      "necrotic": 261671
     },
     "changes": {
-      "proliferation": 238,
+      "proliferation": 12,
       "transition": 0,
-      "necrosis": 746,
+      "necrosis": 31,
       "secretion": 0,
       "replenish": 0
     },
@@ -2429,13 +2429,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 146857,
-      "necrotic": 115287
+      "core": 454,
+      "necrotic": 261690
     },
     "changes": {
-      "proliferation": 230,
+      "proliferation": 9,
       "transition": 0,
-      "necrosis": 738,
+      "necrosis": 19,
       "secretion": 0,
       "replenish": 0
     },
@@ -2448,13 +2448,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 146107,
-      "necrotic": 116037
+      "core": 429,
+      "necrotic": 261715
     },
     "changes": {
-      "proliferation": 242,
+      "proliferation": 11,
       "transition": 0,
-      "necrosis": 750,
+      "necrosis": 25,
       "secretion": 0,
       "replenish": 0
     },
@@ -2467,13 +2467,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 145395,
-      "necrotic": 116749
+      "core": 403,
+      "necrotic": 261741
     },
     "changes": {
-      "proliferation": 243,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 712,
+      "necrosis": 26,
       "secretion": 0,
       "replenish": 0
     },
@@ -2486,13 +2486,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 144719,
-      "necrotic": 117425
+      "core": 381,
+      "necrotic": 261763
     },
     "changes": {
-      "proliferation": 223,
+      "proliferation": 6,
       "transition": 0,
-      "necrosis": 676,
+      "necrosis": 22,
       "secretion": 0,
       "replenish": 0
     },
@@ -2505,13 +2505,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 144017,
-      "necrotic": 118127
+      "core": 365,
+      "necrotic": 261779
     },
     "changes": {
-      "proliferation": 238,
+      "proliferation": 7,
       "transition": 0,
-      "necrosis": 702,
+      "necrosis": 16,
       "secretion": 0,
       "replenish": 0
     },
@@ -2524,13 +2524,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 143326,
-      "necrotic": 118818
+      "core": 348,
+      "necrotic": 261796
     },
     "changes": {
-      "proliferation": 242,
+      "proliferation": 10,
       "transition": 0,
-      "necrosis": 691,
+      "necrosis": 17,
       "secretion": 0,
       "replenish": 0
     },
@@ -2543,13 +2543,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 142651,
-      "necrotic": 119493
+      "core": 330,
+      "necrotic": 261814
     },
     "changes": {
-      "proliferation": 213,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 675,
+      "necrosis": 18,
       "secretion": 0,
       "replenish": 0
     },
@@ -2562,13 +2562,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 141938,
-      "necrotic": 120206
+      "core": 311,
+      "necrotic": 261833
     },
     "changes": {
-      "proliferation": 249,
+      "proliferation": 10,
       "transition": 0,
-      "necrosis": 713,
+      "necrosis": 19,
       "secretion": 0,
       "replenish": 0
     },
@@ -2581,13 +2581,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 141191,
-      "necrotic": 120953
+      "core": 296,
+      "necrotic": 261848
     },
     "changes": {
-      "proliferation": 203,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 747,
+      "necrosis": 15,
       "secretion": 0,
       "replenish": 0
     },
@@ -2600,13 +2600,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 140552,
-      "necrotic": 121592
+      "core": 281,
+      "necrotic": 261863
     },
     "changes": {
-      "proliferation": 212,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 639,
+      "necrosis": 15,
       "secretion": 0,
       "replenish": 0
     },
@@ -2619,13 +2619,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 139903,
-      "necrotic": 122241
+      "core": 265,
+      "necrotic": 261879
     },
     "changes": {
-      "proliferation": 226,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 649,
+      "necrosis": 16,
       "secretion": 0,
       "replenish": 0
     },
@@ -2638,13 +2638,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 139216,
-      "necrotic": 122928
+      "core": 253,
+      "necrotic": 261891
     },
     "changes": {
-      "proliferation": 239,
+      "proliferation": 3,
       "transition": 0,
-      "necrosis": 687,
+      "necrosis": 12,
       "secretion": 0,
       "replenish": 0
     },
@@ -2657,13 +2657,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 138555,
-      "necrotic": 123589
+      "core": 243,
+      "necrotic": 261901
     },
     "changes": {
-      "proliferation": 209,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 661,
+      "necrosis": 10,
       "secretion": 0,
       "replenish": 0
     },
@@ -2676,13 +2676,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 137869,
-      "necrotic": 124275
+      "core": 233,
+      "necrotic": 261911
     },
     "changes": {
-      "proliferation": 196,
+      "proliferation": 10,
       "transition": 0,
-      "necrosis": 686,
+      "necrosis": 10,
       "secretion": 0,
       "replenish": 0
     },
@@ -2695,13 +2695,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 137153,
-      "necrotic": 124991
+      "core": 224,
+      "necrotic": 261920
     },
     "changes": {
-      "proliferation": 226,
+      "proliferation": 11,
       "transition": 0,
-      "necrosis": 716,
+      "necrosis": 9,
       "secretion": 0,
       "replenish": 0
     },
@@ -2714,13 +2714,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 136460,
-      "necrotic": 125684
+      "core": 210,
+      "necrotic": 261934
     },
     "changes": {
-      "proliferation": 208,
+      "proliferation": 6,
       "transition": 0,
-      "necrosis": 693,
+      "necrosis": 14,
       "secretion": 0,
       "replenish": 0
     },
@@ -2733,13 +2733,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 135765,
-      "necrotic": 126379
+      "core": 200,
+      "necrotic": 261944
     },
     "changes": {
-      "proliferation": 224,
+      "proliferation": 2,
       "transition": 0,
-      "necrosis": 695,
+      "necrosis": 10,
       "secretion": 0,
       "replenish": 0
     },
@@ -2752,13 +2752,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 135066,
-      "necrotic": 127078
+      "core": 187,
+      "necrotic": 261957
     },
     "changes": {
-      "proliferation": 211,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 699,
+      "necrosis": 13,
       "secretion": 0,
       "replenish": 0
     },
@@ -2771,13 +2771,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 134411,
-      "necrotic": 127733
+      "core": 175,
+      "necrotic": 261969
     },
     "changes": {
-      "proliferation": 196,
+      "proliferation": 7,
       "transition": 0,
-      "necrosis": 655,
+      "necrosis": 12,
       "secretion": 0,
       "replenish": 0
     },
@@ -2790,13 +2790,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 133767,
-      "necrotic": 128377
+      "core": 168,
+      "necrotic": 261976
     },
     "changes": {
-      "proliferation": 221,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 644,
+      "necrosis": 7,
       "secretion": 0,
       "replenish": 0
     },
@@ -2809,13 +2809,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 133120,
-      "necrotic": 129024
+      "core": 164,
+      "necrotic": 261980
     },
     "changes": {
-      "proliferation": 201,
+      "proliferation": 6,
       "transition": 0,
-      "necrosis": 647,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -2828,13 +2828,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 132443,
-      "necrotic": 129701
+      "core": 155,
+      "necrotic": 261989
     },
     "changes": {
-      "proliferation": 209,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 677,
+      "necrosis": 9,
       "secretion": 0,
       "replenish": 0
     },
@@ -2847,13 +2847,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 131797,
-      "necrotic": 130347
+      "core": 147,
+      "necrotic": 261997
     },
     "changes": {
-      "proliferation": 209,
+      "proliferation": 3,
       "transition": 0,
-      "necrosis": 646,
+      "necrosis": 8,
       "secretion": 0,
       "replenish": 0
     },
@@ -2866,13 +2866,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 131154,
-      "necrotic": 130990
+      "core": 138,
+      "necrotic": 262006
     },
     "changes": {
-      "proliferation": 200,
+      "proliferation": 8,
       "transition": 0,
-      "necrosis": 643,
+      "necrosis": 9,
       "secretion": 0,
       "replenish": 0
     },
@@ -2885,13 +2885,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 130488,
-      "necrotic": 131656
+      "core": 135,
+      "necrotic": 262009
     },
     "changes": {
-      "proliferation": 223,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 666,
+      "necrosis": 3,
       "secretion": 0,
       "replenish": 0
     },
@@ -2904,13 +2904,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 129819,
-      "necrotic": 132325
+      "core": 131,
+      "necrotic": 262013
     },
     "changes": {
-      "proliferation": 233,
+      "proliferation": 3,
       "transition": 0,
-      "necrosis": 669,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -2923,13 +2923,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 129157,
-      "necrotic": 132987
+      "core": 125,
+      "necrotic": 262019
     },
     "changes": {
-      "proliferation": 210,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 662,
+      "necrosis": 6,
       "secretion": 0,
       "replenish": 0
     },
@@ -2942,13 +2942,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 128536,
-      "necrotic": 133608
+      "core": 113,
+      "necrotic": 262031
     },
     "changes": {
-      "proliferation": 238,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 621,
+      "necrosis": 12,
       "secretion": 0,
       "replenish": 0
     },
@@ -2961,13 +2961,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 127874,
-      "necrotic": 134270
+      "core": 105,
+      "necrotic": 262039
     },
     "changes": {
-      "proliferation": 201,
+      "proliferation": 3,
       "transition": 0,
-      "necrosis": 662,
+      "necrosis": 8,
       "secretion": 0,
       "replenish": 0
     },
@@ -2980,13 +2980,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 127242,
-      "necrotic": 134902
+      "core": 101,
+      "necrotic": 262043
     },
     "changes": {
-      "proliferation": 217,
+      "proliferation": 3,
       "transition": 0,
-      "necrosis": 632,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -2999,13 +2999,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 126669,
-      "necrotic": 135475
+      "core": 97,
+      "necrotic": 262047
     },
     "changes": {
-      "proliferation": 208,
+      "proliferation": 4,
       "transition": 0,
-      "necrosis": 573,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -3018,13 +3018,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 126051,
-      "necrotic": 136093
+      "core": 91,
+      "necrotic": 262053
     },
     "changes": {
-      "proliferation": 200,
+      "proliferation": 5,
       "transition": 0,
-      "necrosis": 618,
+      "necrosis": 6,
       "secretion": 0,
       "replenish": 0
     },
@@ -3037,13 +3037,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 125418,
-      "necrotic": 136726
+      "core": 86,
+      "necrotic": 262058
     },
     "changes": {
-      "proliferation": 195,
+      "proliferation": 1,
       "transition": 0,
-      "necrosis": 633,
+      "necrosis": 5,
       "secretion": 0,
       "replenish": 0
     },
@@ -3056,13 +3056,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 124786,
-      "necrotic": 137358
+      "core": 78,
+      "necrotic": 262066
     },
     "changes": {
-      "proliferation": 186,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 632,
+      "necrosis": 8,
       "secretion": 0,
       "replenish": 0
     },
@@ -3075,13 +3075,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 124175,
-      "necrotic": 137969
+      "core": 76,
+      "necrotic": 262068
     },
     "changes": {
-      "proliferation": 214,
+      "proliferation": 2,
       "transition": 0,
-      "necrosis": 611,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3094,13 +3094,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 123520,
-      "necrotic": 138624
+      "core": 72,
+      "necrotic": 262072
     },
     "changes": {
-      "proliferation": 184,
+      "proliferation": 2,
       "transition": 0,
-      "necrosis": 655,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -3113,13 +3113,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 122942,
-      "necrotic": 139202
+      "core": 69,
+      "necrotic": 262075
     },
     "changes": {
-      "proliferation": 176,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 578,
+      "necrosis": 3,
       "secretion": 0,
       "replenish": 0
     },
@@ -3132,13 +3132,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 122293,
-      "necrotic": 139851
+      "core": 64,
+      "necrotic": 262080
     },
     "changes": {
-      "proliferation": 197,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 649,
+      "necrosis": 5,
       "secretion": 0,
       "replenish": 0
     },
@@ -3151,13 +3151,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 121619,
-      "necrotic": 140525
+      "core": 59,
+      "necrotic": 262085
     },
     "changes": {
-      "proliferation": 191,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 674,
+      "necrosis": 5,
       "secretion": 0,
       "replenish": 0
     },
@@ -3170,13 +3170,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 121029,
-      "necrotic": 141115
+      "core": 59,
+      "necrotic": 262085
     },
     "changes": {
-      "proliferation": 197,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 590,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3189,13 +3189,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 120451,
-      "necrotic": 141693
+      "core": 53,
+      "necrotic": 262091
     },
     "changes": {
-      "proliferation": 187,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 578,
+      "necrosis": 6,
       "secretion": 0,
       "replenish": 0
     },
@@ -3208,13 +3208,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 119828,
-      "necrotic": 142316
+      "core": 49,
+      "necrotic": 262095
     },
     "changes": {
-      "proliferation": 183,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 623,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -3227,13 +3227,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 119220,
-      "necrotic": 142924
+      "core": 45,
+      "necrotic": 262099
     },
     "changes": {
-      "proliferation": 174,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 608,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -3246,13 +3246,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 118643,
-      "necrotic": 143501
+      "core": 41,
+      "necrotic": 262103
     },
     "changes": {
-      "proliferation": 182,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 577,
+      "necrosis": 4,
       "secretion": 0,
       "replenish": 0
     },
@@ -3265,13 +3265,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 118063,
-      "necrotic": 144081
+      "core": 39,
+      "necrotic": 262105
     },
     "changes": {
-      "proliferation": 203,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 580,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3284,13 +3284,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 117502,
-      "necrotic": 144642
+      "core": 38,
+      "necrotic": 262106
     },
     "changes": {
-      "proliferation": 175,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 561,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3303,13 +3303,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 116948,
-      "necrotic": 145196
+      "core": 36,
+      "necrotic": 262108
     },
     "changes": {
-      "proliferation": 207,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 554,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3322,13 +3322,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 116343,
-      "necrotic": 145801
+      "core": 35,
+      "necrotic": 262109
     },
     "changes": {
-      "proliferation": 192,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 605,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3341,13 +3341,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 115797,
-      "necrotic": 146347
+      "core": 33,
+      "necrotic": 262111
     },
     "changes": {
-      "proliferation": 188,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 546,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3360,13 +3360,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 115207,
-      "necrotic": 146937
+      "core": 33,
+      "necrotic": 262111
     },
     "changes": {
-      "proliferation": 178,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 590,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3379,13 +3379,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 114712,
-      "necrotic": 147432
+      "core": 32,
+      "necrotic": 262112
     },
     "changes": {
-      "proliferation": 169,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 495,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3398,13 +3398,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 114116,
-      "necrotic": 148028
+      "core": 31,
+      "necrotic": 262113
     },
     "changes": {
-      "proliferation": 196,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 596,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3417,13 +3417,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 113575,
-      "necrotic": 148569
+      "core": 30,
+      "necrotic": 262114
     },
     "changes": {
-      "proliferation": 176,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 541,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3436,13 +3436,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 113004,
-      "necrotic": 149140
+      "core": 29,
+      "necrotic": 262115
     },
     "changes": {
-      "proliferation": 172,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 571,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3455,13 +3455,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 112416,
-      "necrotic": 149728
+      "core": 26,
+      "necrotic": 262118
     },
     "changes": {
-      "proliferation": 175,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 588,
+      "necrosis": 3,
       "secretion": 0,
       "replenish": 0
     },
@@ -3474,13 +3474,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 111865,
-      "necrotic": 150279
+      "core": 26,
+      "necrotic": 262118
     },
     "changes": {
-      "proliferation": 155,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 551,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3493,13 +3493,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 111305,
-      "necrotic": 150839
+      "core": 25,
+      "necrotic": 262119
     },
     "changes": {
-      "proliferation": 168,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 560,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3512,13 +3512,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 110767,
-      "necrotic": 151377
+      "core": 22,
+      "necrotic": 262122
     },
     "changes": {
-      "proliferation": 163,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 538,
+      "necrosis": 3,
       "secretion": 0,
       "replenish": 0
     },
@@ -3531,13 +3531,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 110226,
-      "necrotic": 151918
+      "core": 22,
+      "necrotic": 262122
     },
     "changes": {
-      "proliferation": 204,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 541,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3550,13 +3550,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 109644,
-      "necrotic": 152500
+      "core": 22,
+      "necrotic": 262122
     },
     "changes": {
-      "proliferation": 176,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 582,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3569,13 +3569,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 109078,
-      "necrotic": 153066
+      "core": 20,
+      "necrotic": 262124
     },
     "changes": {
-      "proliferation": 173,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 566,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3588,13 +3588,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 108504,
-      "necrotic": 153640
+      "core": 20,
+      "necrotic": 262124
     },
     "changes": {
-      "proliferation": 180,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 574,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3607,13 +3607,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 107948,
-      "necrotic": 154196
+      "core": 20,
+      "necrotic": 262124
     },
     "changes": {
-      "proliferation": 160,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 556,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3626,13 +3626,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 107398,
-      "necrotic": 154746
+      "core": 20,
+      "necrotic": 262124
     },
     "changes": {
-      "proliferation": 166,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 550,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3645,13 +3645,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 106821,
-      "necrotic": 155323
+      "core": 19,
+      "necrotic": 262125
     },
     "changes": {
-      "proliferation": 184,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 577,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3664,13 +3664,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 106276,
-      "necrotic": 155868
+      "core": 19,
+      "necrotic": 262125
     },
     "changes": {
-      "proliferation": 176,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 545,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3683,13 +3683,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 105729,
-      "necrotic": 156415
+      "core": 17,
+      "necrotic": 262127
     },
     "changes": {
-      "proliferation": 201,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 547,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -3702,13 +3702,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 105195,
-      "necrotic": 156949
+      "core": 16,
+      "necrotic": 262128
     },
     "changes": {
-      "proliferation": 166,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 534,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3721,13 +3721,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 104681,
-      "necrotic": 157463
+      "core": 16,
+      "necrotic": 262128
     },
     "changes": {
-      "proliferation": 182,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 514,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3740,13 +3740,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 104142,
-      "necrotic": 158002
+      "core": 16,
+      "necrotic": 262128
     },
     "changes": {
-      "proliferation": 175,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 539,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3759,13 +3759,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 103603,
-      "necrotic": 158541
+      "core": 15,
+      "necrotic": 262129
     },
     "changes": {
-      "proliferation": 153,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 539,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3778,13 +3778,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 103092,
-      "necrotic": 159052
+      "core": 14,
+      "necrotic": 262130
     },
     "changes": {
-      "proliferation": 162,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 511,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3797,13 +3797,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 102546,
-      "necrotic": 159598
+      "core": 13,
+      "necrotic": 262131
     },
     "changes": {
-      "proliferation": 152,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 546,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3816,13 +3816,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 102033,
-      "necrotic": 160111
+      "core": 13,
+      "necrotic": 262131
     },
     "changes": {
-      "proliferation": 169,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 513,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3835,13 +3835,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 101489,
-      "necrotic": 160655
+      "core": 13,
+      "necrotic": 262131
     },
     "changes": {
-      "proliferation": 172,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 544,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3854,13 +3854,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 100989,
-      "necrotic": 161155
+      "core": 12,
+      "necrotic": 262132
     },
     "changes": {
-      "proliferation": 166,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 500,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3873,13 +3873,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 100468,
-      "necrotic": 161676
+      "core": 12,
+      "necrotic": 262132
     },
     "changes": {
-      "proliferation": 181,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 521,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3892,13 +3892,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 99998,
-      "necrotic": 162146
+      "core": 12,
+      "necrotic": 262132
     },
     "changes": {
-      "proliferation": 147,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 470,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3911,13 +3911,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 99506,
-      "necrotic": 162638
+      "core": 12,
+      "necrotic": 262132
     },
     "changes": {
-      "proliferation": 178,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 492,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3930,13 +3930,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 99014,
-      "necrotic": 163130
+      "core": 11,
+      "necrotic": 262133
     },
     "changes": {
-      "proliferation": 167,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 492,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -3949,13 +3949,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 98552,
-      "necrotic": 163592
+      "core": 11,
+      "necrotic": 262133
     },
     "changes": {
-      "proliferation": 147,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 462,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3968,13 +3968,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 98053,
-      "necrotic": 164091
+      "core": 11,
+      "necrotic": 262133
     },
     "changes": {
-      "proliferation": 165,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 499,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -3987,13 +3987,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 97583,
-      "necrotic": 164561
+      "core": 11,
+      "necrotic": 262133
     },
     "changes": {
-      "proliferation": 167,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 470,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4006,13 +4006,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 97083,
-      "necrotic": 165061
+      "core": 9,
+      "necrotic": 262135
     },
     "changes": {
-      "proliferation": 142,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 500,
+      "necrosis": 2,
       "secretion": 0,
       "replenish": 0
     },
@@ -4025,13 +4025,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 96560,
-      "necrotic": 165584
+      "core": 8,
+      "necrotic": 262136
     },
     "changes": {
-      "proliferation": 144,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 523,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4044,13 +4044,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 96039,
-      "necrotic": 166105
+      "core": 7,
+      "necrotic": 262137
     },
     "changes": {
-      "proliferation": 155,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 521,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4063,13 +4063,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 95560,
-      "necrotic": 166584
+      "core": 6,
+      "necrotic": 262138
     },
     "changes": {
-      "proliferation": 153,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 479,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4082,13 +4082,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 95105,
-      "necrotic": 167039
+      "core": 5,
+      "necrotic": 262139
     },
     "changes": {
-      "proliferation": 145,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 455,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4101,13 +4101,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 94611,
-      "necrotic": 167533
+      "core": 5,
+      "necrotic": 262139
     },
     "changes": {
-      "proliferation": 154,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 494,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4120,13 +4120,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 94123,
-      "necrotic": 168021
+      "core": 4,
+      "necrotic": 262140
     },
     "changes": {
-      "proliferation": 148,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 488,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4139,13 +4139,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 93683,
-      "necrotic": 168461
+      "core": 4,
+      "necrotic": 262140
     },
     "changes": {
-      "proliferation": 167,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 440,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4158,13 +4158,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 93241,
-      "necrotic": 168903
+      "core": 4,
+      "necrotic": 262140
     },
     "changes": {
-      "proliferation": 128,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 442,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4177,13 +4177,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 92783,
-      "necrotic": 169361
+      "core": 4,
+      "necrotic": 262140
     },
     "changes": {
-      "proliferation": 135,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 458,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4196,13 +4196,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 92329,
-      "necrotic": 169815
+      "core": 3,
+      "necrotic": 262141
     },
     "changes": {
-      "proliferation": 174,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 454,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4215,13 +4215,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 91848,
-      "necrotic": 170296
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 164,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 481,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4234,13 +4234,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 91373,
-      "necrotic": 170771
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 148,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 475,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4253,13 +4253,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 90889,
-      "necrotic": 171255
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 179,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 484,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4272,13 +4272,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 90443,
-      "necrotic": 171701
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 169,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 446,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4291,13 +4291,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 89968,
-      "necrotic": 172176
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 140,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 475,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4310,13 +4310,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 89494,
-      "necrotic": 172650
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 132,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 474,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4329,13 +4329,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 89070,
-      "necrotic": 173074
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 159,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 424,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4348,13 +4348,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 88640,
-      "necrotic": 173504
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 145,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 430,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4367,13 +4367,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 88195,
-      "necrotic": 173949
+      "core": 2,
+      "necrotic": 262142
     },
     "changes": {
-      "proliferation": 140,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 445,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4386,13 +4386,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 87790,
-      "necrotic": 174354
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 140,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 405,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4405,13 +4405,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 87347,
-      "necrotic": 174797
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 149,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 443,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4424,13 +4424,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 86888,
-      "necrotic": 175256
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 126,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 459,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4443,13 +4443,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 86491,
-      "necrotic": 175653
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 129,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 397,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4462,13 +4462,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 86059,
-      "necrotic": 176085
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 140,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 432,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4481,13 +4481,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 85632,
-      "necrotic": 176512
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 148,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 427,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4500,13 +4500,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 85250,
-      "necrotic": 176894
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 132,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 382,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4519,13 +4519,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 84860,
-      "necrotic": 177284
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 137,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 390,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4538,13 +4538,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 84435,
-      "necrotic": 177709
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 125,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 425,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4557,13 +4557,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 84022,
-      "necrotic": 178122
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 144,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 413,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4576,13 +4576,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 83617,
-      "necrotic": 178527
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 130,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 405,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4595,13 +4595,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 83197,
-      "necrotic": 178947
+      "core": 1,
+      "necrotic": 262143
     },
     "changes": {
-      "proliferation": 123,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 420,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4614,13 +4614,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 82761,
-      "necrotic": 179383
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 146,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 436,
+      "necrosis": 1,
       "secretion": 0,
       "replenish": 0
     },
@@ -4633,13 +4633,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 82331,
-      "necrotic": 179813
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 150,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 430,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4652,13 +4652,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 81905,
-      "necrotic": 180239
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 133,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 426,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4671,13 +4671,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 81477,
-      "necrotic": 180667
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 134,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 428,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4690,13 +4690,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 81079,
-      "necrotic": 181065
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 119,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 398,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4709,13 +4709,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 80685,
-      "necrotic": 181459
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 140,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 394,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4728,13 +4728,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 80298,
-      "necrotic": 181846
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 134,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 387,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4747,13 +4747,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 79905,
-      "necrotic": 182239
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 125,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 393,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4766,13 +4766,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 79483,
-      "necrotic": 182661
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 130,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 422,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4785,13 +4785,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 79090,
-      "necrotic": 183054
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 121,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 393,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4804,13 +4804,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 78696,
-      "necrotic": 183448
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 134,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 394,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4823,13 +4823,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 78311,
-      "necrotic": 183833
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 131,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 385,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4842,13 +4842,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 77896,
-      "necrotic": 184248
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 149,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 415,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4861,13 +4861,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 77499,
-      "necrotic": 184645
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 142,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 397,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4880,13 +4880,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 77147,
-      "necrotic": 184997
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 146,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 352,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4899,13 +4899,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 76750,
-      "necrotic": 185394
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 137,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 397,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4918,13 +4918,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 76366,
-      "necrotic": 185778
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 120,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 384,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4937,13 +4937,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 75969,
-      "necrotic": 186175
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 124,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 397,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4956,13 +4956,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 75592,
-      "necrotic": 186552
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 153,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 377,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4975,13 +4975,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 75214,
-      "necrotic": 186930
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 134,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 378,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -4994,13 +4994,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 74815,
-      "necrotic": 187329
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 121,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 399,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5013,13 +5013,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 74468,
-      "necrotic": 187676
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 123,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 347,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5032,13 +5032,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 74070,
-      "necrotic": 188074
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 119,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 398,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5051,13 +5051,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 73721,
-      "necrotic": 188423
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 108,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 349,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5070,13 +5070,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 73366,
-      "necrotic": 188778
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 118,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 355,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5089,13 +5089,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 73016,
-      "necrotic": 189128
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 131,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 350,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5108,13 +5108,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 72677,
-      "necrotic": 189467
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 122,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 339,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5127,13 +5127,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 72300,
-      "necrotic": 189844
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 117,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 377,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5146,13 +5146,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 71921,
-      "necrotic": 190223
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 115,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 379,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5165,13 +5165,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 71560,
-      "necrotic": 190584
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 111,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 361,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5184,13 +5184,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 71204,
-      "necrotic": 190940
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 103,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 356,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5203,13 +5203,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 70836,
-      "necrotic": 191308
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 111,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 368,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5222,13 +5222,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 70468,
-      "necrotic": 191676
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 114,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 368,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5241,13 +5241,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 70093,
-      "necrotic": 192051
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 107,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 375,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5260,13 +5260,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 69734,
-      "necrotic": 192410
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 108,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 359,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5279,13 +5279,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 69394,
-      "necrotic": 192750
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 111,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 340,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5298,13 +5298,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 69036,
-      "necrotic": 193108
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 138,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 358,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5317,13 +5317,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 68695,
-      "necrotic": 193449
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 111,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 341,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5336,13 +5336,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 68359,
-      "necrotic": 193785
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 108,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 336,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5355,13 +5355,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 68048,
-      "necrotic": 194096
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 97,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 311,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5374,13 +5374,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 67698,
-      "necrotic": 194446
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 108,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 350,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5393,13 +5393,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 67330,
-      "necrotic": 194814
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 124,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 368,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5412,13 +5412,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 66966,
-      "necrotic": 195178
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 110,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 364,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5431,13 +5431,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 66622,
-      "necrotic": 195522
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 98,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 344,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5450,13 +5450,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 66268,
-      "necrotic": 195876
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 111,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 354,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5469,13 +5469,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 65920,
-      "necrotic": 196224
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 96,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 348,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5488,13 +5488,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 65615,
-      "necrotic": 196529
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 108,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 305,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5507,13 +5507,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 65285,
-      "necrotic": 196859
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 106,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 330,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5526,13 +5526,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 64914,
-      "necrotic": 197230
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 109,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 371,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5545,13 +5545,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 64605,
-      "necrotic": 197539
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 101,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 309,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5564,13 +5564,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 64264,
-      "necrotic": 197880
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 123,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 341,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5583,13 +5583,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 63957,
-      "necrotic": 198187
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 92,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 307,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5602,13 +5602,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 63650,
-      "necrotic": 198494
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 93,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 307,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5621,13 +5621,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 63304,
-      "necrotic": 198840
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 98,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 346,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5640,13 +5640,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 62973,
-      "necrotic": 199171
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 95,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 331,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5659,13 +5659,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 62672,
-      "necrotic": 199472
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 101,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 301,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5678,13 +5678,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 62316,
-      "necrotic": 199828
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 104,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 356,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5697,13 +5697,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 62014,
-      "necrotic": 200130
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 105,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 302,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5716,13 +5716,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 61721,
-      "necrotic": 200423
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 102,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 293,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5735,13 +5735,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 61406,
-      "necrotic": 200738
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 107,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 315,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5754,13 +5754,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 61074,
-      "necrotic": 201070
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 110,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 332,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5773,13 +5773,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 60781,
-      "necrotic": 201363
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 99,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 293,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5792,13 +5792,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 60509,
-      "necrotic": 201635
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 94,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 272,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5811,13 +5811,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 60213,
-      "necrotic": 201931
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 95,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 296,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5830,13 +5830,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 59907,
-      "necrotic": 202237
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 99,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 306,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5849,13 +5849,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 59610,
-      "necrotic": 202534
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 82,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 297,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5868,13 +5868,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 59263,
-      "necrotic": 202881
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 97,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 347,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5887,13 +5887,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 58950,
-      "necrotic": 203194
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 100,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 313,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5906,13 +5906,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 58658,
-      "necrotic": 203486
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 84,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 292,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5925,13 +5925,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 58373,
-      "necrotic": 203771
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 95,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 285,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5944,13 +5944,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 58082,
-      "necrotic": 204062
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 85,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 291,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5963,13 +5963,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 57818,
-      "necrotic": 204326
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 80,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 264,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -5982,13 +5982,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 57549,
-      "necrotic": 204595
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 96,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 269,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6001,13 +6001,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 57263,
-      "necrotic": 204881
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 97,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 286,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6020,13 +6020,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 56949,
-      "necrotic": 205195
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 89,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 314,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6039,13 +6039,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 56662,
-      "necrotic": 205482
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 99,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 287,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6058,13 +6058,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 56382,
-      "necrotic": 205762
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 89,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 280,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6077,13 +6077,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 56139,
-      "necrotic": 206005
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 91,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 243,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6096,13 +6096,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 55839,
-      "necrotic": 206305
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 97,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 300,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6115,13 +6115,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 55541,
-      "necrotic": 206603
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 90,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 298,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6134,13 +6134,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 55264,
-      "necrotic": 206880
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 88,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 277,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6153,13 +6153,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 54975,
-      "necrotic": 207169
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 103,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 289,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6172,13 +6172,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 54700,
-      "necrotic": 207444
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 85,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 275,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6191,13 +6191,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 54421,
-      "necrotic": 207723
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 82,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 279,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6210,13 +6210,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 54163,
-      "necrotic": 207981
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 79,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 258,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6229,13 +6229,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 53887,
-      "necrotic": 208257
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 84,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 276,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6248,13 +6248,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 53615,
-      "necrotic": 208529
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 84,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 272,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6267,13 +6267,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 53347,
-      "necrotic": 208797
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 83,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 268,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6286,13 +6286,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 53084,
-      "necrotic": 209060
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 86,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 263,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6305,13 +6305,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 52814,
-      "necrotic": 209330
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 93,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 270,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6324,13 +6324,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 52573,
-      "necrotic": 209571
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 72,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 241,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6343,13 +6343,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 52292,
-      "necrotic": 209852
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 78,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 281,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6362,13 +6362,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 52033,
-      "necrotic": 210111
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 81,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 259,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6381,13 +6381,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 51771,
-      "necrotic": 210373
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 76,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 262,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6400,13 +6400,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 51543,
-      "necrotic": 210601
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 81,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 228,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6419,13 +6419,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 51272,
-      "necrotic": 210872
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 81,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 271,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6438,13 +6438,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 50999,
-      "necrotic": 211145
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 80,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 273,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6457,13 +6457,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 50739,
-      "necrotic": 211405
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 87,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 260,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6476,13 +6476,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 50507,
-      "necrotic": 211637
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 87,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 232,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6495,13 +6495,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 50251,
-      "necrotic": 211893
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 98,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 256,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6514,13 +6514,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 49981,
-      "necrotic": 212163
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 78,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 270,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6533,13 +6533,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 49724,
-      "necrotic": 212420
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 86,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 257,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6552,13 +6552,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 49473,
-      "necrotic": 212671
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 80,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 251,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6571,13 +6571,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 49214,
-      "necrotic": 212930
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 83,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 259,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6590,13 +6590,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 48979,
-      "necrotic": 213165
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 81,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 235,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6609,13 +6609,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 48726,
-      "necrotic": 213418
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 78,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 253,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6628,13 +6628,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 48486,
-      "necrotic": 213658
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 72,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 240,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6647,13 +6647,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 48215,
-      "necrotic": 213929
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 76,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 271,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6666,13 +6666,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 47993,
-      "necrotic": 214151
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 63,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 222,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6685,13 +6685,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 47767,
-      "necrotic": 214377
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 88,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 226,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6704,13 +6704,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 47512,
-      "necrotic": 214632
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 78,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 255,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6723,13 +6723,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 47266,
-      "necrotic": 214878
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 83,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 246,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6742,13 +6742,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 47048,
-      "necrotic": 215096
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 71,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 218,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6761,13 +6761,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 46807,
-      "necrotic": 215337
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 82,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 241,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6780,13 +6780,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 46579,
-      "necrotic": 215565
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 67,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 228,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6799,13 +6799,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 46328,
-      "necrotic": 215816
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 60,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 251,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6818,13 +6818,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 46119,
-      "necrotic": 216025
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 74,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 209,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6837,13 +6837,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 45882,
-      "necrotic": 216262
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 83,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 237,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6856,13 +6856,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 45643,
-      "necrotic": 216501
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 83,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 239,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6875,13 +6875,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 45408,
-      "necrotic": 216736
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 64,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 235,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6894,13 +6894,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 45163,
-      "necrotic": 216981
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 77,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 245,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6913,13 +6913,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 44924,
-      "necrotic": 217220
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 65,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 239,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6932,13 +6932,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 44677,
-      "necrotic": 217467
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 93,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 247,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6951,13 +6951,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 44472,
-      "necrotic": 217672
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 71,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 205,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6970,13 +6970,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 44240,
-      "necrotic": 217904
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 66,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 232,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -6989,13 +6989,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 44025,
-      "necrotic": 218119
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 74,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 215,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7008,13 +7008,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 43815,
-      "necrotic": 218329
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 68,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 210,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7027,13 +7027,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 43598,
-      "necrotic": 218546
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 87,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 217,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7046,13 +7046,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 43407,
-      "necrotic": 218737
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 78,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 191,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7065,13 +7065,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 43171,
-      "necrotic": 218973
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 76,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 236,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7084,13 +7084,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 42954,
-      "necrotic": 219190
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 66,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 217,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7103,13 +7103,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 42766,
-      "necrotic": 219378
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 61,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 188,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7122,13 +7122,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 42537,
-      "necrotic": 219607
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 66,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 229,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7141,13 +7141,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 42326,
-      "necrotic": 219818
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 72,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 211,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7160,13 +7160,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 42116,
-      "necrotic": 220028
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 74,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 210,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7179,13 +7179,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 41908,
-      "necrotic": 220236
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 70,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 208,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7198,13 +7198,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 41720,
-      "necrotic": 220424
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 72,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 188,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7217,13 +7217,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 41556,
-      "necrotic": 220588
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 70,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 164,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7236,13 +7236,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 41368,
-      "necrotic": 220776
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 69,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 188,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7255,13 +7255,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 41161,
-      "necrotic": 220983
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 64,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 207,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7274,13 +7274,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 40924,
-      "necrotic": 221220
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 65,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 237,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7293,13 +7293,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 40712,
-      "necrotic": 221432
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 68,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 212,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7312,13 +7312,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 40515,
-      "necrotic": 221629
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 63,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 197,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7331,13 +7331,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 40303,
-      "necrotic": 221841
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 70,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 212,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7350,13 +7350,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 40131,
-      "necrotic": 222013
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 67,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 172,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7369,13 +7369,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 39945,
-      "necrotic": 222199
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 62,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 186,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7388,13 +7388,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 39728,
-      "necrotic": 222416
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 55,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 217,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7407,13 +7407,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 39529,
-      "necrotic": 222615
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 76,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 199,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7426,13 +7426,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 39346,
-      "necrotic": 222798
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 63,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 183,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7445,13 +7445,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 39132,
-      "necrotic": 223012
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 58,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 214,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7464,13 +7464,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38933,
-      "necrotic": 223211
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 55,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 199,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7483,13 +7483,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38731,
-      "necrotic": 223413
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 72,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 202,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7502,13 +7502,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38577,
-      "necrotic": 223567
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 66,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 154,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7521,13 +7521,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38396,
-      "necrotic": 223748
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 64,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 181,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7540,13 +7540,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38201,
-      "necrotic": 223943
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 61,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 195,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7559,13 +7559,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 38009,
-      "necrotic": 224135
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 59,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 192,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7578,13 +7578,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 37830,
-      "necrotic": 224314
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 64,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 179,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },
@@ -7597,13 +7597,13 @@
       "empty": 0,
       "healthy": 0,
       "periphery": 0,
-      "core": 37670,
-      "necrotic": 224474
+      "core": 0,
+      "necrotic": 262144
     },
     "changes": {
-      "proliferation": 71,
+      "proliferation": 0,
       "transition": 0,
-      "necrosis": 160,
+      "necrosis": 0,
       "secretion": 0,
       "replenish": 0
     },

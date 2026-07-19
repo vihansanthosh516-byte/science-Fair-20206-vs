@@ -165,7 +165,11 @@ class CellularAutomaton:
         return count
     
     def step(self) -> Dict[str, int]:
-        """Execute one simulation step."""
+        """Execute one simulation step (no sub-stepping - base step)."""
+        return self._execute_ca_step()
+    
+    def _execute_ca_step(self) -> Dict[str, int]:
+        """Execute a single CA step (core logic)."""
         new_grid = self.grid.clone()
         changes = {'proliferation': 0, 'transition': 0, 'necrosis': 0, 'secretion': 0, 'replenish': 0}
         
@@ -256,6 +260,15 @@ class CellularAutomaton:
         self.grid = new_grid
         return changes
     
+    def execute_substeps(self, n_substeps: int = 10) -> Dict[str, int]:
+        """Execute multiple CA sub-steps (for multi-rate time-stepping with PDE)."""
+        total_changes = {'proliferation': 0, 'transition': 0, 'necrosis': 0, 'secretion': 0, 'replenish': 0}
+        for _ in range(n_substeps):
+            changes = self._execute_ca_step()
+            for k, v in changes.items():
+                total_changes[k] += v
+        return total_changes
+    
     def _proliferate_cells(self, source_mask: torch.Tensor, cell_type: int, target_grid: torch.Tensor) -> None:
         """Proliferate cells into random empty neighbors."""
         source_coords = torch.nonzero(source_mask, as_tuple=False)
@@ -304,10 +317,12 @@ def run_simulation(
     n_steps: int = 400,
     grid_size: Tuple[int, int] = (512, 512),
     save_interval: int = 20,
+    ca_substeps_per_pde_step: int = 10,
 ) -> Tuple[List[np.ndarray], List[np.ndarray], List[Dict]]:
-    """Run full invasion simulation."""
+    """Run full invasion simulation with CA sub-stepping."""
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"[SIM] Running on {device}")
+    print(f"[SIM] CA sub-steps per PDE step: {ca_substeps_per_pde_step}")
     
     ca = CellularAutomaton(grid_size=grid_size, device=device)
     
@@ -326,7 +341,8 @@ def run_simulation(
     })
     
     for step in range(1, n_steps + 1):
-        changes = ca.step()
+        # Execute multiple CA sub-steps per PDE step
+        changes = ca.execute_substeps(ca_substeps_per_pde_step)
         
         # Metrics
         front, velocity = ca.get_invasion_front()

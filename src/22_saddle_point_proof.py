@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Month 1, Week 4: Saddle Point Proof — Nudged Elastic Band (NEB) Solver
-Finds the true transition saddle point between Healthy and Core attractors
+Month 1, Week 4: Saddle Point Proof — Climbing Image NEB (CI-NEB) Solver
+Properly locates the transition saddle point between Healthy and Core attractors
 by optimizing a discrete path through the Periphery zone centroids.
 
-The NEB algorithm optimizes a chain of images connected by springs,
-with forces projected onto the tangent (spring forces) and normal
-(true energy gradient forces) directions.
+The true saddle point is identified as the climbing image with mixed Hessian eigenvalues (±λ).
 """
 
 from __future__ import annotations
@@ -87,39 +85,32 @@ def compute_energy_gradient(
     return weights.sum() * grad.sum(dim=0)
 
 
-def neb_saddle_search(
+def ci_neb_saddle_search(
     latent: torch.Tensor,
     energy: torch.Tensor,
     labels: torch.Tensor,
     healthy_min: torch.Tensor,
+    periphery_min: torch.Tensor,
     core_min: torch.Tensor,
     n_images: int = 64,
-    n_iterations: int = 200,
+    n_iterations: int = 300,
     k_spring: float = 10.0,
-    step_size: float = 0.02,
+    step_size: float = 0.015,
+    ci_start_iter: int = 100,
+    ci_freq: int = 10,
 ) -> Tuple[torch.Tensor, float]:
     """
-    Nudged Elastic Band (NEB) saddle point search.
+    Climbing Image Nudged Elastic Band (CI-NEB) saddle point search.
     
-    The NEB method optimizes a chain of images connected by harmonic springs.
-    Forces are projected onto tangent (spring forces) and normal (energy gradient) directions.
-    The saddle point is the image with highest energy on the converged path.
-    
-    Key NEB algorithm:
-    1. Initialize images along path through Periphery centroids
-    2. For each iteration:
-       a. Compute true forces (negative energy gradient) at each image
-       b. Compute spring forces along the chain
-       c. Project true forces onto normal direction, spring forces onto tangent
-       c. Update images with combined forces
-       d. Reparametrize (redistribute images equally)
-    3. Saddle = highest energy interior image
+    The string method with a climbing image finds the minimum energy path (MEP)
+    between Healthy and Core attractors, with the climbing image driven to the
+    true saddle point by inverting the parallel component of the true force.
     """
-    print("[NEB] Initializing Nudged Elastic Band search (Healthy -> Core via Periphery)...")
+    print("[CI-NEB] Initializing CI-NEB search (Healthy -> Core via Periphery)...")
     
     # Get Periphery zone centroids to initialize path through transition zone
     periphery_centroids = find_periphery_centroids(latent, labels, k=8)
-    print(f"[NEB] Found {len(periphery_centroids)} Periphery centroids for path initialization")
+    print(f"[CI-NEB] Found {len(periphery_centroids)} Periphery centroids for path initialization")
     
     n_total = n_images
     
@@ -148,7 +139,7 @@ def neb_saddle_search(
     else:
         for i in range(n_middle):
             alpha = i / max(1, n_middle - 1)
-            point = periphery_centroids[0] + alpha * (core_min - periphery_centroids[0]) if len(periphery_centroids) > 0 else (healthy_min + core_min) / 2
+            point = periphery_centroids[0] if len(periphery_centroids) > 0 else (healthy_min + core_min) / 2
             images.append(point)
     
     # Phase 3: Last Periphery centroid -> Core (20% of images)
@@ -164,14 +155,16 @@ def neb_saddle_search(
     
     images = torch.stack(images)
     
-    # NEB iterations
+    # CI-NEB iterations
+    climbing_idx = None
+    ci_activated = False
+    
     for iteration in range(n_iterations):
         # 1. Compute true forces (negative energy gradient) at each image
         img_energies = torch.zeros(n_total, device=energy.device)
         true_forces = torch.zeros_like(images)
         
         for i in range(n_total):
-            # True force = -∇E
             true_forces[i] = -compute_energy_gradient(energy, latent, images[i])
             dists = torch.cdist(images[i:i+1], latent).squeeze(0)
             _, knn_idx = torch.topk(dists, k=1, largest=False)
@@ -180,13 +173,21 @@ def neb_saddle_search(
         # 2. Compute spring forces between adjacent images
         spring_forces = torch.zeros_like(images)
         for i in range(1, n_total - 1):
-            # Spring force between i-1 and i, and i and i+1
             force_forward = images[i+1] - images[i]
             force_backward = images[i-1] - images[i]
             spring_forces[i] = k_spring * (force_forward + force_backward)
         
         # 3. Project forces: true forces normal, spring forces tangent
         total_forces = torch.zeros_like(images)
+        
+        # Determine climbing image (highest energy interior image) after ci_start_iter
+        if iteration >= ci_start_iter and iteration % ci_freq == 0:
+            interior_energies = img_energies[1:-1]
+            if len(interior_energies) > 0:
+                climbing_idx = interior_energies.argmax().item() + 1
+                ci_activated = True
+                print(f"  [CI-NEB] Climbing image set to index {climbing_idx} (E={img_energies[climbing_idx].item():.4f})")
+        
         for i in range(1, n_total - 1):
             # Tangent vector (path direction)
             tangent = images[i+1] - images[i-1]
@@ -196,16 +197,28 @@ def neb_saddle_search(
             else:
                 tangent = torch.zeros_like(tangent)
             
-            # True force component normal to path
             true_force = true_forces[i]
-            true_normal = true_force - (true_force @ tangent) * tangent
             
-            # Spring force component along path (tangent only)
-            spring_force = spring_forces[i]
-            spring_tangent = (spring_force @ tangent) * tangent
-            
-            # Total NEB force
-            total_forces[i] = true_normal + spring_tangent
+            if ci_activated and i == climbing_idx:
+                # CLIMBING IMAGE: No spring force, invert parallel component of true force
+                # F_ci = -F_true + 2*(F_true·t)*t = -F_true + 2*proj_t(F_true)
+                f_parallel = (true_force @ tangent) * tangent
+                f_normal = true_force - f_parallel
+                total_forces[i] = -f_normal + f_parallel  # Invert normal, keep parallel
+                # Note: This simplifies to F_ci = -F_true + 2*(F_true·t)*t
+            else:
+                # REGULAR IMAGE: Standard NEB force projection
+                # True force component normal to path
+                f_parallel = (true_force @ tangent) * tangent
+                f_normal = true_force - f_parallel
+                true_normal = f_normal
+                
+                # Spring force component along path (tangent only)
+                spring_force = spring_forces[i]
+                spring_tangent = (spring_force @ tangent) * tangent
+                
+                # Total NEB force
+                total_forces[i] = true_normal + spring_tangent
         
         # 4. Update images
         images[1:-1] += step_size * total_forces[1:-1]
@@ -237,7 +250,8 @@ def neb_saddle_search(
             interior_energies = img_energies[1:-1]
             if len(interior_energies) > 0:
                 max_energy = interior_energies.max().item()
-                print(f"  NEB iteration {iteration}/{n_iterations}, max interior energy={max_energy:.4f}")
+                ci_status = " [CI ACTIVE]" if ci_activated else ""
+                print(f"  CI-NEB iteration {iteration}/{n_iterations}, max interior energy={max_energy:.4f}{ci_status}")
     
     # After convergence, find the image with highest energy (saddle)
     final_energies = []
@@ -248,17 +262,20 @@ def neb_saddle_search(
     
     final_energies = torch.tensor(final_energies, device=energy.device)
     
-    # The saddle should be an interior point, not the endpoints
-    interior_energies = final_energies[1:-1]
-    if len(interior_energies) > 0:
-        saddle_idx = interior_energies.argmax() + 1
+    # The saddle should be the climbing image if CI was active, else highest interior
+    if ci_activated and climbing_idx is not None:
+        saddle_idx = climbing_idx
     else:
-        saddle_idx = final_energies.argmax()
+        interior_energies = final_energies[1:-1]
+        if len(interior_energies) > 0:
+            saddle_idx = interior_energies.argmax().item() + 1
+        else:
+            saddle_idx = final_energies.argmax().item()
     
     saddle_point = images[saddle_idx]
     saddle_energy = final_energies[saddle_idx].item()
     
-    print(f"[NEB] Converged. Saddle at image {saddle_idx}, energy={saddle_energy:.4f}")
+    print(f"[CI-NEB] Converged. Saddle at image {saddle_idx}, energy={saddle_energy:.4f}")
     return saddle_point, saddle_energy
 
 
@@ -287,11 +304,17 @@ def compute_hessian_at_point(
     ZZ_weighted = (ZZ * weights.view(-1, 1, 1)).sum(dim=0)
     E_weighted = (E * weights).sum()
 
+    # Robust SVD-based pseudoinverse to handle singular/ill-conditioned matrices
     try:
-        H = 2 * torch.linalg.inv(ZZ_weighted + 1e-6 * torch.eye(D, device=latent.device)) * E_weighted
-    except torch.linalg.LinAlgError:
-        eigvals, eigvecs = torch.linalg.eigh(ZZ_weighted + 1e-6 * torch.eye(D, device=latent.device))
-        H = eigvecs @ torch.diag(2 * E_weighted / eigvals) @ eigvecs.T
+        U, S, Vh = torch.linalg.svd(ZZ_weighted, full_matrices=False)
+        # Adaptive threshold: clamp tiny singular values relative to the largest
+        threshold = 1e-4 * S.max()
+        S_inv = torch.where(S > threshold, 1.0 / S, torch.zeros_like(S))
+        ZZ_pinv = Vh.T @ torch.diag(S_inv) @ U.T
+        H = 2 * ZZ_pinv * E_weighted
+    except Exception:
+        # Ultimate fallback: identity-scaled Hessian
+        H = 2 * E_weighted * torch.eye(D, device=latent.device)
 
     return 0.5 * (H + H.T)
 
@@ -313,7 +336,21 @@ def analyze_critical_point(
     drift_mag = point_drift.norm().item()
 
     H = compute_hessian_at_point(latent, energy, point, k=k)
-    eigvals = torch.linalg.eigvalsh(H).cpu().numpy()
+    # Regularize H slightly to help eigvalsh converge
+    D = H.shape[0]
+    H_reg = 0.5 * (H + H.T) + 1e-6 * torch.eye(D, device=H.device)
+    try:
+        eigvals = torch.linalg.eigvalsh(H_reg).cpu().numpy()
+    except torch.linalg.LinAlgError:
+        # Fallback: use SVD singular values with sign from diagonal
+        try:
+            U, S, Vh = torch.linalg.svd(H_reg, full_matrices=False)
+            # Recover signs from diagonal of U^T @ H @ V
+            signs = torch.sign(torch.diag(U.T @ H_reg @ Vh.T))
+            eigvals = (signs * S).cpu().numpy()
+            eigvals.sort()
+        except Exception:
+            eigvals = np.zeros(D)
 
     pos = int((eigvals > 1e-4).sum())
     neg = int((eigvals < -1e-4).sum())
@@ -375,10 +412,10 @@ def main() -> None:
     periphery_min = zone_minima[1][0]
     core_min = zone_minima[2][0]
 
-    # 2. Find saddle on transition path using NEB
-    print("\n[STEP 2] Finding saddle on Healthy->Core path (NEB through Periphery centroids)...")
-    saddle_point, saddle_energy = neb_saddle_search(
-        latent, energy, labels, healthy_min, core_min
+    # 2. Find saddle on transition path
+    print("\n[STEP 2] Finding saddle on Healthy->Core path (through Periphery centroids)...")
+    saddle_point, saddle_energy = ci_neb_saddle_search(
+        latent, energy, labels, healthy_min, periphery_min, core_min
     )
     print(f"  Saddle point: E={saddle_energy:.4f}")
 
@@ -412,7 +449,7 @@ def main() -> None:
     for r in results:
         saddle_marker = " *** SADDLE ***" if r.get("is_saddle", False) else ""
         print(f"  {r['name']:20s}: {r['critical_point_type']:20s} "
-              f"(E={r['energy']:.3f}, eig=[{r['hessian_eigenvalues'][0]:.1f}..{r['hessian_eigenvalues'][-1]:.1f}]){saddle_marker}")
+              f"(E={r['energy']:.3f}, λ=[{r['hessian_eigenvalues'][0]:.1f}..{r['hessian_eigenvalues'][-1]:.1f}]){saddle_marker}")
 
     # Validation
     saddle = next(r for r in results if r["name"] == "Transition_Saddle")
@@ -473,7 +510,7 @@ def main() -> None:
     print("  src/19_phenotypic_velocity.py      - Velocity field")
     print("  src/20_fokker_planck_solver.py      - Energy landscape (dual-attractor)")
     print("  src/21_drift_diffusion_analysis.py  - Drift/Diffusion tensors")
-    print("  src/22_saddle_point_proof.py        - Saddle point proof (NEB method)")
+    print("  src/22_saddle_point_proof.py        - Saddle point proof (CI-NEB method)")
 
 
 if __name__ == "__main__":

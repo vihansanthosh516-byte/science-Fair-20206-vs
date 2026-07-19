@@ -1,1002 +1,1002 @@
 [
   {
-    "gene": "S100B",
-    "gene_idx": 28,
-    "n_targets": 25,
-    "knockout_strength": 2.755105972290039,
-    "collapse_score": 0.9512352407740768,
-    "mean_shift": -0.5194210058894947,
-    "var_ratio": 0.04876475686418761,
-    "n_periphery_cells": 5000
+    "gene": "SDE2",
+    "gene_idx": 182,
+    "collapse_score": 0.019822776317596436
   },
   {
-    "gene": "APOD",
-    "gene_idx": 38,
-    "n_targets": 25,
-    "knockout_strength": 3.033205032348633,
-    "collapse_score": 0.9508172349847577,
-    "mean_shift": -0.5194633757491786,
-    "var_ratio": 0.04918276265350675,
-    "n_periphery_cells": 5000
+    "gene": "MMP19",
+    "gene_idx": 1074,
+    "collapse_score": 0.018536031246185303
   },
   {
-    "gene": "MT3",
-    "gene_idx": 40,
-    "n_targets": 22,
-    "knockout_strength": 2.1478357315063477,
-    "collapse_score": 0.9504548398491802,
-    "mean_shift": -0.5195293960388543,
-    "var_ratio": 0.049545157789084186,
-    "n_periphery_cells": 5000
+    "gene": "MGP",
+    "gene_idx": 1049,
+    "collapse_score": 0.014456033706665039
   },
   {
     "gene": "S100A8",
-    "gene_idx": 8,
-    "n_targets": 19,
-    "knockout_strength": 1.2856559753417969,
-    "collapse_score": 0.8637468320241204,
-    "mean_shift": -0.4174363715301189,
-    "var_ratio": 0.13625316561414402,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "IFITM2",
-    "gene_idx": 3,
-    "n_targets": 17,
-    "knockout_strength": 1.193735122680664,
-    "collapse_score": 0.8282249243034581,
-    "mean_shift": -0.38722967677660164,
-    "var_ratio": 0.1717750733348063,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "S100A9",
-    "gene_idx": 18,
-    "n_targets": 16,
-    "knockout_strength": 1.0381965637207031,
-    "collapse_score": 0.7578961754994935,
-    "mean_shift": -0.3367791781165706,
-    "var_ratio": 0.24210382213877094,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "FCER1G",
-    "gene_idx": 7,
-    "n_targets": 13,
-    "knockout_strength": 0.8395013809204102,
-    "collapse_score": 0.6542509787699111,
-    "mean_shift": -0.27229400962542155,
-    "var_ratio": 0.34574901886835335,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "CCL3L1",
-    "gene_idx": 1,
-    "n_targets": 13,
-    "knockout_strength": 0.7991476058959961,
-    "collapse_score": 0.6322108231370502,
-    "mean_shift": -0.2591238544251842,
-    "var_ratio": 0.3677891745012141,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "CSF3R",
-    "gene_idx": 21,
-    "n_targets": 12,
-    "knockout_strength": 0.62310791015625,
-    "collapse_score": 0.5182464815695536,
-    "mean_shift": -0.20133025176625813,
-    "var_ratio": 0.48175351606871086,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "CST3",
-    "gene_idx": 6,
-    "n_targets": 10,
-    "knockout_strength": 0.5380859375,
-    "collapse_score": 0.45510397716161366,
-    "mean_shift": -0.17447748495244736,
-    "var_ratio": 0.5448960204766508,
-    "n_periphery_cells": 5000
+    "gene_idx": 109,
+    "collapse_score": 0.012910187244415283
   },
   {
     "gene": "S100A11",
-    "gene_idx": 5,
-    "n_targets": 11,
-    "knockout_strength": 0.5313014984130859,
-    "collapse_score": 0.4538412930808613,
-    "mean_shift": -0.17205093897286367,
-    "var_ratio": 0.5461587045574031,
-    "n_periphery_cells": 5000
+    "gene_idx": 106,
+    "collapse_score": 0.011308908462524414
   },
   {
-    "gene": "SPI1",
-    "gene_idx": 22,
-    "n_targets": 10,
-    "knockout_strength": 0.4582347869873047,
-    "collapse_score": 0.4006249668798145,
-    "mean_shift": -0.1495782592046242,
-    "var_ratio": 0.5993750307584499,
-    "n_periphery_cells": 5000
+    "gene": "SLC4A4",
+    "gene_idx": 436,
+    "collapse_score": 0.010906696319580078
   },
   {
-    "gene": "FPR1",
-    "gene_idx": 20,
-    "n_targets": 10,
-    "knockout_strength": 0.45021915435791016,
-    "collapse_score": 0.38886848902333004,
-    "mean_shift": -0.14582558518728506,
-    "var_ratio": 0.6111315086149344,
-    "n_periphery_cells": 5000
+    "gene": "AL356417.3",
+    "gene_idx": 647,
+    "collapse_score": 0.010228872299194336
   },
   {
-    "gene": "SMAP2",
-    "gene_idx": 10,
-    "n_targets": 9,
-    "knockout_strength": 0.37435245513916016,
-    "collapse_score": 0.3314695050368103,
-    "mean_shift": -0.1218100158609221,
-    "var_ratio": 0.668530492601454,
-    "n_periphery_cells": 5000
+    "gene": "FOXC1",
+    "gene_idx": 559,
+    "collapse_score": 0.009634137153625488
   },
   {
-    "gene": "S100A6",
-    "gene_idx": 73,
-    "n_targets": 6,
-    "knockout_strength": 0.23308181762695312,
-    "collapse_score": 0.21190185143900986,
-    "mean_shift": -0.07621872068674584,
-    "var_ratio": 0.7880981461992544,
-    "n_periphery_cells": 5000
+    "gene": "IRF7",
+    "gene_idx": 940,
+    "collapse_score": 0.009495019912719727
   },
   {
-    "gene": "LYN",
-    "gene_idx": 48,
-    "n_targets": 7,
-    "knockout_strength": 0.21801185607910156,
-    "collapse_score": 0.19792615042305972,
-    "mean_shift": -0.07037911880677206,
-    "var_ratio": 0.8020738472152047,
-    "n_periphery_cells": 5000
+    "gene": "AC136475.1",
+    "gene_idx": 935,
+    "collapse_score": 0.009044110774993896
   },
   {
-    "gene": "C5AR1",
-    "gene_idx": 34,
-    "n_targets": 6,
-    "knockout_strength": 0.18819332122802734,
-    "collapse_score": 0.17100844211686683,
-    "mean_shift": -0.059727558238368283,
-    "var_ratio": 0.8289915555213976,
-    "n_periphery_cells": 5000
+    "gene": "CCL18",
+    "gene_idx": 1418,
+    "collapse_score": 0.00862586498260498
   },
   {
-    "gene": "ARHGDIB",
-    "gene_idx": 19,
-    "n_targets": 5,
-    "knockout_strength": 0.1763153076171875,
-    "collapse_score": 0.1619166065686095,
-    "mean_shift": -0.057953481453242306,
-    "var_ratio": 0.8380833910696549,
-    "n_periphery_cells": 5000
+    "gene": "UBXN2B",
+    "gene_idx": 772,
+    "collapse_score": 0.008211672306060791
   },
   {
-    "gene": "CD69",
-    "gene_idx": 9,
-    "n_targets": 6,
-    "knockout_strength": 0.18381309509277344,
-    "collapse_score": 0.1612274727432521,
-    "mean_shift": -0.05903329139782776,
-    "var_ratio": 0.8387725248950123,
-    "n_periphery_cells": 5000
+    "gene": "CD1D",
+    "gene_idx": 122,
+    "collapse_score": 0.007759988307952881
   },
   {
-    "gene": "PILRA",
-    "gene_idx": 83,
-    "n_targets": 7,
-    "knockout_strength": 0.1743755340576172,
-    "collapse_score": 0.1548527680194871,
-    "mean_shift": -0.05603091056697218,
-    "var_ratio": 0.8451472296187773,
-    "n_periphery_cells": 5000
+    "gene": "ZNF408",
+    "gene_idx": 970,
+    "collapse_score": 0.007717549800872803
   },
   {
-    "gene": "LST1",
-    "gene_idx": 51,
-    "n_targets": 6,
-    "knockout_strength": 0.16201496124267578,
-    "collapse_score": 0.14974283139935995,
-    "mean_shift": -0.05287457673880347,
-    "var_ratio": 0.8502571662389045,
-    "n_periphery_cells": 5000
+    "gene": "CFP",
+    "gene_idx": 1816,
+    "collapse_score": 0.007667958736419678
   },
   {
-    "gene": "HCK",
-    "gene_idx": 88,
-    "n_targets": 5,
-    "knockout_strength": 0.12274169921875,
-    "collapse_score": 0.10932815287780895,
-    "mean_shift": -0.04020371918298238,
-    "var_ratio": 0.8906718447604555,
-    "n_periphery_cells": 5000
+    "gene": "THBD",
+    "gene_idx": 1688,
+    "collapse_score": 0.007108032703399658
   },
   {
-    "gene": "PLEK",
-    "gene_idx": 31,
-    "n_targets": 6,
-    "knockout_strength": 0.12209701538085938,
-    "collapse_score": 0.10886282639923073,
-    "mean_shift": -0.041153236148903094,
-    "var_ratio": 0.8911371712390337,
-    "n_periphery_cells": 5000
+    "gene": "ST20-AS1",
+    "gene_idx": 1268,
+    "collapse_score": 0.006547749042510986
   },
   {
-    "gene": "CXCL8",
-    "gene_idx": 4,
-    "n_targets": 4,
-    "knockout_strength": 0.11512279510498047,
-    "collapse_score": 0.09685637877367004,
-    "mean_shift": -0.03795789247552028,
-    "var_ratio": 0.9031436188645943,
-    "n_periphery_cells": 5000
+    "gene": "TBC1D8",
+    "gene_idx": 238,
+    "collapse_score": 0.0063228607177734375
   },
   {
-    "gene": "SLC25A37",
-    "gene_idx": 12,
-    "n_targets": 4,
-    "knockout_strength": 0.07725715637207031,
-    "collapse_score": 0.07364885788126863,
-    "mean_shift": -0.02382606177192159,
-    "var_ratio": 0.9263511397569957,
-    "n_periphery_cells": 5000
+    "gene": "SCO2",
+    "gene_idx": 1794,
+    "collapse_score": 0.0062250494956970215
   },
   {
-    "gene": "SERPINA1",
-    "gene_idx": 69,
-    "n_targets": 5,
-    "knockout_strength": 0.079132080078125,
-    "collapse_score": 0.06676552161832405,
-    "mean_shift": -0.0251019310474202,
-    "var_ratio": 0.9332344760199404,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "EVI2B",
-    "gene_idx": 41,
-    "n_targets": 4,
-    "knockout_strength": 0.07094001770019531,
-    "collapse_score": 0.059523236563458815,
-    "mean_shift": -0.023552250848856482,
-    "var_ratio": 0.9404767610748056,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "TALDO1",
-    "gene_idx": 33,
-    "n_targets": 3,
-    "knockout_strength": 0.07898712158203125,
-    "collapse_score": 0.05774312388682279,
-    "mean_shift": -0.02616688984218607,
-    "var_ratio": 0.9422568737514415,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "WAS",
-    "gene_idx": 66,
-    "n_targets": 2,
-    "knockout_strength": 0.05900764465332031,
-    "collapse_score": 0.052348812710357406,
-    "mean_shift": -0.019950093687707615,
-    "var_ratio": 0.9476511849279069,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "LCP1",
-    "gene_idx": 29,
-    "n_targets": 2,
-    "knockout_strength": 0.05080413818359375,
-    "collapse_score": 0.04496397830663412,
-    "mean_shift": -0.016026388606454,
-    "var_ratio": 0.9550360193316302,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "BCL2A1",
-    "gene_idx": 47,
-    "n_targets": 3,
-    "knockout_strength": 0.06302261352539062,
-    "collapse_score": 0.044168418230162154,
-    "mean_shift": -0.020919896378078895,
-    "var_ratio": 0.9558315794081021,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "TNFRSF1B",
-    "gene_idx": 67,
-    "n_targets": 4,
-    "knockout_strength": 0.063385009765625,
-    "collapse_score": 0.0416021821272442,
-    "mean_shift": -0.02184023249482847,
-    "var_ratio": 0.9583978155110202,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "GCA",
-    "gene_idx": 74,
-    "n_targets": 2,
-    "knockout_strength": 0.042888641357421875,
-    "collapse_score": 0.03829878275746312,
-    "mean_shift": -0.013907697824424137,
-    "var_ratio": 0.9617012148808013,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "PLAUR",
-    "gene_idx": 57,
-    "n_targets": 3,
-    "knockout_strength": 0.04947853088378906,
-    "collapse_score": 0.037419973649189586,
-    "mean_shift": -0.014652812804150872,
-    "var_ratio": 0.9625800239890748,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "GMFG",
-    "gene_idx": 39,
-    "n_targets": 2,
-    "knockout_strength": 0.04470634460449219,
-    "collapse_score": 0.03602134468754703,
-    "mean_shift": -0.013592809225423497,
-    "var_ratio": 0.9639786529507174,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "GPSM3",
-    "gene_idx": 54,
-    "n_targets": 2,
-    "knockout_strength": 0.03990364074707031,
-    "collapse_score": 0.02951570501509404,
-    "mean_shift": -0.013007193565875097,
-    "var_ratio": 0.9704842926231704,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "BASP1",
-    "gene_idx": 71,
-    "n_targets": 2,
-    "knockout_strength": 0.035798072814941406,
-    "collapse_score": 0.02227835205444506,
-    "mean_shift": -0.012885443422722354,
-    "var_ratio": 0.9777216455838192,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "ICAM1",
-    "gene_idx": 85,
-    "n_targets": 2,
-    "knockout_strength": 0.030710220336914062,
-    "collapse_score": 0.02085805500077831,
-    "mean_shift": -0.010340075136636262,
-    "var_ratio": 0.9791419426374861,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "NCF1",
-    "gene_idx": 58,
-    "n_targets": 2,
-    "knockout_strength": 0.026719093322753906,
-    "collapse_score": 0.020055829722948615,
-    "mean_shift": -0.009309040138021585,
-    "var_ratio": 0.9799441679153158,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "TAGLN2",
-    "gene_idx": 49,
-    "n_targets": 2,
-    "knockout_strength": 0.026480674743652344,
-    "collapse_score": 0.016294697031764116,
-    "mean_shift": -0.008012226806629719,
-    "var_ratio": 0.9837053006065003,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "EFHD2",
-    "gene_idx": 65,
-    "n_targets": 3,
-    "knockout_strength": 0.0260467529296875,
-    "collapse_score": 0.010995265151898637,
-    "mean_shift": -0.009860400835282945,
-    "var_ratio": 0.9890047324863658,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "NAMPT",
-    "gene_idx": 37,
-    "n_targets": 2,
-    "knockout_strength": 0.025732994079589844,
-    "collapse_score": 0.009158851307627724,
-    "mean_shift": -0.008953258774614725,
-    "var_ratio": 0.9908411463306367,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SIPA1",
-    "gene_idx": 99,
-    "n_targets": 1,
-    "knockout_strength": 0.008696556091308594,
-    "collapse_score": 0.008841006831115883,
-    "mean_shift": -0.0007386315138868671,
-    "var_ratio": 0.9911589908071484,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SOD2",
-    "gene_idx": 14,
-    "n_targets": 1,
-    "knockout_strength": 0.012243270874023438,
-    "collapse_score": 0.0022002417306323796,
-    "mean_shift": -0.004584174773812788,
-    "var_ratio": 0.9977997559076319,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "IFITM3",
-    "gene_idx": 52,
-    "n_targets": 1,
-    "knockout_strength": 0.007515907287597656,
-    "collapse_score": 0.0016405787516111658,
-    "mean_shift": -0.0012038186658174244,
-    "var_ratio": 0.9983594188866532,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "CSK",
-    "gene_idx": 96,
-    "n_targets": 1,
-    "knockout_strength": 0.005779266357421875,
-    "collapse_score": 0.0015068887093279137,
-    "mean_shift": -0.0012812598525432373,
-    "var_ratio": 0.9984931089289365,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "PPP1R18",
-    "gene_idx": 97,
-    "n_targets": 1,
-    "knockout_strength": 0.018271446228027344,
-    "collapse_score": 0.0014028164815991229,
-    "mean_shift": -0.00851076095570047,
-    "var_ratio": 0.9985971811566653,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MT2A",
-    "gene_idx": 92,
-    "n_targets": 1,
-    "knockout_strength": 0.011313438415527344,
-    "collapse_score": 0.0005361823758888162,
-    "mean_shift": -0.003544392611963487,
-    "var_ratio": 0.9994638152623755,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "HSPA1A",
-    "gene_idx": 0,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00039826090739769615,
-    "var_ratio": 1.0080288440245193,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "HSPA1B",
-    "gene_idx": 2,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -4.2269534099692585e-05,
-    "var_ratio": 1.01369893002774,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SH3BGRL3",
-    "gene_idx": 11,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00022430893201408342,
-    "var_ratio": 1.0049235878199567,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "ATP5F1E",
-    "gene_idx": 13,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -5.553066334629264e-05,
-    "var_ratio": 1.0068195654615608,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MYL6",
-    "gene_idx": 15,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00024663206125496995,
-    "var_ratio": 1.0134626365728152,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "TXNIP",
-    "gene_idx": 16,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00130755197871546,
-    "var_ratio": 1.0116743205217604,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "H3F3A",
-    "gene_idx": 17,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00034461747572556156,
-    "var_ratio": 1.0061982271541379,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "GAPDH",
-    "gene_idx": 23,
-    "n_targets": 1,
-    "knockout_strength": 0.009077072143554688,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0037310545317204014,
-    "var_ratio": 1.0016517025660772,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "YPEL3",
-    "gene_idx": 24,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0013564457640625749,
-    "var_ratio": 1.0145605816424503,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MT-ND4L",
-    "gene_idx": 25,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00023837488936351292,
-    "var_ratio": 1.0112552875876804,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "LAMTOR4",
-    "gene_idx": 26,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00019523878976612785,
-    "var_ratio": 1.0102492916433692,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "TSPO",
-    "gene_idx": 27,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -9.57232512350803e-05,
-    "var_ratio": 1.0101217256084,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "RGS2",
-    "gene_idx": 30,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0015248168248588323,
-    "var_ratio": 1.0071069312896683,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MT-ATP6",
-    "gene_idx": 32,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0017738131113498312,
-    "var_ratio": 1.0080223143090508,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MT-CO2",
-    "gene_idx": 35,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0009125979940453055,
-    "var_ratio": 1.0199376532623359,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MT-CO3",
-    "gene_idx": 36,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0005091846338455275,
-    "var_ratio": 1.0054141960416352,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SDCBP",
-    "gene_idx": 42,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.000738552493178668,
-    "var_ratio": 1.002793629460848,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "ANP32A",
-    "gene_idx": 43,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0011585035088355067,
-    "var_ratio": 1.0050332343578119,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "RAB7A",
-    "gene_idx": 44,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00044375808330610056,
-    "var_ratio": 1.0157687340615076,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "PRR13",
-    "gene_idx": 45,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00021666082972227052,
-    "var_ratio": 1.001914059683065,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "RNF149",
-    "gene_idx": 46,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0002585078094559101,
-    "var_ratio": 1.016158242163051,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SCAF11",
-    "gene_idx": 50,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0003043072369788291,
-    "var_ratio": 1.0115194341201532,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "LITAF",
-    "gene_idx": 53,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0013416165099476851,
-    "var_ratio": 1.002728067579863,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MTRNR2L12",
-    "gene_idx": 55,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0022991387954431897,
-    "var_ratio": 1.004473530382705,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "LRRFIP1",
-    "gene_idx": 56,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.000751406857519954,
-    "var_ratio": 1.0038109023743889,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "MDM2",
-    "gene_idx": 59,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00044570940013710647,
-    "var_ratio": 1.0033069088377455,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "VMP1",
-    "gene_idx": 60,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0018232884531619309,
-    "var_ratio": 1.0101268848768592,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "HIST1H2AC",
-    "gene_idx": 61,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00016566153778996284,
-    "var_ratio": 1.0104727402259328,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "CFLAR",
-    "gene_idx": 62,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0014257073246030094,
-    "var_ratio": 1.0036813434253078,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "ACAP2",
+    "gene": "PGM1",
     "gene_idx": 63,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.00016315156580004597,
-    "var_ratio": 1.0078532315886959,
-    "n_periphery_cells": 5000
+    "collapse_score": 0.006218254566192627
   },
   {
-    "gene": "UBE2B",
-    "gene_idx": 64,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0008764003039729573,
-    "var_ratio": 1.0117089587287025,
-    "n_periphery_cells": 5000
+    "gene": "DAP",
+    "gene_idx": 485,
+    "collapse_score": 0.0059119462966918945
   },
   {
-    "gene": "JAK1",
-    "gene_idx": 68,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0005614278566213882,
-    "var_ratio": 1.005640169024724,
-    "n_periphery_cells": 5000
+    "gene": "CD177",
+    "gene_idx": 1621,
+    "collapse_score": 0.005795121192932129
   },
   {
-    "gene": "SERPINB1",
-    "gene_idx": 70,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0010067362057946116,
-    "var_ratio": 1.0051629994862037,
-    "n_periphery_cells": 5000
+    "gene": "SLC19A1",
+    "gene_idx": 1744,
+    "collapse_score": 0.005459010601043701
   },
   {
-    "gene": "TKT",
-    "gene_idx": 72,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0018774271428353417,
-    "var_ratio": 1.0002753318737527,
-    "n_periphery_cells": 5000
+    "gene": "DUSP23",
+    "gene_idx": 125,
+    "collapse_score": 0.005178093910217285
   },
   {
-    "gene": "OS9",
-    "gene_idx": 75,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -3.781416677239857e-05,
-    "var_ratio": 1.0131443922177141,
-    "n_periphery_cells": 5000
+    "gene": "CCDC78",
+    "gene_idx": 1294,
+    "collapse_score": 0.005029261112213135
   },
   {
-    "gene": "ZYX",
-    "gene_idx": 76,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.00015985252965311503,
-    "var_ratio": 1.012453734040793,
-    "n_periphery_cells": 5000
+    "gene": "MCEMP1",
+    "gene_idx": 1540,
+    "collapse_score": 0.004974782466888428
   },
   {
-    "gene": "YPEL5",
-    "gene_idx": 77,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0004221051545416632,
-    "var_ratio": 1.004568598662105,
-    "n_periphery_cells": 5000
+    "gene": "SEMA4B",
+    "gene_idx": 1277,
+    "collapse_score": 0.004775047302246094
   },
   {
-    "gene": "PKM",
-    "gene_idx": 78,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0006090864407392038,
-    "var_ratio": 1.0080300543112506,
-    "n_periphery_cells": 5000
+    "gene": "CCN1",
+    "gene_idx": 66,
+    "collapse_score": 0.0047568678855896
   },
   {
-    "gene": "MYH9",
-    "gene_idx": 79,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.000320558704830165,
-    "var_ratio": 1.0143092310509931,
-    "n_periphery_cells": 5000
+    "gene": "GALNT7",
+    "gene_idx": 476,
+    "collapse_score": 0.004669666290283203
   },
   {
-    "gene": "NDUFA1",
-    "gene_idx": 80,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.000677463969019243,
-    "var_ratio": 1.0119199071061924,
-    "n_periphery_cells": 5000
+    "gene": "LMTK2",
+    "gene_idx": 701,
+    "collapse_score": 0.004537642002105713
   },
   {
-    "gene": "KDM6B",
-    "gene_idx": 81,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0005715034061529733,
-    "var_ratio": 1.008830529722511,
-    "n_periphery_cells": 5000
+    "gene": "FAM126B",
+    "gene_idx": 284,
+    "collapse_score": 0.0043711066246032715
   },
   {
-    "gene": "PSMB3",
-    "gene_idx": 82,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.000997631481613026,
-    "var_ratio": 1.000581724642078,
-    "n_periphery_cells": 5000
+    "gene": "LYPLA2",
+    "gene_idx": 33,
+    "collapse_score": 0.004300355911254883
   },
   {
-    "gene": "C4orf3",
-    "gene_idx": 84,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0007211781533439376,
-    "var_ratio": 1.005651302574214,
-    "n_periphery_cells": 5000
+    "gene": "RNF24",
+    "gene_idx": 1676,
+    "collapse_score": 0.0042994022369384766
   },
   {
-    "gene": "PSME1",
-    "gene_idx": 86,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.000936020116255265,
-    "var_ratio": 1.0106230379239538,
-    "n_periphery_cells": 5000
+    "gene": "PAM16",
+    "gene_idx": 1305,
+    "collapse_score": 0.004251241683959961
   },
   {
-    "gene": "RASSF2",
-    "gene_idx": 87,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0011194038499418024,
-    "var_ratio": 1.0081226995072174,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "SNAP23",
-    "gene_idx": 89,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0016766763807657403,
-    "var_ratio": 1.0031159195641794,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "UBALD2",
-    "gene_idx": 90,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": 0.0013254605406433084,
-    "var_ratio": 1.0171602992892632,
-    "n_periphery_cells": 5000
-  },
-  {
-    "gene": "BCL6",
-    "gene_idx": 91,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0011015849891445884,
-    "var_ratio": 1.0098044143653,
-    "n_periphery_cells": 5000
+    "gene": "NTAN1",
+    "gene_idx": 1314,
+    "collapse_score": 0.004197537899017334
   },
   {
     "gene": "ZNF106",
-    "gene_idx": 93,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0002293704584196421,
-    "var_ratio": 1.0151715162131296,
-    "n_periphery_cells": 5000
+    "gene_idx": 1230,
+    "collapse_score": 0.004157841205596924
   },
   {
-    "gene": "FOXO3",
-    "gene_idx": 94,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -9.172401143275888e-05,
-    "var_ratio": 1.007374191608046,
-    "n_periphery_cells": 5000
+    "gene": "HAS1",
+    "gene_idx": 1648,
+    "collapse_score": 0.003988146781921387
+  },
+  {
+    "gene": "COL1A1",
+    "gene_idx": 1447,
+    "collapse_score": 0.003815591335296631
+  },
+  {
+    "gene": "APOL1",
+    "gene_idx": 1769,
+    "collapse_score": 0.0038138628005981445
+  },
+  {
+    "gene": "PRSS3",
+    "gene_idx": 816,
+    "collapse_score": 0.0037422776222229004
+  },
+  {
+    "gene": "NPPA",
+    "gene_idx": 21,
+    "collapse_score": 0.0036883950233459473
+  },
+  {
+    "gene": "OAZ2",
+    "gene_idx": 1247,
+    "collapse_score": 0.0036681294441223145
+  },
+  {
+    "gene": "DPP4",
+    "gene_idx": 267,
+    "collapse_score": 0.0036499500274658203
+  },
+  {
+    "gene": "LAMB3",
+    "gene_idx": 170,
+    "collapse_score": 0.0036232471466064453
+  },
+  {
+    "gene": "ASF1B",
+    "gene_idx": 1558,
+    "collapse_score": 0.0035910606384277344
+  },
+  {
+    "gene": "AC017083.1",
+    "gene_idx": 222,
+    "collapse_score": 0.0035024285316467285
+  },
+  {
+    "gene": "CARD8-AS1",
+    "gene_idx": 1640,
+    "collapse_score": 0.00349271297454834
+  },
+  {
+    "gene": "LST1",
+    "gene_idx": 594,
+    "collapse_score": 0.0033933520317077637
+  },
+  {
+    "gene": "STAT5A",
+    "gene_idx": 1433,
+    "collapse_score": 0.0033615827560424805
+  },
+  {
+    "gene": "KATNBL1",
+    "gene_idx": 1225,
+    "collapse_score": 0.003324449062347412
+  },
+  {
+    "gene": "INAFM1",
+    "gene_idx": 1634,
+    "collapse_score": 0.0032435059547424316
+  },
+  {
+    "gene": "AC090559.1",
+    "gene_idx": 972,
+    "collapse_score": 0.0032364726066589355
+  },
+  {
+    "gene": "NDC80",
+    "gene_idx": 1492,
+    "collapse_score": 0.003149092197418213
+  },
+  {
+    "gene": "C10orf55",
+    "gene_idx": 892,
+    "collapse_score": 0.003091871738433838
+  },
+  {
+    "gene": "ZBP1",
+    "gene_idx": 1719,
+    "collapse_score": 0.0030615925788879395
+  },
+  {
+    "gene": "ROBO2",
+    "gene_idx": 362,
+    "collapse_score": 0.0030087828636169434
+  },
+  {
+    "gene": "RORB",
+    "gene_idx": 827,
+    "collapse_score": 0.002978980541229248
+  },
+  {
+    "gene": "LATS2",
+    "gene_idx": 1133,
+    "collapse_score": 0.002908766269683838
+  },
+  {
+    "gene": "NME8",
+    "gene_idx": 667,
+    "collapse_score": 0.002863287925720215
+  },
+  {
+    "gene": "AL138895.1",
+    "gene_idx": 844,
+    "collapse_score": 0.002833127975463867
+  },
+  {
+    "gene": "MT3",
+    "gene_idx": 1344,
+    "collapse_score": 0.002771914005279541
+  },
+  {
+    "gene": "BCL2A1",
+    "gene_idx": 1269,
+    "collapse_score": 0.0027412772178649902
+  },
+  {
+    "gene": "LSM10",
+    "gene_idx": 52,
+    "collapse_score": 0.002719879150390625
+  },
+  {
+    "gene": "STYXL1",
+    "gene_idx": 692,
+    "collapse_score": 0.0027015209197998047
+  },
+  {
+    "gene": "B3GALT4",
+    "gene_idx": 602,
+    "collapse_score": 0.00267106294631958
+  },
+  {
+    "gene": "IGF2BP2",
+    "gene_idx": 398,
+    "collapse_score": 0.0026683807373046875
+  },
+  {
+    "gene": "SP1",
+    "gene_idx": 1069,
+    "collapse_score": 0.002619504928588867
+  },
+  {
+    "gene": "AC104695.3",
+    "gene_idx": 204,
+    "collapse_score": 0.002610921859741211
+  },
+  {
+    "gene": "AC025423.4",
+    "gene_idx": 1091,
+    "collapse_score": 0.0025978684425354004
+  },
+  {
+    "gene": "LPP-AS2",
+    "gene_idx": 400,
+    "collapse_score": 0.0025209784507751465
+  },
+  {
+    "gene": "PPP1CB",
+    "gene_idx": 205,
+    "collapse_score": 0.002441108226776123
+  },
+  {
+    "gene": "MXD3",
+    "gene_idx": 548,
+    "collapse_score": 0.002436041831970215
+  },
+  {
+    "gene": "AC099489.1",
+    "gene_idx": 1310,
+    "collapse_score": 0.002435028553009033
+  },
+  {
+    "gene": "TXN",
+    "gene_idx": 839,
+    "collapse_score": 0.0022981762886047363
+  },
+  {
+    "gene": "SP3",
+    "gene_idx": 276,
+    "collapse_score": 0.0022362470626831055
+  },
+  {
+    "gene": "LRFN1",
+    "gene_idx": 1599,
+    "collapse_score": 0.0022295117378234863
+  },
+  {
+    "gene": "CLSTN3",
+    "gene_idx": 1032,
+    "collapse_score": 0.002130866050720215
+  },
+  {
+    "gene": "PHKA2",
+    "gene_idx": 1808,
+    "collapse_score": 0.0020684003829956055
+  },
+  {
+    "gene": "TRIM74",
+    "gene_idx": 688,
+    "collapse_score": 0.002005934715270996
+  },
+  {
+    "gene": "IFI27",
+    "gene_idx": 1209,
+    "collapse_score": 0.0020006299018859863
+  },
+  {
+    "gene": "DEDD2",
+    "gene_idx": 1616,
+    "collapse_score": 0.0019837021827697754
+  },
+  {
+    "gene": "PCBP1-AS1",
+    "gene_idx": 227,
+    "collapse_score": 0.0019668936729431152
+  },
+  {
+    "gene": "ZNF44",
+    "gene_idx": 1555,
+    "collapse_score": 0.001963198184967041
+  },
+  {
+    "gene": "ZNF674",
+    "gene_idx": 1814,
+    "collapse_score": 0.0019349455833435059
+  },
+  {
+    "gene": "MT-CO2",
+    "gene_idx": 1859,
+    "collapse_score": 0.001904904842376709
   },
   {
     "gene": "GNG10",
-    "gene_idx": 95,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0018502534144656524,
-    "var_ratio": 1.013339196876507,
-    "n_periphery_cells": 5000
+    "gene_idx": 840,
+    "collapse_score": 0.0019030570983886719
   },
   {
-    "gene": "PTEN",
-    "gene_idx": 98,
-    "n_targets": 0,
-    "knockout_strength": 0.0,
-    "collapse_score": 0.0,
-    "mean_shift": -0.0005556413681016004,
-    "var_ratio": 1.0123007902006316,
-    "n_periphery_cells": 5000
+    "gene": "EVI2B",
+    "gene_idx": 1414,
+    "collapse_score": 0.00189131498336792
+  },
+  {
+    "gene": "RAB1B",
+    "gene_idx": 994,
+    "collapse_score": 0.0018720626831054688
+  },
+  {
+    "gene": "NIBAN1",
+    "gene_idx": 152,
+    "collapse_score": 0.0018206238746643066
+  },
+  {
+    "gene": "AL031846.2",
+    "gene_idx": 1783,
+    "collapse_score": 0.0016878247261047363
+  },
+  {
+    "gene": "ASB8",
+    "gene_idx": 1064,
+    "collapse_score": 0.0016481876373291016
+  },
+  {
+    "gene": "TREM1",
+    "gene_idx": 614,
+    "collapse_score": 0.0015721917152404785
+  },
+  {
+    "gene": "CDKN2D",
+    "gene_idx": 1548,
+    "collapse_score": 0.0015607476234436035
+  },
+  {
+    "gene": "PITPNM1",
+    "gene_idx": 998,
+    "collapse_score": 0.0015248656272888184
+  },
+  {
+    "gene": "TMEM71",
+    "gene_idx": 799,
+    "collapse_score": 0.00151824951171875
+  },
+  {
+    "gene": "AP000919.2",
+    "gene_idx": 1495,
+    "collapse_score": 0.0015158653259277344
+  },
+  {
+    "gene": "GAP43",
+    "gene_idx": 366,
+    "collapse_score": 0.0015077590942382812
+  },
+  {
+    "gene": "HBD",
+    "gene_idx": 951,
+    "collapse_score": 0.0014182329177856445
+  },
+  {
+    "gene": "ARHGAP30",
+    "gene_idx": 131,
+    "collapse_score": 0.00141143798828125
+  },
+  {
+    "gene": "MT-CO3",
+    "gene_idx": 1861,
+    "collapse_score": 0.001392960548400879
+  },
+  {
+    "gene": "ZNF419",
+    "gene_idx": 1667,
+    "collapse_score": 0.0013881325721740723
+  },
+  {
+    "gene": "AC103724.3",
+    "gene_idx": 769,
+    "collapse_score": 0.0013849735260009766
+  },
+  {
+    "gene": "AC096667.1",
+    "gene_idx": 280,
+    "collapse_score": 0.0013658404350280762
+  },
+  {
+    "gene": "H3F3A",
+    "gene_idx": 183,
+    "collapse_score": 0.0012772083282470703
+  },
+  {
+    "gene": "ESR2",
+    "gene_idx": 1189,
+    "collapse_score": 0.0012125968933105469
+  },
+  {
+    "gene": "SYF2",
+    "gene_idx": 34,
+    "collapse_score": 0.001184701919555664
+  },
+  {
+    "gene": "ACOX1",
+    "gene_idx": 1476,
+    "collapse_score": 0.0011641383171081543
+  },
+  {
+    "gene": "CD24",
+    "gene_idx": 627,
+    "collapse_score": 0.0010924935340881348
+  },
+  {
+    "gene": "AC083862.3",
+    "gene_idx": 735,
+    "collapse_score": 0.0010623931884765625
+  },
+  {
+    "gene": "AC020910.2",
+    "gene_idx": 1592,
+    "collapse_score": 0.0010402798652648926
+  },
+  {
+    "gene": "CXCL14",
+    "gene_idx": 515,
+    "collapse_score": 0.0009736418724060059
+  },
+  {
+    "gene": "EXOC3L1",
+    "gene_idx": 1359,
+    "collapse_score": 0.0009672641754150391
+  },
+  {
+    "gene": "ANAPC15",
+    "gene_idx": 1002,
+    "collapse_score": 0.0009412169456481934
+  },
+  {
+    "gene": "ASPRV1",
+    "gene_idx": 226,
+    "collapse_score": 0.0009307265281677246
+  },
+  {
+    "gene": "S100A12",
+    "gene_idx": 108,
+    "collapse_score": 0.0009185671806335449
+  },
+  {
+    "gene": "NLRC5",
+    "gene_idx": 1351,
+    "collapse_score": 0.0009061694145202637
+  },
+  {
+    "gene": "JAK3",
+    "gene_idx": 1574,
+    "collapse_score": 0.0008691549301147461
+  },
+  {
+    "gene": "PACSIN2",
+    "gene_idx": 1787,
+    "collapse_score": 0.0008659958839416504
+  },
+  {
+    "gene": "MYCBP",
+    "gene_idx": 57,
+    "collapse_score": 0.000792086124420166
+  },
+  {
+    "gene": "CA4",
+    "gene_idx": 1453,
+    "collapse_score": 0.0007740259170532227
+  },
+  {
+    "gene": "RNF135",
+    "gene_idx": 1413,
+    "collapse_score": 0.000753939151763916
+  },
+  {
+    "gene": "DCAF11",
+    "gene_idx": 1166,
+    "collapse_score": 0.0007507801055908203
+  },
+  {
+    "gene": "CD69",
+    "gene_idx": 1041,
+    "collapse_score": 0.0007014870643615723
+  },
+  {
+    "gene": "MAK",
+    "gene_idx": 563,
+    "collapse_score": 0.0006570219993591309
+  },
+  {
+    "gene": "TNXB",
+    "gene_idx": 597,
+    "collapse_score": 0.00058746337890625
+  },
+  {
+    "gene": "GPC2",
+    "gene_idx": 703,
+    "collapse_score": 0.0004799365997314453
+  },
+  {
+    "gene": "PIK3CD",
+    "gene_idx": 17,
+    "collapse_score": 0.0003889799118041992
+  },
+  {
+    "gene": "OSM",
+    "gene_idx": 1763,
+    "collapse_score": 0.00037038326263427734
+  },
+  {
+    "gene": "DAPK2",
+    "gene_idx": 1246,
+    "collapse_score": 0.00035560131072998047
+  },
+  {
+    "gene": "AC011228.2",
+    "gene_idx": 675,
+    "collapse_score": 0.00034672021865844727
+  },
+  {
+    "gene": "RYR3",
+    "gene_idx": 1224,
+    "collapse_score": 0.00033038854598999023
+  },
+  {
+    "gene": "AL391335.1",
+    "gene_idx": 105,
+    "collapse_score": 0.00019359588623046875
+  },
+  {
+    "gene": "SH3BGRL3",
+    "gene_idx": 35,
+    "collapse_score": 0.00015622377395629883
+  },
+  {
+    "gene": "ARID3B",
+    "gene_idx": 1256,
+    "collapse_score": 0.00014358758926391602
+  },
+  {
+    "gene": "AL035661.2",
+    "gene_idx": 1691,
+    "collapse_score": 0.00012505054473876953
+  },
+  {
+    "gene": "HCAR3",
+    "gene_idx": 1127,
+    "collapse_score": 0.00012177228927612305
+  },
+  {
+    "gene": "PACS1",
+    "gene_idx": 993,
+    "collapse_score": 0.0001131296157836914
+  },
+  {
+    "gene": "FERMT1",
+    "gene_idx": 1679,
+    "collapse_score": 5.751848220825195e-05
+  },
+  {
+    "gene": "AC009950.1",
+    "gene_idx": 306,
+    "collapse_score": 5.269050598144531e-05
+  },
+  {
+    "gene": "AC011445.2",
+    "gene_idx": 1601,
+    "collapse_score": 4.559755325317383e-05
+  },
+  {
+    "gene": "STIMATE",
+    "gene_idx": 348,
+    "collapse_score": 4.4226646423339844e-05
+  },
+  {
+    "gene": "SCRT2",
+    "gene_idx": 1671,
+    "collapse_score": 4.190206527709961e-05
+  },
+  {
+    "gene": "ABHD4",
+    "gene_idx": 1161,
+    "collapse_score": 3.3855438232421875e-05
+  },
+  {
+    "gene": "MDM1",
+    "gene_idx": 1089,
+    "collapse_score": 3.3795833587646484e-05
+  },
+  {
+    "gene": "HSPA1A",
+    "gene_idx": 595,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "MMP2-AS1",
+    "gene_idx": 1343,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "ACAP2",
+    "gene_idx": 401,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "PGGHG",
+    "gene_idx": 932,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AKIRIN1",
+    "gene_idx": 58,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "POLR3GL",
+    "gene_idx": 93,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TNFRSF10C",
+    "gene_idx": 757,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TBX6",
+    "gene_idx": 1328,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AC010186.3",
+    "gene_idx": 1040,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "KCNA1",
+    "gene_idx": 1025,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "VIM-AS1",
+    "gene_idx": 867,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "CPB2-AS1",
+    "gene_idx": 1141,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "MT-ATP6",
+    "gene_idx": 1860,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "ABTB1",
+    "gene_idx": 372,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TMLHE",
+    "gene_idx": 1858,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AL390957.1",
+    "gene_idx": 155,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "KMT2E-AS1",
+    "gene_idx": 714,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "LRRK2",
+    "gene_idx": 1060,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "THSD4",
+    "gene_idx": 1250,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "IRF1",
+    "gene_idx": 512,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "LTB",
+    "gene_idx": 593,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AC015912.3",
+    "gene_idx": 1451,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "DGKD",
+    "gene_idx": 308,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "PTK2B",
+    "gene_idx": 761,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "NKRF",
+    "gene_idx": 1846,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "MYOZ2",
+    "gene_idx": 465,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "EPB41L4B",
+    "gene_idx": 838,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AC093673.1",
+    "gene_idx": 744,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "KIF5A",
+    "gene_idx": 1079,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "CCL3L1",
+    "gene_idx": 1419,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "CHAC1",
+    "gene_idx": 1229,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "HIST1H2BC",
+    "gene_idx": 574,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TNFRSF1B",
+    "gene_idx": 22,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "HPGD",
+    "gene_idx": 478,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TMEM221",
+    "gene_idx": 1569,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "CCDC88C",
+    "gene_idx": 1207,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "EHBP1L1",
+    "gene_idx": 989,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "KDM2A",
+    "gene_idx": 995,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "ATP1B2",
+    "gene_idx": 1394,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "CDK5RAP2",
+    "gene_idx": 847,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "PPP1R11",
+    "gene_idx": 587,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "S100A6",
+    "gene_idx": 110,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "PAPSS2",
+    "gene_idx": 897,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "OLFM2",
+    "gene_idx": 1543,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "MINDY1",
+    "gene_idx": 102,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "GRIN2C",
+    "gene_idx": 1472,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AP002449.1",
+    "gene_idx": 1499,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "RAC2",
+    "gene_idx": 1774,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "ACSS2",
+    "gene_idx": 1696,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "PEX11G",
+    "gene_idx": 1537,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "EFCAB5",
+    "gene_idx": 1410,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TCAP",
+    "gene_idx": 1422,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "TLR8",
+    "gene_idx": 1803,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "RMI1",
+    "gene_idx": 830,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "BCHE",
+    "gene_idx": 393,
+    "collapse_score": 0.0
+  },
+  {
+    "gene": "AL606834.1",
+    "gene_idx": 1175,
+    "collapse_score": 0.0
   }
 ]
