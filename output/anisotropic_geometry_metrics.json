@@ -1,0 +1,152 @@
+{
+  "phase1_tensor_validation": {
+    "symmetry_max_error": 0.0,
+    "min_trace": 0.02,
+    "min_determinant": 0.0001,
+    "min_eigenvalue": 0.005,
+    "symmetry_pass": true,
+    "positive_definite_pass": true
+  },
+  "phase2_mass_conservation": {
+    "n_steps": 500,
+    "initial_mass": 80.42477193189872,
+    "final_mass": 80.42477193189872,
+    "max_abs_mass_deviation": 2.842170943040401e-14,
+    "relative_mass_error": 0.0,
+    "has_nan_or_inf": false,
+    "has_negative_density": false,
+    "min_density": -2.3419165415245463e-13,
+    "max_density": 0.6562937210892826,
+    "mass_conservation_pass": true
+  },
+  "phase4_geometry_metrics": [
+    {
+      "patient_id": "PAT_0000",
+      "fractal_dimension": 1.9771285131118272,
+      "perimeter": 80.0,
+      "area": 644.0,
+      "perimeter_to_area_ratio": 0.12422360248447205,
+      "convexity_defect": -0.04376012965964344,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5119305856832972,
+      "zone_scores": {
+        "Leading Edge": 1.5669387563787094,
+        "Cellular Tumor": 1.4254544880857025,
+        "Infiltrating Tumor": 1.007333201879371
+      },
+      "mean_zone_score": 1.3332421487812611
+    },
+    {
+      "patient_id": "PAT_0001",
+      "fractal_dimension": 1.3453686424177116,
+      "perimeter": 88.0,
+      "area": 790.0,
+      "perimeter_to_area_ratio": 0.11139240506329114,
+      "convexity_defect": -0.04359313077939265,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5472837022132797,
+      "zone_scores": {
+        "Leading Edge": 1.8028809503704908,
+        "Cellular Tumor": 1.7408375781640644,
+        "Infiltrating Tumor": 1.3209148564295459
+      },
+      "mean_zone_score": 1.6215444616547003
+    },
+    {
+      "patient_id": "PAT_0002",
+      "fractal_dimension": 1.9223548741619505,
+      "perimeter": 92.0,
+      "area": 778.0,
+      "perimeter_to_area_ratio": 0.11825192802056556,
+      "convexity_defect": -0.051351351351351354,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.697560975609756,
+      "zone_scores": {
+        "Leading Edge": 1.9163337395239286,
+        "Cellular Tumor": 1.8715120291126346,
+        "Infiltrating Tumor": 1.7469412488326295
+      },
+      "mean_zone_score": 1.8449290058230643
+    },
+    {
+      "patient_id": "PAT_0003",
+      "fractal_dimension": 1.5102953562174783,
+      "perimeter": 92.0,
+      "area": 867.0,
+      "perimeter_to_area_ratio": 0.1061130334486736,
+      "convexity_defect": -0.03832335329341317,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5173745173745173,
+      "zone_scores": {
+        "Leading Edge": 1.9169196540415858,
+        "Cellular Tumor": 1.8743676291649403,
+        "Infiltrating Tumor": 1.742935720998502
+      },
+      "mean_zone_score": 1.844741001401676
+    },
+    {
+      "patient_id": "PAT_0004",
+      "fractal_dimension": 1.5102953562174783,
+      "perimeter": 92.0,
+      "area": 890.0,
+      "perimeter_to_area_ratio": 0.10337078651685393,
+      "convexity_defect": -0.04337631887456037,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5106382978723404,
+      "zone_scores": {
+        "Leading Edge": 1.9600070437064763,
+        "Cellular Tumor": 1.9292226458252104,
+        "Infiltrating Tumor": 1.8244857698597945
+      },
+      "mean_zone_score": 1.9045718197971604
+    },
+    {
+      "patient_id": "PAT_0005",
+      "fractal_dimension": 1.4593023183145815,
+      "perimeter": 76.0,
+      "area": 624.0,
+      "perimeter_to_area_ratio": 0.12179487179487179,
+      "convexity_defect": -0.04873949579831933,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5263157894736842,
+      "zone_scores": {
+        "Leading Edge": 1.646735581213659,
+        "Cellular Tumor": 1.3265843440965788,
+        "Infiltrating Tumor": 0.8400519971544633
+      },
+      "mean_zone_score": 1.2711239741549003
+    },
+    {
+      "patient_id": "PAT_0006",
+      "fractal_dimension": 1.5102953562174783,
+      "perimeter": 88.0,
+      "area": 833.0,
+      "perimeter_to_area_ratio": 0.1056422569027611,
+      "convexity_defect": -0.03865336658354115,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5196850393700787,
+      "zone_scores": {
+        "Leading Edge": 1.8617231593133063,
+        "Cellular Tumor": 1.8020501704187,
+        "Infiltrating Tumor": 1.5106928790504544
+      },
+      "mean_zone_score": 1.7248220695941534
+    },
+    {
+      "patient_id": "PAT_0007",
+      "fractal_dimension": 1.5067988808450177,
+      "perimeter": 88.0,
+      "area": 808.0,
+      "perimeter_to_area_ratio": 0.10891089108910891,
+      "convexity_defect": -0.03722721437740723,
+      "branch_count": 1,
+      "tract_alignment_fraction": 0.5129224652087475,
+      "zone_scores": {
+        "Leading Edge": 1.802999379397812,
+        "Cellular Tumor": 1.7526326870294504,
+        "Infiltrating Tumor": 1.4292688334214734
+      },
+      "mean_zone_score": 1.6616336332829118
+    }
+  ]
+}
