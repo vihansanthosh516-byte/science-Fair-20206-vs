@@ -1,0 +1,178 @@
+[
+  {
+    "patient_id": "PAT_0000",
+    "front_correlation": 0.9747208896441208,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.8252742474362187,
+    "fractal_dimension": 1.5635131863363991,
+    "perimeter": 60.0,
+    "area": 376.0,
+    "perimeter_to_area_ratio": 0.1595744680851064,
+    "convexity_defect": -0.05027932960893838,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5317220543806647,
+    "microenvironment_acceleration": 0.9747973481318921,
+    "zone_scores": {
+      "Leading Edge": 1.494668262795951,
+      "Cellular Tumor": 1.3596156949997564,
+      "Infiltrating Tumor": 1.0104440646786654
+    },
+    "mean_zone_score": 1.2882426741581243,
+    "final_tumor_mass": 252.28368813867505,
+    "final_G_mass": 637.161967453415
+  },
+  {
+    "patient_id": "PAT_0001",
+    "front_correlation": 0.9729837214520592,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.7178025340534668,
+    "fractal_dimension": 1.6505673221057762,
+    "perimeter": 64.0,
+    "area": 421.0,
+    "perimeter_to_area_ratio": 0.15201900237529692,
+    "convexity_defect": -0.06313131313131314,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5284090909090909,
+    "microenvironment_acceleration": 0.9925572330353033,
+    "zone_scores": {
+      "Leading Edge": 1.7471376630689845,
+      "Cellular Tumor": 1.6053542216332732,
+      "Infiltrating Tumor": 1.2268716592322857
+    },
+    "mean_zone_score": 1.5264545146448478,
+    "final_tumor_mass": 283.4757736016974,
+    "final_G_mass": 836.4020218768958
+  },
+  {
+    "patient_id": "PAT_0002",
+    "front_correlation": 0.9215226763362883,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.5146455088179663,
+    "fractal_dimension": 1.6505673221057762,
+    "perimeter": 64.0,
+    "area": 429.0,
+    "perimeter_to_area_ratio": 0.14918414918414918,
+    "convexity_defect": -0.06716417910447792,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5287356321839081,
+    "microenvironment_acceleration": 1.0283550257108964,
+    "zone_scores": {
+      "Leading Edge": 1.84778437224026,
+      "Cellular Tumor": 1.7483134119251487,
+      "Infiltrating Tumor": 1.5736115352772304
+    },
+    "mean_zone_score": 1.7232364398142128,
+    "final_tumor_mass": 304.5370952928985,
+    "final_G_mass": 972.9195096089699
+  },
+  {
+    "patient_id": "PAT_0003",
+    "front_correlation": 0.9728101920915013,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.7103035318335159,
+    "fractal_dimension": 1.6505673221057762,
+    "perimeter": 64.0,
+    "area": 437.0,
+    "perimeter_to_area_ratio": 0.14645308924485126,
+    "convexity_defect": -0.07107843137254886,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5287356321839081,
+    "microenvironment_acceleration": 0.9823936927533972,
+    "zone_scores": {
+      "Leading Edge": 1.866618042602247,
+      "Cellular Tumor": 1.7741755791914182,
+      "Infiltrating Tumor": 1.579250056466202
+    },
+    "mean_zone_score": 1.7400145594199554,
+    "final_tumor_mass": 304.2343052304998,
+    "final_G_mass": 981.6793658733528
+  },
+  {
+    "patient_id": "PAT_0004",
+    "front_correlation": 0.9679759839136763,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.720255425662858,
+    "fractal_dimension": 1.1327411273085302,
+    "perimeter": 64.0,
+    "area": 437.0,
+    "perimeter_to_area_ratio": 0.14645308924485126,
+    "convexity_defect": -0.07107843137254932,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5294117647058824,
+    "microenvironment_acceleration": 0.9795026522625375,
+    "zone_scores": {
+      "Leading Edge": 1.9446951553543537,
+      "Cellular Tumor": 1.8973067669758872,
+      "Infiltrating Tumor": 1.7941859013048598
+    },
+    "mean_zone_score": 1.8787292745450337,
+    "final_tumor_mass": 319.5943936401424,
+    "final_G_mass": 1096.2227581683471
+  },
+  {
+    "patient_id": "PAT_0005",
+    "front_correlation": 0.9718975437748941,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.809505339686804,
+    "fractal_dimension": 1.6505673221057762,
+    "perimeter": 60.0,
+    "area": 393.0,
+    "perimeter_to_area_ratio": 0.15267175572519084,
+    "convexity_defect": -0.062162162162162166,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5290697674418605,
+    "microenvironment_acceleration": 0.988046091815005,
+    "zone_scores": {
+      "Leading Edge": 1.7358342502661996,
+      "Cellular Tumor": 1.464560363066079,
+      "Infiltrating Tumor": 1.034430829049413
+    },
+    "mean_zone_score": 1.4116084807938971,
+    "final_tumor_mass": 265.67023754251016,
+    "final_G_mass": 718.8792088477671
+  },
+  {
+    "patient_id": "PAT_0006",
+    "front_correlation": 0.9700299789260465,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.7627786440584935,
+    "fractal_dimension": 1.1249653119314464,
+    "perimeter": 64.0,
+    "area": 421.0,
+    "perimeter_to_area_ratio": 0.15201900237529692,
+    "convexity_defect": -0.06313131313131314,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5284090909090909,
+    "microenvironment_acceleration": 0.9798959833636881,
+    "zone_scores": {
+      "Leading Edge": 1.7854085704836966,
+      "Cellular Tumor": 1.6725218899193162,
+      "Infiltrating Tumor": 1.3217119743066754
+    },
+    "mean_zone_score": 1.5932141449032293,
+    "final_tumor_mass": 291.53198468499977,
+    "final_G_mass": 891.0728413643808
+  },
+  {
+    "patient_id": "PAT_0007",
+    "front_correlation": 0.9723205436348838,
+    "front_overlap": 1.0,
+    "G_gradient_alignment": 0.7116197867213293,
+    "fractal_dimension": 1.1249653119314464,
+    "perimeter": 64.0,
+    "area": 437.0,
+    "perimeter_to_area_ratio": 0.14645308924485126,
+    "convexity_defect": -0.07107843137254917,
+    "branch_count": 1,
+    "tract_alignment_fraction": 0.5287356321839081,
+    "microenvironment_acceleration": 0.9856654575838921,
+    "zone_scores": {
+      "Leading Edge": 1.8480965909607008,
+      "Cellular Tumor": 1.7818927378932514,
+      "Infiltrating Tumor": 1.5552917574641913
+    },
+    "mean_zone_score": 1.7284270287727146,
+    "final_tumor_mass": 305.19954219338507,
+    "final_G_mass": 988.7478166506884
+  }
+]
