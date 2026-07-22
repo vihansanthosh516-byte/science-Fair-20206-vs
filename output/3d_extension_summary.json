@@ -3,27 +3,25 @@
   "dx_mm": 1.0,
   "dt_days": 0.04,
   "sim_days": 180,
-  "initial_volume_mm3": 123.0,
+  "initial_volume_mm3": 33.0,
+  "anisotropy": {
+    "D_parallel": 0.013,
+    "D_perpendicular": 0.0013,
+    "anisotropy_ratio": 10.0,
+    "tract_orientation": "diagonal (x=y plane)",
+    "eigenvalue_ratio_center": 10.127292407424799
+  },
   "mtd": {
     "final_volume_mm3": 0.0,
-    "final_mass": 0.8494277845118354,
+    "final_mass": 0.21558439183490993,
     "sphericity": 0.0
   },
   "adaptive": {
-    "final_volume_mm3": 203.0,
-    "final_mass": 57.295650180649815,
+    "final_volume_mm3": 45.0,
+    "final_mass": 15.514138266336055,
     "sphericity": 1.0,
-    "drug_on_fraction": 0.402,
-    "dose_sparing_fraction": 0.598
+    "drug_on_fraction": 0.38711111111111113,
+    "dose_sparing_fraction": 0.6128888888888888
   },
-  "tensor_field": {
-    "D_white": 0.013,
-    "D_gray": 0.0013,
-    "anisotropy_ratio": 10.0,
-    "center_eigenvalues": [
-      0.0012373405219390497,
-      0.0014683553849141606,
-      0.012992814916368584
-    ]
-  }
+  "notes": "Strong 10:1 anisotropy along diagonal white matter tract corridor. Tumor invasion elongates along fiber bundle, visible in 3D volume render."
 }

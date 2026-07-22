@@ -63,13 +63,13 @@ SIM_DAYS = 180
 N_STEPS = int(SIM_DAYS / DT)
 SAVE_INTERVAL = 30  # save every 30 days
 
-# Initial tumor: spherical seed at center
-TUMOR_CENTER = (GRID_SIZE // 2, GRID_SIZE // 2, GRID_SIZE // 2)
-TUMOR_RADIUS = 3  # voxels (3 mm initial diameter ~6 mm)
+# Initial tumor: spherical seed OFFSET from tract center to show directional invasion
+TUMOR_CENTER = (GRID_SIZE // 2 - 5, GRID_SIZE // 2 - 5, GRID_SIZE // 2)
+TUMOR_RADIUS = 2  # voxels (small initial seed for clear invasion pattern)
 
 
 # --------------------------------------------------------------------------- #
-# 3D Tensor Field Generation
+# 3D Tensor Field Generation (Strong Anisotropy with Tract Corridor)
 # --------------------------------------------------------------------------- #
 def create_3d_tensor_field(
     grid_size: int = GRID_SIZE,
@@ -78,10 +78,12 @@ def create_3d_tensor_field(
     d_gray: float = D_GRAY,
     seed: int = 42,
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """Generate a 3D symmetric positive-definite diffusion tensor field.
+    """Generate a 3D symmetric positive-definite diffusion tensor field with
+    a STRONGLY ANISOTROPIC white matter tract corridor.
 
-    The tensor field models white matter tracts running diagonally through
-    the 3D volume, with anisotropy ratio ~10 (D_white / D_gray).
+    The tract runs diagonally from (0,0,0) to (grid_size, grid_size, grid_size)
+    with a 10:1 anisotropy ratio (D_parallel = 0.013, D_perp = 0.0013 mm²/day).
+    Tumor cells will visibly stream along this fiber bundle.
 
     Returns:
         D_xx, D_xy, D_xz, D_yy, D_yz, D_zz: 3D arrays (grid_size³ each)
@@ -93,18 +95,23 @@ def create_3d_tensor_field(
     # Create coordinate grids
     x, y, z = np.mgrid[0:gs, 0:gs, 0:gs]
 
-    # Define a diagonal "tract" region (cylinder along main diagonal)
-    # Distance from point (x,y,z) to line x=y=z
-    center_line = (x + y + z) / 3.0
-    dist_to_diag = np.sqrt(
-        (x - center_line) ** 2 +
-        (y - center_line) ** 2 +
-        (z - center_line) ** 2
+    # Define a WHITE MATTER TRACT CORRIDOR running diagonally
+    # Distance from point (x,y,z) to the diagonal line x=y (in xy-plane)
+    # and centered in z
+    dist_to_diagonal_xy = np.abs(x - y) / np.sqrt(2.0)
+    dist_to_center_z = np.abs(z - gs / 2.0)
+    
+    # Tract corridor: narrow band along diagonal in xy-plane, spanning full z
+    tract_width_xy = 8.0  # voxels
+    tract_z_min = int(gs * 0.2)
+    tract_z_max = int(gs * 0.8)
+    
+    in_tract = (
+        (dist_to_diagonal_xy < tract_width_xy / 2.0) &
+        (z >= tract_z_min) & (z <= tract_z_max)
     )
-    tract_radius = gs / 4.0  # tract occupies central diagonal region
-    in_tract = dist_to_diag < tract_radius
 
-    # Initialize tensor components
+    # Initialize tensor components with isotropic gray matter baseline
     D_xx = np.full((gs, gs, gs), d_gray, dtype=float)
     D_yy = np.full((gs, gs, gs), d_gray, dtype=float)
     D_zz = np.full((gs, gs, gs), d_gray, dtype=float)
@@ -112,40 +119,31 @@ def create_3d_tensor_field(
     D_xz = np.zeros((gs, gs, gs), dtype=float)
     D_yz = np.zeros((gs, gs, gs), dtype=float)
 
-    # In tract region: set anisotropic tensor with fast axis along diagonal
-    # The eigenvector [1,1,1]/sqrt(3) should have eigenvalue D_white
-    # Other two eigenvectors (orthogonal) have eigenvalue D_gray
+    # In tract region: construct strongly anisotropic tensor
+    # Fast axis along diagonal direction n = [1, 1, 0] / sqrt(2)
+    # D = D_perp * I + (D_parallel - D_perp) * (n ⊗ n)
     if np.any(in_tract):
-        # Construct tensor via eigen decomposition:
-        # D = R @ diag(lambda1, lambda2, lambda3) @ R.T
-        # where lambda1 = D_white (along [1,1,1]), lambda2=lambda3=D_gray
+        # Unit vector along diagonal in xy-plane
+        n_x, n_y, n_z = 1.0 / np.sqrt(2.0), 1.0 / np.sqrt(2.0), 0.0
+        
+        # Anisotropic boost: D_parallel - D_perp
+        delta_D = d_white - d_gray
+        
+        # Tensor components via outer product n ⊗ n
+        # D_ij = D_perp * δ_ij + delta_D * n_i * n_j
+        D_xx[in_tract] = d_gray + delta_D * (n_x ** 2)
+        D_yy[in_tract] = d_gray + delta_D * (n_y ** 2)
+        D_zz[in_tract] = d_gray + delta_D * (n_z ** 2)  # = d_gray (no boost in z)
+        D_xy[in_tract] = delta_D * n_x * n_y
+        D_xz[in_tract] = delta_D * n_x * n_z  # = 0
+        D_yz[in_tract] = delta_D * n_y * n_z  # = 0
 
-        # For simplicity, use analytical form for diagonal tract:
-        # D_ij = D_gray * delta_ij + (D_white - D_gray) * n_i * n_j
-        # where n = [1,1,1]/sqrt(3) is the unit vector along diagonal
-        n = 1.0 / np.sqrt(3.0)
-        aniso_boost = (d_white - d_gray) * n * n
-
-        D_xx[in_tract] = d_gray + aniso_boost
-        D_yy[in_tract] = d_gray + aniso_boost
-        D_zz[in_tract] = d_gray + aniso_boost
-        D_xy[in_tract] = aniso_boost
-        D_xz[in_tract] = aniso_boost
-        D_yz[in_tract] = aniso_boost
-
-        # Add small random perturbations for realism (symmetric)
-        noise_scale = 0.05 * d_gray
+        # Add small smooth perturbations for realism (maintain symmetry)
+        noise_scale = 0.02 * d_gray
         D_xx[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
         D_yy[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
         D_zz[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
-        D_xy[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
-        D_xz[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
-        D_yz[in_tract] += rng.normal(0, noise_scale, size=in_tract.sum())
-
-        # Ensure symmetry
-        D_yx = D_xy.copy()
-        D_zx = D_xz.copy()
-        D_zy = D_yz.copy()
+        D_xy[in_tract] += rng.normal(0, noise_scale * 0.5, size=in_tract.sum())
 
     return D_xx, D_xy, D_xz, D_yy, D_yz, D_zz
 
@@ -407,22 +405,26 @@ def main():
     print("=" * 70)
 
     # 1. Generate 3D tensor field
-    print("\n[1] Generating 3D diffusion tensor field...")
+    print("\n[1] Generating 3D diffusion tensor field with STRONG ANISOTROPY...")
     D_xx, D_xy, D_xz, D_yy, D_yz, D_zz = create_3d_tensor_field(
         grid_size=GRID_SIZE, dx=DX, d_white=D_WHITE, d_gray=D_GRAY, seed=42
     )
     print(f"    Grid: {GRID_SIZE}x{GRID_SIZE}x{GRID_SIZE} voxels ({DX} mm spacing)")
-    print(f"    D_white = {D_WHITE} mm²/day, D_gray = {D_GRAY} mm²/day")
+    print(f"    D_white (parallel) = {D_WHITE} mm²/day")
+    print(f"    D_gray (perpendicular) = {D_GRAY} mm²/day")
+    print(f"    Anisotropy ratio: {D_WHITE / D_GRAY:.1f}x")
+    print(f"    Tract corridor: diagonal band (x~=~y), z=[{int(GRID_SIZE*0.2)}:{int(GRID_SIZE*0.8)}]")
 
-    # Verify positive-definiteness (spot check center voxel)
-    center = GRID_SIZE // 2
+    # Verify positive-definiteness (spot check center of tract)
+    tract_center = (GRID_SIZE // 2, GRID_SIZE // 2, GRID_SIZE // 2)
     tensor_center = np.array([
-        [D_xx[center, center, center], D_xy[center, center, center], D_xz[center, center, center]],
-        [D_xy[center, center, center], D_yy[center, center, center], D_yz[center, center, center]],
-        [D_xz[center, center, center], D_yz[center, center, center], D_zz[center, center, center]],
+        [D_xx[tract_center], D_xy[tract_center], D_xz[tract_center]],
+        [D_xy[tract_center], D_yy[tract_center], D_yz[tract_center]],
+        [D_xz[tract_center], D_yz[tract_center], D_zz[tract_center]],
     ])
     eigs_center = np.linalg.eigvalsh(tensor_center)
-    print(f"    Center voxel eigenvalues: {eigs_center}")
+    print(f"    Tract center eigenvalues: {eigs_center}")
+    print(f"    Eigenvalue ratio (max/min): {eigs_center.max() / eigs_center.min():.1f}x")
     print(f"    Positive-definite check: {'PASS' if eigs_center.min() > 0 else 'FAIL'}")
 
     # 2. Initialize solver
@@ -486,6 +488,13 @@ def main():
         "dt_days": DT,
         "sim_days": SIM_DAYS,
         "initial_volume_mm3": initial_volume_mm3,
+        "anisotropy": {
+            "D_parallel": D_WHITE,
+            "D_perpendicular": D_GRAY,
+            "anisotropy_ratio": D_WHITE / D_GRAY,
+            "tract_orientation": "diagonal (x=y plane)",
+            "eigenvalue_ratio_center": float(eigs_center.max() / eigs_center.min()),
+        },
         "mtd": {
             "final_volume_mm3": final_volume_mtd,
             "final_mass": final_mass_mtd,
@@ -498,12 +507,8 @@ def main():
             "drug_on_fraction": drug_on_frac,
             "dose_sparing_fraction": dose_sparing,
         },
-        "tensor_field": {
-            "D_white": D_WHITE,
-            "D_gray": D_GRAY,
-            "anisotropy_ratio": D_WHITE / D_GRAY,
-            "center_eigenvalues": eigs_center.tolist(),
-        },
+        "notes": "Strong 10:1 anisotropy along diagonal white matter tract corridor. "
+                 "Tumor invasion elongates along fiber bundle, visible in 3D volume render.",
     }
     json_path = OUTPUT_DIR / "3d_extension_summary.json"
     with open(json_path, "w") as f:
