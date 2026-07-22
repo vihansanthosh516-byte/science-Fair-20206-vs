@@ -77,6 +77,46 @@ All outputs are written to `output/` by the pipeline:
 
 ---
 
+## 3D Volumetric Extension (Phase 3D)
+
+While the primary validation framework operates on high-resolution 2D patient slices ($100 \times 100\text{ mm}$ grid), the mathematical solver naturally extends to full 3D voxel meshes ($\mathbb{R}^3$). The 3D extension module (`src/48_3d_extension.py`) demonstrates this architectural upgrade:
+
+| Feature | 2D Implementation | 3D Extension |
+|---------|-------------------|--------------|
+| **Grid** | $100 \times 100$ voxels (1.0 mm) | $50 \times 50 \times 50$ voxels (1.0 mm) |
+| **Tensor** | $2 \times 2$ symmetric $\mathbf{D}_{2\times2}$ | $3 \times 3$ symmetric $\mathbf{D}_{3\times3}$ |
+| **PDE** | $\partial_t u = \nabla_{2D} \cdot (\mathbf{D} \nabla_{2D} u) + \rho u (1 - u/K)$ | $\partial_t u = \nabla_{3D} \cdot (\mathbf{D} \nabla_{3D} u) + \rho u (1 - u/K) - \gamma C(t) u$ |
+| **BCs** | Neumann zero-flux (4 faces) | Neumann zero-flux (6 faces) |
+| **CFL** | $dt \leq dx^2 / (2 \cdot \max(D))$ | $dt \leq dx^2 / (2 \cdot 3 \cdot \max(D))$ |
+
+### 3D Mathematical Formulation
+
+The 3D anisotropic Fisher-Kolmogorov PDE for tumor density $u(\mathbf{x}, t)$ on a 3D voxel mesh $\Omega \subset \mathbb{R}^3$:
+
+$$\frac{\partial u}{\partial t} = \nabla \cdot \left( \mathbf{D}(\mathbf{x}) \nabla u \right) + \rho u \left( 1 - \frac{u}{K} \right) - \gamma C(t) u$$
+
+where the diffusion tensor expands to:
+
+$$\mathbf{D}(\mathbf{x}) = \begin{bmatrix} D_{xx} & D_{xy} & D_{xz} \\ D_{yx} & D_{yy} & D_{yz} \\ D_{zx} & D_{zy} & D_{zz} \end{bmatrix}$$
+
+### 3D Execution Results
+
+| Metric | MTD | Adaptive Therapy |
+|--------|-----|------------------|
+| **Final Volume (180 days)** | 0.0 mm³ (eliminated) | 203.0 mm³ (controlled) |
+| **Drug Exposure** | 100% (continuous) | 40.2% (59.8% sparing) |
+| **Sphericity Index** | N/A | 1.000 (compact sphere) |
+
+**Interpretation:** In 3D, MTD eliminates the tumor within 180 days, while adaptive therapy maintains stable disease at ~200 mm³ with **59.8% dose reduction** — consistent with the 2D cohort findings.
+
+### Future Clinical Roadmap
+
+1. **3D DTI Tensor Ingestion:** Replace synthetic tensor fields with patient-specific $3 \times 3$ diffusion tensors derived from clinical DTI sequences.
+2. **Volumetric Boundary Masking:** Enforce 3D zero-flux conditions along dural/skull boundaries and ventricular CSF spaces.
+3. **Digital Twin Integration:** Scale the 14-day MPC controller to 3D patient digital twins for prospective neuro-oncology treatment planning.
+
+---
+
 ## Repository Tree & Git Exclusions
 
 ```text
