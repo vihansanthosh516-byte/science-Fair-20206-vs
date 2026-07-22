@@ -183,7 +183,7 @@
             <h1>🏥 Clinical Decision Support Dossier</h1>
             <p>Personalized GBM Treatment Protocol — MPC-Optimized Adaptive Therapy</p>
             <p style="margin-top: 0.5rem; font-size: 0.85rem;">
-                Generated: 2026-07-22T15:02:02.253254 | Software: CDSS-v1.0.0
+                Generated: 2026-07-22T15:24:48.594403 | Software: CDSS-v1.0.0
             </p>
         </header>
         
@@ -220,7 +220,7 @@
                     SHA-256 hash certifying offline PDE execution with exact physical parameters:
                 </p>
                 <div class="hash-box">
-                    0695b84b930c2128cca689d9e41ffb8fda4e74849a89d3cbb352271fd1310341
+                    0eaac89a780892638f0bbb75838b45e8c6151cdea8b19ef42825f6293c01c8ad
                 </div>
                 <div class="metric" style="margin-top: 1rem;">
                     <span class="metric-label">Solver</span>
@@ -232,7 +232,7 @@
                 </div>
                 <div class="metric">
                     <span class="metric-label">Execution Timestamp</span>
-                    <span class="metric-value" style="font-size: 0.85rem;">2026-07-22T15:02:02.253254</span>
+                    <span class="metric-value" style="font-size: 0.85rem;">2026-07-22T15:24:48.594403</span>
                 </div>
             </div>
         </div>
@@ -243,20 +243,43 @@
             <div class="grid" style="margin-bottom: 1.5rem;">
                 <div class="metric">
                     <span class="metric-label">Predicted Day-180 Tumor Burden</span>
-                    <span class="metric-value highlight">53.2 mm³</span>
+                    <span class="metric-value highlight">14.6 mm³</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">Dose-Sparing vs MTD</span>
-                    <span class="metric-value highlight">29.4%</span>
+                    <span class="metric-value highlight">76.2%</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">Drug Administration</span>
-                    <span class="metric-value">70.6% of days</span>
+                    <span class="metric-value">23.8% of days</span>
                 </div>
             </div>
             
             <h3 style="font-size: 1rem; margin: 1.5rem 0 0.75rem 0; color: var(--text);">Drug Holiday Windows (First 28-Day Cycle)</h3>
-            <p style="color: var(--text-muted);">Continuous dosing (no holidays in first cycle).</p>
+            
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>Holiday Start</th>
+                <th></th>
+                <th>Holiday End</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td style="padding: 0.5rem; text-align: center;">Day 5</td>
+            <td style="padding: 0.5rem; text-align: center;">→</td>
+            <td style="padding: 0.5rem; text-align: center;">Day 16</td>
+            <td style="padding: 0.5rem; text-align: center;">
+                <span class="badge" style="background: #fef2f2; color: #dc2626;">HOLIDAY</span>
+            </td>
+        </tr>
+        
+        </tbody>
+    </table>
+    
             
             <h3 style="font-size: 1rem; margin: 1.5rem 0 0.75rem 0; color: var(--text);">Daily Dose Schedule (Days 1-28)</h3>
             
