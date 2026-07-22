@@ -7,6 +7,9 @@
 #   42_anisotropic_pde.py            (Month 7)  -> anisotropic_geometry_metrics.json
 #   43_stromal_feedback.py           (Month 8)  -> stromal_feedback_metrics.json
 #   44_adaptive_therapy.py           (Month 9)  -> adaptive_geometry_metrics.json
+#   46_sensitivity_analysis.py       (Phase 2b) -> sobol_sensitivity_results.json +
+#                                                 sobol_tornado_plot.png
+#   47_optimal_control.py            (Phase 3)  -> dual_drug_comparison.json
 #   45_validation_synthesis.py       (Month 10) -> master_cohort_summary.json +
 #                                                  master_cohort_synthesis.png +
 #                                                  POSTER_KEY_FINDINGS.md +
@@ -37,11 +40,13 @@ if [[ ! -x "$PY" ]]; then
     exit 1
 fi
 
-declare -a SCRIPTS=(42_anisotropic_pde 43_stromal_feedback 44_adaptive_therapy 45_validation_synthesis)
+declare -a SCRIPTS=(42_anisotropic_pde 43_stromal_feedback 44_adaptive_therapy 46_sensitivity_analysis 47_optimal_control 45_validation_synthesis)
 declare -A MONTHS=(
     [42_anisotropic_pde]="7"
     [43_stromal_feedback]="8"
     [44_adaptive_therapy]="9"
+    [46_sensitivity_analysis]="Phase 2b"
+    [47_optimal_control]="Phase 3"
     [45_validation_synthesis]="10"
 )
 

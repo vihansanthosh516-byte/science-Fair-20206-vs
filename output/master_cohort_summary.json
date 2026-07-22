@@ -1,6 +1,6 @@
 {
   "schema_version": "month10-v1",
-  "generated_at": "2026-07-21T22:11:25",
+  "generated_at": "2026-07-21T22:49:16",
   "validation": {
     "phase1_anisotropic": {
       "bounds_df": [
@@ -861,6 +861,224 @@
       "inflammation_tier": "High"
     }
   ],
+  "sobol_sensitivity": {
+    "S1": {
+      "rho_s": 0.6130295066352639,
+      "aniso_ratio": 0.28857899686013677,
+      "mu_r": 0.016630495967173524,
+      "EC50": 0.05735919936049886,
+      "D_white": 0.01806516069207236
+    },
+    "ST": {
+      "rho_s": 0.6239101458466827,
+      "aniso_ratio": 0.30454840943705686,
+      "mu_r": 0.029820906296371172,
+      "EC50": 0.07352720764785198,
+      "D_white": 0.02083900979131465
+    },
+    "S1_conf": {
+      "rho_s": 0.08707946308389296,
+      "aniso_ratio": 0.05846697826208888,
+      "mu_r": 0.0220157511188017,
+      "EC50": 0.031973143548163246,
+      "D_white": 0.01906419247700438
+    },
+    "ST_conf": {
+      "rho_s": 0.06256927171806731,
+      "aniso_ratio": 0.0380500724204713,
+      "mu_r": 0.0041664462974772346,
+      "EC50": 0.010281622301984226,
+      "D_white": 0.003271436049098229
+    },
+    "n_samples": 500,
+    "ttp_mean": 119.90466666666667,
+    "ttp_std": 36.084834185876794
+  },
+  "three_arm_comparison": {
+    "parameters": {
+      "MPC_HORIZON_DAYS": 14,
+      "W_TUMOR": 1.0,
+      "W_DRUG_BASELINE": 0.1,
+      "SIM_DAYS": 360,
+      "DT": 1.0
+    },
+    "arms": {
+      "mtd": {
+        "ttp_days_mean": 290.25,
+        "ttp_days_std": 7.592289321598403,
+        "auc_mean": 385.0,
+        "auc_std": 0.0,
+        "resistant_fraction_mean": 0.9997099198047144,
+        "resistant_fraction_std": 8.31093876349259e-06
+      },
+      "single_adaptive": {
+        "ttp_days_mean": 328.375,
+        "ttp_days_std": 5.343554194407635,
+        "auc_mean": 291.5151046666544,
+        "auc_std": 2.1902689467458045,
+        "resistant_fraction_mean": 0.9822094554039952,
+        "resistant_fraction_std": 0.0008193182368240854
+      },
+      "dual_adaptive": {
+        "ttp_days_mean": 360.0,
+        "ttp_days_std": 0.0,
+        "auc_mean": 313.40770999512796,
+        "auc_std": 3.451961846464789,
+        "resistant_fraction_mean": 0.038182268630480326,
+        "resistant_fraction_std": 3.846877769334366e-07
+      }
+    },
+    "patients": [
+      {
+        "patient_id": "PAT_0000",
+        "mtd": {
+          "ttp_days": 284.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997166893712713
+        },
+        "single_adaptive": {
+          "ttp_days": 324.0,
+          "auc": 293.2126646725585,
+          "resistant_fraction": 0.9828646185604264
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 316.16878867402687,
+          "resistant_fraction": 0.03818217983890206
+        }
+      },
+      {
+        "patient_id": "PAT_0001",
+        "mtd": {
+          "ttp_days": 288.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997117169567045
+        },
+        "single_adaptive": {
+          "ttp_days": 327.0,
+          "auc": 292.33113276314066,
+          "resistant_fraction": 0.9824520142686626
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 314.69156655885854,
+          "resistant_fraction": 0.03818272599513085
+        }
+      },
+      {
+        "patient_id": "PAT_0002",
+        "mtd": {
+          "ttp_days": 304.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9996942151771192
+        },
+        "single_adaptive": {
+          "ttp_days": 338.0,
+          "auc": 287.50438342930073,
+          "resistant_fraction": 0.9806577689016915
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 307.1837402485132,
+          "resistant_fraction": 0.03818189005073592
+        }
+      },
+      {
+        "patient_id": "PAT_0003",
+        "mtd": {
+          "ttp_days": 289.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997109922608672
+        },
+        "single_adaptive": {
+          "ttp_days": 328.0,
+          "auc": 291.8125701436318,
+          "resistant_fraction": 0.9823172963569092
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 313.68871558570817,
+          "resistant_fraction": 0.03818213243295445
+        }
+      },
+      {
+        "patient_id": "PAT_0004",
+        "mtd": {
+          "ttp_days": 281.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997192628320958
+        },
+        "single_adaptive": {
+          "ttp_days": 322.0,
+          "auc": 294.35077612768,
+          "resistant_fraction": 0.9831455860018666
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 317.6813807042057,
+          "resistant_fraction": 0.03818299137803071
+        }
+      },
+      {
+        "patient_id": "PAT_0005",
+        "mtd": {
+          "ttp_days": 285.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997168033816927
+        },
+        "single_adaptive": {
+          "ttp_days": 324.0,
+          "auc": 292.7775026179695,
+          "resistant_fraction": 0.9828370408361142
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 315.7905344418733,
+          "resistant_fraction": 0.03818195070087087
+        }
+      },
+      {
+        "patient_id": "PAT_0006",
+        "mtd": {
+          "ttp_days": 295.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997052631116107
+        },
+        "single_adaptive": {
+          "ttp_days": 332.0,
+          "auc": 290.1752574467453,
+          "resistant_fraction": 0.9817430334070057
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 311.20177324775426,
+          "resistant_fraction": 0.038182133396930676
+        }
+      },
+      {
+        "patient_id": "PAT_0007",
+        "mtd": {
+          "ttp_days": 296.0,
+          "auc": 385.0,
+          "resistant_fraction": 0.9997044153463542
+        },
+        "single_adaptive": {
+          "ttp_days": 332.0,
+          "auc": 289.95655013220846,
+          "resistant_fraction": 0.981658284899285
+        },
+        "dual_adaptive": {
+          "ttp_days": 360.0,
+          "auc": 310.8551805000834,
+          "resistant_fraction": 0.03818214525028705
+        }
+      }
+    ],
+    "drug_reduction": {
+      "single_vs_mtd_mean": 0.2428179099567419,
+      "dual_vs_mtd_mean": 0.18595400001265472
+    }
+  },
   "statistics": {
     "aniso_vs_iso": {
       "fractal_dimension": {
