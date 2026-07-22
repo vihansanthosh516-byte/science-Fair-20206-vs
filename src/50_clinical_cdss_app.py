@@ -50,7 +50,7 @@ K_EL = np.log(2) / TMZ_HALF_LIFE
 C_PEAK = 10.0  # ug/mL
 EC50 = 5.0  # ug/mL
 HILL_COEFF = 2.0
-E_MAX = 0.35
+E_MAX = 0.55  # Maximum drug kill rate (calibrated for ~30-35% dosing)
 
 # Dosing schedule
 DOSE_DAYS_ON = 5

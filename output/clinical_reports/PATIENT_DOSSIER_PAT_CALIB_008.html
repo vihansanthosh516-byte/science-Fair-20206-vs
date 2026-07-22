@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Dossier — PAT_CALIB_008</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #059669;
+            --accent: #dc2626;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid var(--border);
+        }
+        
+        .card h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .metric:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        .metric-value {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text);
+        }
+        
+        .metric-value.highlight {
+            color: var(--secondary);
+            font-size: 1.25rem;
+        }
+        
+        .hash-box {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            word-break: break-all;
+            border: 1px solid var(--border);
+        }
+        
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        
+        .schedule-table th,
+        .schedule-table td {
+            padding: 0.5rem;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+        
+        .schedule-table th {
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+        
+        .schedule-table .dose-day {
+            background: #dbeafe;
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+        
+        .schedule-table .holiday {
+            background: #fef2f2;
+            color: var(--accent);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .badge-info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Clinical Decision Support Dossier</h1>
+            <p>Personalized GBM Treatment Protocol — MPC-Optimized Adaptive Therapy</p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem;">
+                Generated: 2026-07-22T15:00:11.494063 | Software: CDSS-v1.0.0
+            </p>
+        </header>
+        
+        <div class="grid">
+            <!-- Patient Biophysical Profile -->
+            <div class="card">
+                <h2>📋 Patient Biophysical Profile</h2>
+                <div class="metric">
+                    <span class="metric-label">Patient ID</span>
+                    <span class="metric-value">PAT_CALIB_008</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">DTI Fiber Vector (normalized)</span>
+                    <span class="metric-value">[0.707, 0.707, 0.000]</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Baseline Growth Rate (ρ)</span>
+                    <span class="metric-value">0.0250 /day</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Initial Tumor Radius (r₀)</span>
+                    <span class="metric-value">4.0 mm</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Initial Tumor Volume</span>
+                    <span class="metric-value">268.1 mm³</span>
+                </div>
+            </div>
+            
+            <!-- Mathematical Provenance -->
+            <div class="card">
+                <h2>🔐 Mathematical Provenance</h2>
+                <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.9rem;">
+                    SHA-256 hash certifying offline PDE execution with exact physical parameters:
+                </p>
+                <div class="hash-box">
+                    64be562b6ee154358ef2e5bd53cb17e5b7ba57c8781f383024c66a7cea6b5cc2
+                </div>
+                <div class="metric" style="margin-top: 1rem;">
+                    <span class="metric-label">Solver</span>
+                    <span class="metric-value"><span class="badge badge-info">3D Anisotropic FK</span></span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">MPC Horizon</span>
+                    <span class="metric-value"><span class="badge badge-info">14 days</span></span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Execution Timestamp</span>
+                    <span class="metric-value" style="font-size: 0.85rem;">2026-07-22T15:00:11.494063</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Treatment Protocol -->
+        <div class="card" style="margin-bottom: 2rem;">
+            <h2>💊 Recommended MPC Treatment Protocol</h2>
+            <div class="grid" style="margin-bottom: 1.5rem;">
+                <div class="metric">
+                    <span class="metric-label">Predicted Day-180 Tumor Burden</span>
+                    <span class="metric-value highlight">3770.0 mm³</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Dose-Sparing vs MTD</span>
+                    <span class="metric-value highlight">0.0%</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Drug Administration</span>
+                    <span class="metric-value">100.0% of days</span>
+                </div>
+            </div>
+            
+            <h3 style="font-size: 1rem; margin: 1.5rem 0 0.75rem 0; color: var(--text);">Drug Holiday Windows (First 28-Day Cycle)</h3>
+            <p style="color: var(--text-muted);">Continuous dosing (no holidays in first cycle).</p>
+            
+            <h3 style="font-size: 1rem; margin: 1.5rem 0 0.75rem 0; color: var(--text);">Daily Dose Schedule (Days 1-28)</h3>
+            
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>Week 3</th>
+                <th>Week 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="dose-day">D1<br>DOSE</td><td class="dose-day">D2<br>DOSE</td><td class="dose-day">D3<br>DOSE</td><td class="dose-day">D4<br>DOSE</td><td class="dose-day">D5<br>DOSE</td><td class="dose-day">D6<br>DOSE</td><td class="dose-day">D7<br>DOSE</td></tr><tr><td class="dose-day">D8<br>DOSE</td><td class="dose-day">D9<br>DOSE</td><td class="dose-day">D10<br>DOSE</td><td class="dose-day">D11<br>DOSE</td><td class="dose-day">D12<br>DOSE</td><td class="dose-day">D13<br>DOSE</td><td class="dose-day">D14<br>DOSE</td></tr><tr><td class="dose-day">D15<br>DOSE</td><td class="dose-day">D16<br>DOSE</td><td class="dose-day">D17<br>DOSE</td><td class="dose-day">D18<br>DOSE</td><td class="dose-day">D19<br>DOSE</td><td class="dose-day">D20<br>DOSE</td><td class="dose-day">D21<br>DOSE</td></tr><tr><td class="dose-day">D22<br>DOSE</td><td class="dose-day">D23<br>DOSE</td><td class="dose-day">D24<br>DOSE</td><td class="dose-day">D25<br>DOSE</td><td class="dose-day">D26<br>DOSE</td><td class="dose-day">D27<br>DOSE</td><td class="dose-day">D28<br>DOSE</td></tr>
+        </tbody>
+    </table>
+    
+        </div>
+        
+        <div class="footer">
+            <p><strong>DISCLAIMER:</strong> This dossier is generated by a computational research prototype (CDSS-v1.0.0).</p>
+            <p>Treatment decisions should be made by qualified healthcare professionals in consultation with the patient.</p>
+            <p style="margin-top: 0.5rem;">
+                Generated by: 3D Anisotropic PDE + MPC Adaptive Therapy Controller | 
+                Institution: Computational Oncology Lab
+            </p>
+        </div>
+    </div>
+</body>
+</html>
