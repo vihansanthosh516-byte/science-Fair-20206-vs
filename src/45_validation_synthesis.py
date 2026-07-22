@@ -1003,7 +1003,7 @@ def render_master_canvas(master: Dict[str, Any],
             ax_c2.text(0.5, 0.5, "Per-patient dose trajectories unavailable",
                         transform=ax_c2.transAxes, ha="center", va="center",
                         fontsize=9)
-        ax_c2.set_xlabel("Time step")
+        ax_c2.set_xlabel("Time (days)")
         ax_c2.set_ylabel("Dose")
         ax_c2.set_ylim(0, 1.1)
         ax_c2.set_title("Dose timeline: MTD vs Adaptive",

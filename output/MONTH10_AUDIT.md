@@ -1,6 +1,6 @@
 # MONTH 10 AUDIT LOG
 
-Generated: 2026-07-21T14:26:34
+Generated: 2026-07-21T22:11:27
 
 ## Environment
 - Python interpreter: `C:\Users\vihan\20206 science fair\venv\Scripts\python.exe`
@@ -26,7 +26,7 @@ Generated: 2026-07-21T14:26:34
 | `output\invasion_metrics.json` | 72,602 bytes |
 | `output\invasion_summary.json` | 761 bytes |
 | `output\isotropic_baseline_metrics.json` | 1,474 bytes |
-| `output\master_cohort_summary.json` | 34,726 bytes |
+| `output\master_cohort_summary.json` | 34,728 bytes |
 | `output\method1_metrics.json` | 2,704 bytes |
 | `output\method2_metrics.json` | 1,370 bytes |
 | `output\method3_metrics.json` | 1,404 bytes |
@@ -41,7 +41,7 @@ Generated: 2026-07-21T14:26:34
 | `output\single_ko_results.json` | 19,220 bytes |
 | `output\single_ko_ti.json` | 448 bytes |
 | `output\spatial_recurrence_summary.json` | 3,641 bytes |
-| `output\stromal_feedback_metrics.json` | 6,267 bytes |
+| `output\stromal_feedback_metrics.json` | 6,269 bytes |
 | `output\survival_stats_summary.json` | 2,856 bytes |
 
 ## Generated PNG deliverables
@@ -74,7 +74,7 @@ Generated: 2026-07-21T14:26:34
 | `output\gradient_failure_analysis.png` | 557,103 bytes | 4770x1769 |
 | `output\invasion_dynamics_analysis.png` | 835,808 bytes | 4000x2880 |
 | `output\km_survival_curves.png` | 300,050 bytes | 3570x3000 |
-| `output\master_cohort_synthesis.png` | 671,759 bytes | 3796x3503 |
+| `output\master_cohort_synthesis.png` | 673,545 bytes | 3796x3503 |
 | `output\method1_lr_confusion.png` | 47,547 bytes | 900x720 |
 | `output\method1_rf_confusion.png` | 46,457 bytes | 900x720 |
 | `output\method2_confusion.png` | 44,770 bytes | 900x720 |
@@ -112,7 +112,7 @@ Generated: 2026-07-21T14:26:34
 - stromal fallback used: False
 
 ## `__pycache__` cleanup
-- `131` `__pycache__` directories removed under src/ and venv/ (D5 idempotency — bytecode regenerates on next run).
+- `212` `__pycache__` directories removed under src/ and venv/ (D5 idempotency — bytecode regenerates on next run).
 
 ## Notes
 - Bash `run_all.sh` requires Git Bash / WSL on Windows. PowerShell equivalent can be substituted.

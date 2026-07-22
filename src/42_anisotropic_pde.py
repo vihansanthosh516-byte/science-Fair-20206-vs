@@ -464,7 +464,7 @@ class AnisotropicFKSolver:
         # Reflect on u (normal derivative zero), edge-pad on D so the face
         # diffusivity at the boundary equals the edge cell value (no flux
         # leaves the domain because the gradient is zero under reflect).
-        u_p = np.pad(u, 1, mode="reflect")            # (H+2, W+2)
+        u_p = np.pad(u, 1, mode="constant", constant_values=0)  # (H+2, W+2)
         Dxx_p = np.pad(Dxx, 1, mode="edge")          # (H+2, W+2)
         Dxy_p = np.pad(Dxy, 1, mode="edge")
         Dyy_p = np.pad(Dyy, 1, mode="edge")

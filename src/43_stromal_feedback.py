@@ -392,7 +392,7 @@ class AnisotropicFKSolver:
         Dxx, Dxy, Dyy = self.D_xx, self.D_xy, self.D_yy
         H, W = self.H, self.W
 
-        u_p = np.pad(u, 1, mode="reflect")
+        u_p = np.pad(u, 1, mode="constant", constant_values=0)
         Dxx_p = np.pad(Dxx, 1, mode="edge")
         Dxy_p = np.pad(Dxy, 1, mode="edge")
         Dyy_p = np.pad(Dyy, 1, mode="edge")
@@ -546,7 +546,7 @@ class StromalFeedbackSolver:
         Dxx, Dxy, Dyy = self.D_xx, self.D_xy, self.D_yy
         H, W = self.H, self.W
 
-        u_p = np.pad(u, 1, mode="reflect")
+        u_p = np.pad(u, 1, mode="constant", constant_values=0)
         Dxx_p = np.pad(Dxx, 1, mode="edge")
         Dxy_p = np.pad(Dxy, 1, mode="edge")
         Dyy_p = np.pad(Dyy, 1, mode="edge")
@@ -585,9 +585,9 @@ class StromalFeedbackSolver:
         """
         5-point central-difference Laplacian for isotropic diffusion:
         nabla^2 G = (G[i+1,j] + G[i-1,j] + G[i,j+1] + G[i,j-1] - 4*G[i,j]) / dx^2
-        Neumann zero-flux via mirror padding.
+        Zero-flux via constant-zero padding.
         """
-        G_p = np.pad(G, 1, mode="reflect")
+        G_p = np.pad(G, 1, mode="constant", constant_values=0)
         laplacian = (
             G_p[2:, 1:-1] + G_p[:-2, 1:-1] +
             G_p[1:-1, 2:] + G_p[1:-1, :-2] -

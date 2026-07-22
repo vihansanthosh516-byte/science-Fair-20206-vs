@@ -1,6 +1,6 @@
 {
   "schema_version": "month10-v1",
-  "generated_at": "2026-07-21T14:26:32",
+  "generated_at": "2026-07-21T22:11:25",
   "validation": {
     "phase1_anisotropic": {
       "bounds_df": [
@@ -266,7 +266,7 @@
         "patient_id": "PAT_0000",
         "front_correlation": 0.951651446874766,
         "front_overlap": 1.0,
-        "G_gradient_alignment": 0.5594385267080308,
+        "G_gradient_alignment": 0.5594385267080307,
         "fractal_dimension": 0.8119908168662985,
         "perimeter": 72.0,
         "area": 525.0,
@@ -282,7 +282,7 @@
         },
         "mean_zone_score": 1.2882426741581243,
         "final_tumor_mass": 414.5688514779483,
-        "final_G_mass": 1206.5680478968634
+        "final_G_mass": 1206.568040300803
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0000",
@@ -359,7 +359,7 @@
         },
         "mean_zone_score": 1.5264545146448478,
         "final_tumor_mass": 457.40623668436336,
-        "final_G_mass": 1613.747755120522
+        "final_G_mass": 1613.7477455275769
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0001",
@@ -436,7 +436,7 @@
         },
         "mean_zone_score": 1.7232364398142128,
         "final_tumor_mass": 515.0224599744913,
-        "final_G_mass": 2290.3400774654597
+        "final_G_mass": 2290.3400646699965
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0002",
@@ -497,7 +497,7 @@
         "patient_id": "PAT_0003",
         "front_correlation": 0.9415298454767399,
         "front_overlap": 1.0,
-        "G_gradient_alignment": 0.42612583557483513,
+        "G_gradient_alignment": 0.42612583557483524,
         "fractal_dimension": 0.8711508538132909,
         "perimeter": 80.0,
         "area": 618.0,
@@ -513,7 +513,7 @@
         },
         "mean_zone_score": 1.7400145594199554,
         "final_tumor_mass": 516.7990263930459,
-        "final_G_mass": 2309.259866482091
+        "final_G_mass": 2309.2598535810434
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0003",
@@ -574,7 +574,7 @@
         "patient_id": "PAT_0004",
         "front_correlation": 0.9384797100584933,
         "front_overlap": 1.0,
-        "G_gradient_alignment": 0.3763780855179287,
+        "G_gradient_alignment": 0.37637808551792884,
         "fractal_dimension": 0.8711508538132909,
         "perimeter": 80.0,
         "area": 645.0,
@@ -590,7 +590,7 @@
         },
         "mean_zone_score": 1.8787292745450337,
         "final_tumor_mass": 552.4812882669441,
-        "final_G_mass": 2787.389834554233
+        "final_G_mass": 2787.389819268153
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0004",
@@ -667,7 +667,7 @@
         },
         "mean_zone_score": 1.4116084807938971,
         "final_tumor_mass": 422.05667233310317,
-        "final_G_mass": 1265.8837214617954
+        "final_G_mass": 1265.8837135278764
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0005",
@@ -744,7 +744,7 @@
         },
         "mean_zone_score": 1.5932141449032293,
         "final_tumor_mass": 474.4500182673967,
-        "final_G_mass": 1797.0620082471403
+        "final_G_mass": 1797.0619977804445
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0006",
@@ -821,7 +821,7 @@
         },
         "mean_zone_score": 1.7284270287727146,
         "final_tumor_mass": 513.5497773993268,
-        "final_G_mass": 2264.7140822373276
+        "final_G_mass": 2264.7140695411936
       },
       "phase3_adaptive": {
         "patient_id": "PAT_0007",
