@@ -37,7 +37,7 @@ warnings.filterwarnings("ignore")
 
 # Physiological bounds (per plan specification)
 RHO_MIN = 0.005  # /day (minimum growth rate)
-RHO_MAX = 0.1    # /day (maximum growth rate)
+RHO_MAX = 0.05   # /day (maximum growth rate)
 D_MIN = 0.001    # mm²/day (minimum diffusivity)
 D_MAX = 0.05     # mm²/day (maximum diffusivity)
 

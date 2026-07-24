@@ -53,7 +53,8 @@ W_DRUG_BASELINE = 0.1
 # Reduced ODE (1-day step)
 # --------------------------------------------------------------------------- #
 def step_reduced_ode(state: np.ndarray, a: float, a2: float,
-                      dt: float = DT) -> np.ndarray:
+                      dt: float = DT,
+                      rho_s: float = RHO_S, rho_r: float = RHO_R) -> np.ndarray:
     """Single-day reduced ODE step.
 
     state = [M_s, M_r, C, C2]
@@ -73,8 +74,8 @@ def step_reduced_ode(state: np.ndarray, a: float, a2: float,
     kill_stromal = 0.0 if a >= 0.01 else GAMMA_R * (C2 ** HILL_COEFF) / (
         EC50_2 ** HILL_COEFF + C2 ** HILL_COEFF + 1e-12)
 
-    dMs = (RHO_S * M_s * (1.0 - total) - kill_tmz * M_s) * dt
-    dMr = (RHO_R * M_r * (1.0 - total) + MUTATION_RATE * RHO_S * M_s * 1e4
+    dMs = (rho_s * M_s * (1.0 - total) - kill_tmz * M_s) * dt
+    dMr = (rho_r * M_r * (1.0 - total) + MUTATION_RATE * rho_s * M_s * 1e4
            - kill_stromal * M_r) * dt
     dC = (-K_EL * C + a * INFUSION_RATE) * dt
     dC2 = (-K_EL2 * C2 + a2 * C2_PEAK) * dt
@@ -88,14 +89,25 @@ def step_reduced_ode(state: np.ndarray, a: float, a2: float,
 # --------------------------------------------------------------------------- #
 def mpc_cost(control_seq: np.ndarray, state0: np.ndarray,
               w_tumor: float, w_drug: float) -> float:
-    """Cost = sum over horizon of [w_tumor * (M_s+M_r) + w_drug * a(t)^2]."""
-    state = state0.copy()
-    cost = 0.0
-    for i in range(len(control_seq)):
-        a = float(np.clip(control_seq[i], 0.0, 1.0))
-        state = step_reduced_ode(state, a, 0.0)
-        cost += w_tumor * (state[0] + state[1]) + w_drug * a * a
-    return float(cost)
+    """Cost = expected sum over horizon over ensemble."""
+    # +/- 15% uncertainty ensemble to mitigate parameter drift
+    ensemble = [
+        (RHO_S, RHO_R),
+        (RHO_S * 1.15, RHO_R * 1.15),
+        (RHO_S * 0.85, RHO_R * 0.85)
+    ]
+    
+    total_expected_cost = 0.0
+    for rho_s_ens, rho_r_ens in ensemble:
+        state = state0.copy()
+        cost = 0.0
+        for i in range(len(control_seq)):
+            a = float(np.clip(control_seq[i], 0.0, 1.0))
+            state = step_reduced_ode(state, a, 0.0, dt=DT, rho_s=rho_s_ens, rho_r=rho_r_ens)
+            cost += w_tumor * (state[0] + state[1]) + w_drug * a * a
+        total_expected_cost += cost
+        
+    return float(total_expected_cost / len(ensemble))
 
 
 def solve_mpc_horizon(state0: np.ndarray, w_tumor: float, w_drug: float
