@@ -52,7 +52,7 @@ K_EL = np.log(2) / TMZ_HALF_LIFE  # ~9.24 /day
 C_PEAK = 10.0  # ug/mL
 EC50 = 5.0  # ug/mL
 HILL_COEFF = 2.0
-E_MAX = 0.35
+E_MAX = 1.1
 
 # Dosing schedule: 5-on / 23-off, 28-day cycle
 DOSE_DAYS_ON = 5
@@ -285,7 +285,11 @@ class AnisotropicFKSolver3D:
         """Single time step: diffusion + reaction - drug kill."""
         div_term = self.divergence(u)
         react_term = self.rho * u * (1.0 - u / self.K)
-        kill_term = E_MAX * (C ** HILL_COEFF) / (EC50 ** HILL_COEFF + C ** HILL_COEFF + 1e-12) * u
+        # BBB Permeability Map: higher tumor density -> leakier vessels -> higher drug penetration
+        E_bbb = 0.15 + 0.70 * (u / self.K)
+        C_eff = C * E_bbb
+        
+        kill_term = E_MAX * (C_eff ** HILL_COEFF) / (EC50 ** HILL_COEFF + C_eff ** HILL_COEFF + 1e-12) * u
 
         u_new = u + self.dt * (div_term + react_term - kill_term)
         return np.clip(u_new, 0.0, self.K)

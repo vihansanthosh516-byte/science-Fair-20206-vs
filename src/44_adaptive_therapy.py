@@ -82,7 +82,7 @@ C_PEAK = 10.0
 TMZ_EC50_UG_ML = 5.0
 # Drug pharmacodynamics (Hill equation) — kept for legacy compatibility
 # NOTE: EC50 below is in abstract units; the Phase-1 path uses TMZ_EC50_UG_ML.
-E_MAX = 0.8
+E_MAX = 5.0
 EC50 = TMZ_EC50_UG_ML
 HILL_COEFF = 2.0
 
@@ -105,8 +105,8 @@ MTD_STEPS = 5000
 
 # Adaptive protocol
 ADAPTIVE_STEPS = 5000
-THRESHOLD_OFF = 0.5  # 50% of baseline -> drug holiday
-THRESHOLD_ON = 1.0   # 100% of baseline -> resume drug
+THRESHOLD_OFF = 0.80  # 80% of peak -> drug holiday
+THRESHOLD_ON = 1.0   # 100% of peak -> resume drug
 
 # Cohort patients
 COHORT_PATIENTS = [f"PAT_{i:04d}" for i in range(8)]
@@ -578,12 +578,21 @@ class AdaptiveTherapySolver:
         Legacy (use_physical_PK=False):
           - Spatial drug diffusion-decay with boundary source
         """
+        # Total local density for competition and BBB permeability
+        u_total = u_s + u_r
+        
+        # Create a BBB map based on local tumor density (higher density = leakier vessels)
+        # Scales smoothly from 0.15 (intact BBB) to 0.85 (leaky core)
+        E_bbb = 0.15 + 0.70 * (u_total / self.K)
+
         if self.use_physical_PK:
             # Physical PK: bulk concentration directly drives kill rate
             C_curr = np.full((self.H, self.W), float(dose), dtype=float)
+            # Apply BBB map to get effective concentration
+            C_eff = C_curr * E_bbb
             # Use Hill with physical EC50 (µg/mL)
             kill_rate = hill_kill_physical(
-                C_curr, E_max=self.E_max, EC50=self.tmz_EC50, H=self.hill_coeff
+                C_eff, E_max=self.E_max, EC50=self.tmz_EC50, H=self.hill_coeff
             )
         else:
             # Legacy spatial drug diffusion
@@ -591,11 +600,11 @@ class AdaptiveTherapySolver:
             for _ in range(self.drug_substeps):
                 C_curr = self.drug_step(C_curr, dose, self.dt_drug_eff)
 
+            # Apply BBB map to get effective concentration
+            C_eff = C_curr * E_bbb
             # Drug kill rate at current concentration (legacy EC50 in abstract units)
-            kill_rate = self.hill_kill(C_curr)  # (H, W)
+            kill_rate = self.hill_kill(C_eff)  # (H, W)
 
-        # Total local density for competition
-        u_total = u_s + u_r
         competition = 1.0 - u_total / self.K
         competition = np.clip(competition, 0.0, 1.0)
 
@@ -831,6 +840,7 @@ def run_adaptive_protocol(
 
     # Baseline total mass
     baseline_mass = float(u_s0.sum() + u_r0.sum())
+    peak_mass = baseline_mass
     drug_on = True
 
     n_saves = n_steps // save_interval + 1
@@ -853,11 +863,13 @@ def run_adaptive_protocol(
     save_idx = 1
     for step in range(1, n_steps + 1):
         current_mass = float(u_s.sum() + u_r.sum())
+        if current_mass > peak_mass:
+            peak_mass = current_mass
 
-        # Adaptive control logic (same thresholds as before)
-        if drug_on and current_mass < threshold_off * baseline_mass:
+        # Adaptive control logic (trigger holiday if mass drops below 75% of baseline or peak)
+        if drug_on and (current_mass < threshold_off * baseline_mass or current_mass < threshold_off * peak_mass):
             drug_on = False
-        elif not drug_on and current_mass > threshold_on * baseline_mass:
+        elif not drug_on and (current_mass > threshold_on * baseline_mass or current_mass > 0.9 * peak_mass):
             drug_on = True
 
         # PK: compute C(t) from schedule, but only if drug_on
@@ -1026,6 +1038,34 @@ class AdaptiveVisualizer:
 
     def __init__(self, builder: TensorFieldBuilder) -> None:
         self.builder = builder
+
+    def plot_bbb_permeability_map(self, results: List[Dict], output_path: Path) -> None:
+        """Plot the spatially heterogeneous BBB map for a sample patient."""
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        if not results:
+            return
+        
+        # Take the first patient (PAT_0000)
+        res = results[0]
+        pid = res["patient_id"]
+        
+        # Use final state from Adaptive
+        u_s = res["adaptive"]["final_u_s"]
+        u_r = res["adaptive"]["final_u_r"]
+        u_total = u_s + u_r
+        
+        # E_bbb calculation (same as PDE solver)
+        E_bbb = 0.15 + 0.70 * (u_total / K)
+        
+        fig, ax = plt.subplots(figsize=(6, 5))
+        im = ax.imshow(E_bbb, origin="lower", cmap="plasma", vmin=0.0, vmax=1.0)
+        ax.contour(self.builder.tract_mask, levels=[0.5], colors="white", linewidths=1.0, alpha=0.5)
+        ax.set_title(f"BBB Permeability Map ({pid})")
+        plt.colorbar(im, ax=ax, label="E_bbb (Permeability Fraction)")
+        plt.tight_layout()
+        plt.savefig(output_path, dpi=200, bbox_inches="tight")
+        plt.close()
+        print(f"[Viz] BBB map saved -> {output_path}")
 
     def plot_initial_clones(self, results: List[Dict], output_path: Path) -> None:
         """8-panel showing initial sensitive vs resistant seeds."""
@@ -1540,6 +1580,7 @@ def main():
     metrics = visualizer.compute_metrics(results)
     visualizer.save_metrics_json(metrics, output_dir / "adaptive_geometry_metrics.json")
     visualizer.plot_metrics_summary(metrics, output_dir / "adaptive_therapy_metrics_summary.png")
+    visualizer.plot_bbb_permeability_map(results, output_dir / "bbb_permeability_map.png")
 
     # ---------------------------------------------------------
     # SUMMARY
@@ -1557,6 +1598,7 @@ def main():
     print("  output/adaptive_therapy_dynamics.png")
     print("  output/adaptive_geometry_metrics.json")
     print("  output/adaptive_therapy_metrics_summary.png")
+    print("  output/bbb_permeability_map.png")
     print("\nKey findings:")
     for m in metrics:
         print(f"  {m['patient_id']}: TTP_MTD={m['ttp_mtd']}, TTP_Adapt={m['ttp_adaptive']}, "

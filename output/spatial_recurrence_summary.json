@@ -2,12 +2,12 @@
   {
     "patient_id": "PAT_0000",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3587926854856483,
-      "Infiltrating Tumor": 0.15752278993132507,
-      "Leading Edge": 0.11920292202211809
+      "Cellular Tumor": 0.3314657125598484,
+      "Infiltrating Tumor": 0.11923424389191005,
+      "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 2109.131003751214,
-    "max_risk": 0.9999999790586378,
+    "total_risk_mass": 1892.5997911660027,
+    "max_risk": 0.9999999737401675,
     "invasion_scores": {
       "Leading Edge": 18.5768,
       "Cellular Tumor": 17.5705,
@@ -17,12 +17,12 @@
   {
     "patient_id": "PAT_0001",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3604716847362091,
-      "Infiltrating Tumor": 0.16960529977708982,
-      "Leading Edge": 0.11920292202212336
+      "Cellular Tumor": 0.32741817918298516,
+      "Infiltrating Tumor": 0.12245188258049176,
+      "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 2154.5439837691056,
-    "max_risk": 0.999999979860354,
+    "total_risk_mass": 1889.8611386946734,
+    "max_risk": 0.9999999626669577,
     "invasion_scores": {
       "Leading Edge": 22.107899999999997,
       "Cellular Tumor": 20.6648,
@@ -32,12 +32,12 @@
   {
     "patient_id": "PAT_0002",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3661987886208587,
-      "Infiltrating Tumor": 0.1204233185673564,
+      "Cellular Tumor": 0.356308116188481,
+      "Infiltrating Tumor": 0.11946971787860584,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 2011.1428885963096,
-    "max_risk": 0.9999999757815835,
+    "total_risk_mass": 1975.356787296586,
+    "max_risk": 0.9999999757842425,
     "invasion_scores": {
       "Leading Edge": 23.259499999999996,
       "Cellular Tumor": 21.598799999999997,
@@ -47,12 +47,12 @@
   {
     "patient_id": "PAT_0003",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3639218858572179,
-      "Infiltrating Tumor": 0.11927210013943164,
+      "Cellular Tumor": 0.33250356484195154,
+      "Infiltrating Tumor": 0.12004037324688756,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 1999.8300886641432,
-    "max_risk": 0.9999999801454369,
+    "total_risk_mass": 1898.6849305683686,
+    "max_risk": 0.999999963628089,
     "invasion_scores": {
       "Leading Edge": 23.1134,
       "Cellular Tumor": 21.522499999999997,
@@ -62,12 +62,12 @@
   {
     "patient_id": "PAT_0004",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3739594631569111,
-      "Infiltrating Tumor": 0.12497104906498713,
+      "Cellular Tumor": 0.4046068785722603,
+      "Infiltrating Tumor": 0.12642323493089416,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 2051.760625207464,
-    "max_risk": 0.9999999764116266,
+    "total_risk_mass": 2157.689309435609,
+    "max_risk": 0.9999999803411989,
     "invasion_scores": {
       "Leading Edge": 25.529899999999998,
       "Cellular Tumor": 23.658099999999997,
@@ -77,12 +77,12 @@
   {
     "patient_id": "PAT_0005",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.3190928069751614,
-      "Infiltrating Tumor": 0.11920886012594688,
+      "Cellular Tumor": 0.36212618172229954,
+      "Infiltrating Tumor": 0.11930464366155674,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 1851.6854363088569,
-    "max_risk": 0.9999999744622843,
+    "total_risk_mass": 1994.0116586419256,
+    "max_risk": 0.9999999792912979,
     "invasion_scores": {
       "Leading Edge": 20.7548,
       "Cellular Tumor": 18.159399999999998,
@@ -92,12 +92,12 @@
   {
     "patient_id": "PAT_0006",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.36730124297897554,
-      "Infiltrating Tumor": 0.12158900300529023,
+      "Cellular Tumor": 0.3053011803856517,
+      "Infiltrating Tumor": 0.11920915627471097,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 2018.6277466232768,
-    "max_risk": 0.9999999755550236,
+    "total_risk_mass": 1806.1740458543964,
+    "max_risk": 0.999999963234721,
     "invasion_scores": {
       "Leading Edge": 22.437700000000003,
       "Cellular Tumor": 20.9998,
@@ -107,12 +107,12 @@
   {
     "patient_id": "PAT_0007",
     "zone_recurrence_risk": {
-      "Cellular Tumor": 0.33019053301917006,
-      "Infiltrating Tumor": 0.11958461606161244,
+      "Cellular Tumor": 0.37129593703856895,
+      "Infiltrating Tumor": 0.11935234494393854,
       "Leading Edge": 0.11920292202211756
     },
-    "total_risk_mass": 1889.5479268417816,
-    "max_risk": 0.999999963287195,
+    "total_risk_mass": 2024.4292654174744,
+    "max_risk": 0.999999980013361,
     "invasion_scores": {
       "Leading Edge": 22.4438,
       "Cellular Tumor": 21.202799999999996,

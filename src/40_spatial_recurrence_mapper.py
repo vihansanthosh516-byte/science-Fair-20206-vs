@@ -378,7 +378,7 @@ def plot_risk_profile_summary(
     # Box plot
     ax = axes[0]
     data = [mean_risk_by_zone[zone] for zone in zone_names]
-    bp = ax.boxplot(data, labels=zone_names, patch_artist=True)
+    bp = ax.boxplot(data, tick_labels=zone_names, patch_artist=True)
     colors = ['#2ecc71', '#f39c12', '#e74c3c']
     for patch, color in zip(bp['boxes'], colors):
         patch.set_facecolor(color)
