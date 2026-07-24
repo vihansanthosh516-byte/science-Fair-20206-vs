@@ -1,31 +1,3 @@
-{
-  "n_cells": 140355,
-  "n_edges": 2105325,
-  "k": 15,
-  "latent_dim": 32,
-  "edge_attr_names": [
-    "distance",
-    "same_patient",
-    "same_region",
-    "transition_type",
-    "region_diff",
-    "class_diff"
-  ],
-  "region_order": {
-    "NormalBrain": 0,
-    "peri:GBM": 1,
-    "core:GBM": 2
-  },
-  "class_order": {
-    "Healthy": 0,
-    "Periphery": 1,
-    "Core": 2
-  },
-  "transition_types": {
-    "0": "same",
-    "1": "core_peri",
-    "2": "peri_healthy",
-    "3": "core_healthy",
-    "4": "other"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34620432a0625c1fc0b43e5fe8c8fd3821ab3b06d37893d0a1e92e1af4faddba
+size 543

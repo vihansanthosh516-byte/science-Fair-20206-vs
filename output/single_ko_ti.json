@@ -1,16 +1,3 @@
-[
-  {
-    "gene": "S100A8",
-    "tumor_collapse": 0.012910187244415283,
-    "healthy_collapse": 0.006959085234226503,
-    "healthy_collapse_raw": 0.0010475118896553504,
-    "therapeutic_index": -1.95341816979374
-  },
-  {
-    "gene": "S100A11",
-    "tumor_collapse": 0.011308908462524414,
-    "healthy_collapse": 0.00922986832911199,
-    "healthy_collapse_raw": 0.001390909123588746,
-    "therapeutic_index": -2.1444684079732763
-  }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe7c5caef11bf054fb68c52df1c1bba7eb4969ba48624b20e07f5a39839cd659
+size 448

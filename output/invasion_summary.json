@@ -1,36 +1,3 @@
-{
-  "n_steps": 400,
-  "grid_size": [
-    512,
-    512
-  ],
-  "final_counts": {
-    "step": 399,
-    "empty": 0,
-    "healthy": 213943,
-    "periphery": 939,
-    "core": 28222,
-    "necrotic": 19040,
-    "front_radius": 202.765869140625,
-    "mean_tumor_radius": 107.91497802734375,
-    "front_cells": 29161,
-    "proliferation": 0,
-    "transition": 498,
-    "necrosis": 147,
-    "replenish": 0
-  },
-  "max_front_radius": 202.765869140625,
-  "avg_front_velocity_pixels_per_step": 0.4845539927482605,
-  "avg_front_velocity_um_per_hr": 2.4227699637413025,
-  "clinical_velocity_range_um_per_hr": [
-    10,
-    50
-  ],
-  "in_range": false,
-  "fk_params": {
-    "D": 1.0,
-    "r": 2.25,
-    "dt": 0.01
-  },
-  "runtime_seconds": 0
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:df8cedb3a54006833df72cd5dca52f442c096eb5cb31a5f5bba9788e9d39ab56
+size 761

@@ -1,35 +1,3 @@
-{
-  "invasion_kinetics": {
-    "wave_speed_pixels_per_step": 0.48627133287012075,
-    "wave_speed_um_per_hour": 4.862713328701208,
-    "core_growth_rate": 69.2609411621323,
-    "max_periphery_cells": 1008,
-    "final_periphery_cells": 939,
-    "necrosis_accumulation_rate": 43.15732820205128,
-    "final_necrotic_fraction": 0.0726318359375,
-    "total_steps": 399
-  },
-  "clinical_correlation": {
-    "wave_speed_um_per_hour": 4.862713328701208,
-    "literature_range_um_per_hour": [
-      5,
-      20
-    ],
-    "wave_speed_in_range": false,
-    "core_doubling_time_hours": 50.572169938438314,
-    "literature_doubling_time_days": [
-      7,
-      30
-    ],
-    "doubling_time_in_range": false,
-    "invasive_front_periphery_fraction": 0.032200541819553515,
-    "necrotic_fraction": 0.39501255160681314,
-    "literature_necrotic_fraction_range": [
-      0.1,
-      0.4
-    ],
-    "necrotic_fraction_in_range": true,
-    "histological_pattern": "circumscribed"
-  },
-  "timestamp": "2026-07-17 22:36:21"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9342843afca9d82973291b2f2a37cd55ba07e1ce7d59566cad1a382df8ed7eb
+size 1038

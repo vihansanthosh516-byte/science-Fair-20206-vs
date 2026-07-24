@@ -1,34 +1,3 @@
-{
-  "robust": {
-    "drug_admin_mean_std": [
-      0.3108622222222222,
-      0.0042382479492134905
-    ],
-    "dose_sparing_mean_std": [
-      0.6891377777777778,
-      0.0042382479492134905
-    ],
-    "final_volume_mean_std": [
-      0.05217846842196707,
-      0.053782114448588735
-    ],
-    "cost_variance_mean": 0.6318097532798993
-  },
-  "standard": {
-    "drug_admin_mean_std": [
-      0.3200355555555556,
-      0.0032167340234744045
-    ],
-    "dose_sparing_mean_std": [
-      0.6799644444444445,
-      0.003216734023474384
-    ],
-    "final_volume_mean_std": [
-      0.014576576881836995,
-      0.0065813727245163075
-    ],
-    "cost_variance_mean": 0.6335566588058608
-  },
-  "cost_variance_reduction_pct": 0.2757299606406255,
-  "variance_reduction_pct": -31.756244634604435
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d33402991e0681a79675a2be66f2cf7dd82cfdde1c1489b3b6f43c7a30ae2f6
+size 816

@@ -1,5 +1,3 @@
-{
-    "accuracy": 0.6103333333333333,
-    "macro_f1": 0.6112036910571336,
-    "macro_auc": 0.7899476666666668
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2b288f5492ae891dabb44217c6a8baa74598fb120a71e822df472066e3b4db3
+size 115
