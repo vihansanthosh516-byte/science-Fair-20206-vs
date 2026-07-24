@@ -145,38 +145,36 @@ class ETDRK4SolverFK:
     def step(self, rho: torch.Tensor) -> torch.Tensor:
         """Single ETDRK4 time step (Cox-Matthews scheme)."""
         # Stage 1: k₁ = N(ρⁿ)
-        k1 = self.reaction(rho)
-
-        # Fourier transforms
+        N = self.reaction(rho)
+        N_hat = torch.fft.fft2(N)
         rho_hat = torch.fft.fft2(rho)
-        k1_hat = torch.fft.fft2(r * rho * (1.0 - rho))
 
-        # Stage 1: a₁ = E * ρⁿ + φ₁ * k₁ * Δt/2
-        rho1_hat = self.E * rho_hat + self.phi1 * k1_hat * (self.dt / 2.0)
+        # a₁ = E * ρⁿ + φ₁ * N * Δt/2
+        rho1_hat = self.E * rho_hat + self.phi1 * N_hat * (self.dt / 2.0)
         rho1 = torch.fft.ifft2(rho1_hat).real
 
-        # Stage 2: k₂ = N(a₁), a₂ = E * ρⁿ + φ₁ * k₂ * Δt/2
-        k2 = self.r * rho1 * (1.0 - rho1)
-        k2_hat = torch.fft.fft2(N1)
-        a2_hat = self.E * rho_hat + self.phi1 * N1_hat * (self.dt / 2.0)
-        a2 = torch.fft.ifft2(a2_hat).real
+        # Stage 2: N(a₁), a₂ = E * ρⁿ + φ₁ * N(a₁) * Δt/2
+        N1 = self.reaction(rho1)
+        N1_hat = torch.fft.fft2(N1)
+        rho2_hat = self.E * rho_hat + self.phi1 * N1_hat * (self.dt / 2.0)
+        rho2 = torch.fft.ifft2(rho2_hat).real
 
-        # Stage 3: k₃ = N(a₂), a₃ = E * ρⁿ + φ₁ * k₃ * Δt
-        N2 = self.r * rho2 * (1.0 - rho2)
+        # Stage 3: N(a₂), a₃ = E * ρⁿ + φ₁ * N(a₂) * Δt
+        N2 = self.reaction(rho2)
         N2_hat = torch.fft.fft2(N2)
         rho3_hat = self.E * rho_hat + self.phi1 * N2_hat * self.dt
         rho3 = torch.fft.ifft2(rho3_hat).real
 
-        # Stage 4: k₄ = N(a₃)
-        N3 = self.r * rho3 * (1.0 - rho3)
+        # Stage 4: N(a₃)
+        N3 = self.reaction(rho3)
         N3_hat = torch.fft.fft2(N3)
 
-        # ρ_{n+1} = E * ρⁿ + φ₁ * k₁ * Δt + φ₂ * (k₃ - k₁) * Δt + φ₃ * (k₄ - 2*k₃ + k₂) * Δt
+        # ρ_{n+1} = E * ρⁿ + φ₁ * N * Δt + φ₂ * (N2 - N) * Δt + φ₃ * (N3 - 2*N2 + N1) * Δt
         rho_new_hat = (
             self.E * rho_hat
-            + self.phi1 * k1_hat * self.dt
-            + self.phi2 * (k3_hat - k1_hat) * self.dt
-            + self.phi3 * (k4_hat - 2 * N2_hat + N_hat) * self.dt
+            + self.phi1 * N_hat * self.dt
+            + self.phi2 * (N2_hat - N_hat) * self.dt
+            + self.phi3 * (N3_hat - 2 * N2_hat + N1_hat) * self.dt
         )
 
         rho_new = torch.fft.ifft2(rho_new_hat).real
@@ -187,7 +185,7 @@ class ETDRK4SolverFK:
         y = torch.arange(self.H, device=self.device).float() - self.H // 2
         x = torch.arange(self.W, device=self.device).float() - self.W // 2
         Y, X = torch.meshgrid(y, x, indexing='ij')
-        dist = torch.sqrt(X**2 + y**2)
+        dist = torch.sqrt(X**2 + Y**2)
 
         mask = field > 0.5
         if mask.any():
@@ -263,33 +261,6 @@ class ETDRK4SolverFK:
         }
 
         return np.array(snapshots, dtype=np.float32), metrics
-
-
-def initialize_morphogen_field(
-    grid_size: Tuple[int, int],
-    device: torch.device,
-    initial_conditions: str = "tumor_core",
-) -> torch.Tensor:
-    """Initialize morphogen concentration field."""
-    H, W = grid_size
-    rho = torch.zeros(H, W, device=device, dtype=torch.float32)
-
-    if initial_conditions == "tumor_core":
-        center_h, center_w = H // 2, W // 2
-        y = torch.arange(H, device=device).float() - center_h
-        x = torch.arange(W, device=device).float() - center_w
-        Y, X = torch.meshgrid(y, x, indexing='ij')
-        dist_sq = X**2 + Y**2
-        rho = torch.exp(-dist_sq / (2 * 15**2)) * 0.8
-    elif initial_conditions == "periphery_ring":
-        center_h, center_w = H // 2, W // 2
-        y = torch.arange(H, device=device).float() - center_h
-        x = torch.arange(W, device=device).float() - center_w
-        Y, X = torch.meshgrid(y, x, indexing='ij')
-        dist = torch.sqrt(X**2 + Y**2)
-        rho = ((dist > 25) & (dist < 45)).float() * 0.6
-
-    return rho
 
 
 def export_results(field_history: np.ndarray, metrics: dict) -> None:
